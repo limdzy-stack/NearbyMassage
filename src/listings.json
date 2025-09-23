@@ -1,0 +1,81 @@
+[
+  {
+    "id": "spa-1",
+    "name": "Yi Spa",
+    "approved": true,
+    "services": ["Located in the heart of Singapore and operates 24/7. Chinese massage"],
+    "phone": "+65 6392 3038",
+    "whats": "+65 6392 3038",
+    "loc": { "lat": 1.3036130690690089, "lng": 103.85978999999999 },
+    "address": "768 North Bridge Rd, Singapore 198736",
+    "photos": [
+      "https://lh3.googleusercontent.com/qL_5bCW6h_QFSnAv090ReBU1Hy_aQebkWdxH0l7x68dJLW4gTqw22nOU044IW_bUvcHDch3ACbgK_nb8qQ=s265-w265-h265",
+      "https://lh3.googleusercontent.com/iISizY_VI5u_r7p7s7Zc3tqZoe6sokOaKwg8vrwcOTx9HAWuYAKU4PpOlwsut7lvJKpbXzwZrXXRxvWV=s265-w265-h265",
+      "https://lh3.googleusercontent.com/-neO8cxI2awXSsvkLzSpqjuObcQPQxXdh8lQjPS_-9adGB2_qDUvMEjoPaZtaGITk_Lu6MzKJ2rHI7yZ1g=s265-w265-h265"
+    ]
+  },
+  {
+    "id": "spa-2",
+    "name": "Moonlight Health Club",
+    "approved": true,
+    "services": ["Deep tissue", "Foot reflexology"],
+    "phone": "+65 8123 4567",
+    "whats": "+65 8123 4567",
+    "loc": { "lat": 1.3169298372632228, "lng": 103.83523812534706 },
+    "address": "271 Bukit Timah Road, #B1, #05 Balmoral Plaza, 259708",
+    "photos": [
+      "https://lh3.googleusercontent.com/B2aSCoBZQJgOt3RairKnyNvIVZdh2XzKcX2pYHgm8Rw7WOoP3bfO8jKHXSZvHxLjDtFVyF0Jq5sLK7BTLA=s265-w265-h265",
+      "https://lh3.googleusercontent.com/cOcr-kJyYgpWhKzn5zZmLTsfdAP-bUOqBLI94YC3DOrC-elfWLf0j-uboRV8YQPIdDbXKaWbsPz71ZLXYA=s265-w265-h265",
+      "https://lh3.googleusercontent.com/Ti02BAaj4cgGbC3gZz2QpupWV5LHQmnSELMToRmT56xKlH29qJwqW-tQBWplk_FasxeTfetoopEH6iyZdg=s265-w265-h265"
+    ]
+  },
+  {
+    "id": "spa-3",
+    "name": "Nice Wellness TCM",
+    "approved": true,
+    "services": ["TCM massage"],
+    "phone": "+65 8265 8657",
+    "whats": "+65 8265 8657",
+    "loc": { "lat": 1.2804060886682276, "lng": 103.82611393159009 },
+    "address": "111 Jalan Bukit Merah, #01-1684, Singapore 160111",
+    "photos": [
+      "https://lh3.googleusercontent.com/KxV0Ki-fJXfmkNDR9X-mSRX8EQ82hDaHoNIbQJqyC3MLs8eqaEKgJBMGqKTFMbR3c4GIRxhTOW4shjyg=s265-w265-h265",
+      "https://lh3.googleusercontent.com/x26IVA9MnnefkYKRfZjxrgWVGISgG2vnjDX1lhLLysDkV849NlYNZWBgBwIhm_SeJTb9cKB5IqvDLS4y_Q=s265-w265-h265",
+      "https://lh3.googleusercontent.com/YpQbSZm6bNL4u6x0fulo-X6B714J3KYUFKnwtj8Vgd261zH5XcXGNMoJtd0k5VSZ51xIEKxF_QdA4j-h=s265-w265-h265"
+
+    ]
+  },
+  {
+    "id": "spa-4",
+    "name": "Hexing Wellness",
+    "approved": true,
+    "services": ["Massage @ Bukit Merah Cresent"],
+    "phone": "+65 8252 9904",
+    "whats": "+65 8252 9904",
+    "loc": { "lat": 1.2732481237455135, "lng": 103.82216248650643 },
+    "address": "35 Telok Blangah Rise, #01-295 Telok Blangah, Singapore 090035",
+    "photos": [
+      "https://lh3.googleusercontent.com/p/AF1QipM3_9cNW8g8ZyyupwyXABAHXT6-pTT6ely2ZYSK=s680-w680-h510-rw",
+      "https://lh3.googleusercontent.com/p/AF1QipM56QPbd18X-ZBtNutdnomT1qQlKDKkZq1aSZZ_=s680-w680-h510-rw",
+      "https://lh3.googleusercontent.com/p/AF1QipNLkjvvGV8dGd9W-Guou0zs8okG7uu4i-vcdUe8=s680-w680-h510-rw"
+
+    ]
+  },
+  {
+    "id": "spa-5",
+    "name": "Cuppage Wellness",
+    "approved": true,
+    "services": ["Massage @ Cuppage Plaza"],
+    "phone": "+65 8267 5689",
+    "whats": "+65 8267 5689",
+    "loc": { "lat": 1.3021660473779857, "lng": 103.84078775767097 },
+    "address": "5 Koek Rd, B1-02/03, Singapore 228796",
+    "photos": [
+      "https://lh3.googleusercontent.com/p/AF1QipPM0U80iaJvjjfx17pfYp-q8smblZEFEEoHiaN2=s680-w680-h510-rw",
+      "https://lh3.googleusercontent.com/p/AF1QipNvGjOQMQIjVNSskhOhigdRC7h0JQbgfjyYT7-7=s680-w680-h510-rw",
+      "https://lh3.googleusercontent.com/p/AF1QipNZaStcauTPKupFLYkjf-KMwAhHj1ddnHRsPEVA=s680-w680-h510-rw"
+
+    ]
+  }
+
+]

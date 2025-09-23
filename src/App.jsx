@@ -1,233 +1,195 @@
 "use client";
 
 import React, { useEffect, useMemo, useState } from "react";
-import { MapContainer, TileLayer, Marker, Circle, Popup, useMap } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import DEMO_LISTINGS from "./listings.json"; // ✅ Import from external JSON
 
-/**
- * Spatify‑style Spa Finder MVP (Pending listings hidden)
- * - Pending listings are always excluded from results and map pins
- * - Removed toggle for showing pending
- * - Added tests to ensure pending never appear
- */
-
-// --- Demo data (approved listings only show details) ---
-const DEMO_LISTINGS = [
-  {
-    id: "spa-1",
-    name: "Yi Spa",
-    approved: true,
-    services: ["Chinese massage", "Aromatherapy"],
-    phone: "+65 6392 3038",
-    whats: "+65 6392 3038",
-    loc: { lat: 1.305, lng: 103.856 },
-    address: "768 North Bridge Rd, Singapore 198736",
-    photos: ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874"],
-  },
-  {
-    id: "spa-2",
-    name: "Moonlight Health Club",
-    approved: true,
-    services: ["Deep tissue", "Foot reflexology"],
-    phone: "+65 8123 4567",
-    whats: "+65 8123 4567",
-    loc: { lat: 1.31, lng: 103.862 },
-    address: "129 Tyrwhitt Rd, Singapore 207552",
-    photos: ["https://images.unsplash.com/photo-1600334129128-685c5582fd5b"],
-  },
-  {
-    id: "spa-3",
-    name: "Nice Wellness TCM",
-    approved: false,
-    services: ["TCM massage"],
-    phone: "+65 8000 0000",
-    whats: "+65 8000 0000",
-    loc: { lat: 1.299, lng: 103.85 },
-    address: "Jalan Besar, Singapore",
-    photos: ["https://images.unsplash.com/photo-1581235720704-06d3acfcb36f"],
-  },
-];
-
-// --- Leaflet marker icon ---
-const pinIcon = new L.Icon({
-  iconUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png",
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-  popupAnchor: [1, -34],
-  shadowUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
-  shadowSize: [41, 41],
-});
-
-function FlyTo({ position }) {
-  const map = useMap();
-  useEffect(() => {
-    if (position) map.flyTo(position, 14, { duration: 0.6 });
-  }, [position]);
-  return null;
-}
-
-// --- Utilities + Tests ---
+// --- Utilities ---
 function kmBetween(a, b) {
   return L.latLng(a.lat, a.lng).distanceTo(L.latLng(b.lat, b.lng)) / 1000;
 }
 
-function filterListings(listings, { center, radiusKm, query }) {
+function filterListings(listings, { center, query }) {
   const q = (query || "").toLowerCase();
   return listings.filter((x) => {
-    if (!x.approved) return false; // always hide pending
+    if (!x.approved) return false;
     const inQuery =
       !q ||
       x.name.toLowerCase().includes(q) ||
       x.services.join(" ").toLowerCase().includes(q) ||
       x.address.toLowerCase().includes(q);
-    const d = kmBetween(x.loc, center);
-    return inQuery && d <= radiusKm;
+    return inQuery;
   });
 }
 
-(function runTests() {
-  const centerSG = { lat: 1.3048, lng: 103.8318 };
+// --- UI: thumbnails only with popup ---
+function PhotoStrip({ photos, alt }) {
+  const [openIdx, setOpenIdx] = useState(null);
+  const open = openIdx !== null;
 
-  // Test 1: Pending should never appear
-  const all = filterListings(DEMO_LISTINGS, { center: centerSG, radiusKm: 50, query: "" });
-  console.assert(all.every((x) => x.approved), "Test 1 failed: pending listings must be hidden");
-
-  // Test 2: Query matches service
-  const t2 = filterListings(DEMO_LISTINGS, { center: centerSG, radiusKm: 50, query: "aromatherapy" });
-  console.assert(t2.some((x) => x.name === "Yi Spa"), "Test 2 failed: query should match 'Yi Spa' by service");
-
-  // Test 3: Tiny radius around Yi Spa should include Yi Spa only
-  const yiCenter = DEMO_LISTINGS[0].loc;
-  const t3 = filterListings(DEMO_LISTINGS, { center: yiCenter, radiusKm: 0.5, query: "" });
-  console.assert(t3.length === 1 && t3[0].id === "spa-1", "Test 3 failed: should include Yi Spa only");
-})();
-
-export default function App() {
-  const [center, setCenter] = useState({ lat: 1.3048, lng: 103.8318 }); // SG default
-  const [radiusKm, setRadiusKm] = useState(3);
-  const [query, setQuery] = useState("");
-  const [userLoc, setUserLoc] = useState(null);
-
-  const filtered = useMemo(() => {
-    return filterListings(DEMO_LISTINGS, { center, radiusKm, query });
-  }, [query, center, radiusKm]);
-
-  const handleLocate = () => {
-    if (!navigator.geolocation) return;
-    navigator.geolocation.getCurrentPosition((pos) => {
-      const c = { lat: pos.coords.latitude, lng: pos.coords.longitude };
-      setUserLoc(c);
-      setCenter(c);
-    });
-  };
-
-  // --- JSX RETURN ---
   return (
-    <div className="w-full h-screen grid grid-cols-1 lg:grid-cols-3 bg-gray-50">
-      {/* Left: Controls & List */}
-      <div className="p-4 lg:col-span-1 space-y-4 overflow-y-auto">
-        <h1 className="text-2xl font-bold">Spa Finder (MVP)</h1>
-
-        {/* Controls card */}
-        <div className="shadow-md rounded-2xl bg-white p-4 space-y-4">
-          <div className="space-y-2">
-            <label className="text-sm font-medium">Search services, spa name, or address</label>
-            <input
-              className="w-full border rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring"
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              placeholder="e.g. aromatherapy, foot reflexology"
-            />
+    <div style={{ width: '100%', fontFamily: 'Arial, sans-serif' }}>
+      <div className="thumbnail-container" style={{ display: 'flex', flexDirection: 'row', gap: '12px', padding: '20px', background: '#f0f9f6', borderRadius: '12px' }}>
+        {photos.map((p, i) => (
+          <div
+            key={p + i}
+            onClick={() => setOpenIdx(i)}
+            style={{
+              width: 80,
+              height: 80,
+              flex: '0 0 auto',
+              border: '1px solid #d1fae5',
+              borderRadius: 8,
+              overflow: 'hidden',
+              background: '#fff',
+              boxShadow: '0 1px 2px rgba(0,0,0,0.05)',
+              cursor: 'pointer'
+            }}
+          >
+            <img src={p} alt={`${alt} ${i + 1}`} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
           </div>
+        ))}
+      </div>
 
-          <div className="space-y-2">
-            <div className="flex items-center justify-between">
-              <span className="text-sm">Radius</span>
-              <span className="text-xs bg-gray-100 rounded px-2 py-0.5">{radiusKm} km</span>
-            </div>
-            <input
-              type="range"
-              min={1}
-              max={10}
-              step={1}
-              value={radiusKm}
-              onChange={(e) => setRadiusKm(Number(e.target.value))}
-              className="w-full"
+      {open && (
+        <div
+          onClick={() => setOpenIdx(null)}
+          style={{
+            position: 'fixed',
+            inset: 0,
+            background: 'rgba(0,0,0,0.7)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            zIndex: 9999
+          }}
+        >
+          <div
+            onClick={(e) => e.stopPropagation()}
+            style={{ position: 'relative', maxWidth: '90vw', maxHeight: '90vh' }}
+          >
+            <img
+              src={photos[openIdx]}
+              alt={`${alt} preview`}
+              style={{ maxWidth: '90vw', maxHeight: '90vh', objectFit: 'contain', borderRadius: 8 }}
             />
-          </div>
-
-          <div className="flex gap-2">
-            <button onClick={handleLocate} className="px-3 py-2 text-sm rounded-lg bg-gray-900 text-white hover:opacity-90">
-              Use my location
-            </button>
             <button
-              onClick={() => setCenter({ lat: 1.3048, lng: 103.8318 })}
-              className="px-3 py-2 text-sm rounded-lg bg-gray-100 hover:bg-gray-200"
+              onClick={() => setOpenIdx(null)}
+              style={{ position: 'absolute', top: -12, right: -12, width: 32, height: 32, borderRadius: '9999px', background: '#fff', color: '#065f46', border: 'none', cursor: 'pointer' }}
             >
-              Reset to SG
+              ✕
             </button>
           </div>
         </div>
+      )}
+    </div>
+  );
+}
 
-        {/* Results List */}
+export default function App() {
+  const [center, setCenter] = useState({ lat: 1.3048, lng: 103.8318 });
+  const [query, setQuery] = useState("");
+  const [listings, setListings] = useState(DEMO_LISTINGS);
+  const [locationDetected, setLocationDetected] = useState(false);
+  const [locationAddress, setLocationAddress] = useState("");
+
+  // Load listings from /listings.json if available
+  useEffect(() => {
+    fetch('/listings.json')
+      .then((r) => (r.ok ? r.json() : null))
+      .then((data) => {
+        if (Array.isArray(data)) setListings(data);
+      })
+      .catch(() => {
+        // keep fallback DEMO_LISTINGS on any error
+      });
+  }, []);
+
+  // Detect user geolocation + reverse geocode to street name
+  useEffect(() => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        (pos) => {
+          const coords = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+          setCenter(coords);
+          setLocationDetected(true);
+          fetch(`https://nominatim.openstreetmap.org/reverse?lat=${coords.lat}&lon=${coords.lng}&format=json`)
+            .then((r) => (r.ok ? r.json() : null))
+            .then((data) => {
+              if (data && data.display_name) {
+                setLocationAddress(data.display_name);
+              }
+            })
+            .catch(() => {});
+        },
+        (err) => {
+          console.warn("Geolocation error", err);
+        }
+      );
+    }
+  }, []);
+
+  const filtered = useMemo(() => {
+    const matches = filterListings(listings, { center, query });
+    return matches
+      .map((x) => ({ ...x, _distKm: kmBetween(x.loc, center) }))
+      .sort((a, b) => a._distKm - b._distKm);
+  }, [listings, query, center]);
+
+   return (
+    <div className="w-full min-h-screen grid grid-cols-1 lg:grid-cols-3" style={{ background: "linear-gradient(135deg, #e0f7f4, #fefdfb)" }}>
+      <div className="p-4 lg:col-span-1 space-y-4 overflow-y-auto bg-white/80 backdrop-blur rounded-r-2xl text-left pl-4">
+        <h1 className="text-2xl font-bold text-emerald-700">Nearby Massage</h1>
+        {locationDetected && (
+          <div className="text-xs text-emerald-700">
+            📍 Using your current location
+            {locationAddress ? ` — ${locationAddress}` : ` (${center.lat.toFixed(4)}, ${center.lng.toFixed(4)})`}
+          </div>
+        )}
         <div className="space-y-3">
-          <h2 className="text-lg font-semibold">Results ({filtered.length})</h2>
+          <h2 className="text-lg font-semibold text-emerald-700">Results ({filtered.length}) — nearest first</h2>
           {filtered.map((x) => (
-            <div key={x.id} className="rounded-2xl overflow-hidden shadow hover:shadow-lg transition bg-white">
+            <div key={x.id} className="rounded-2xl overflow-hidden shadow hover:shadow-lg transition bg-white/80 backdrop-blur text-left pl-4">
               <div className="grid grid-cols-3 gap-0">
-                <img src={x.photos[0]} alt={x.name} className="col-span-1 h-28 w-full object-cover" />
+                <PhotoStrip photos={x.photos} alt={x.name} />
                 <div className="col-span-2 p-3">
                   <div className="flex items-center justify-between">
-                    <h3 className="font-bold">{x.name}</h3>
-                    <span className="text-[10px] bg-green-100 text-green-700 rounded px-2 py-0.5">Approved</span>
+                    <h3 className="font-bold text-emerald-800">{x.name}</h3>
                   </div>
                   <p className="text-xs text-gray-600 line-clamp-2">{x.address}</p>
+                  {locationDetected && (
+                    <p className="text-xs text-emerald-700 mt-1">{x._distKm.toFixed(1)} km away</p>
+                  )}
                   <div className="mt-1 flex flex-wrap gap-1">
                     {x.services.map((s) => (
-                      <span key={s} className="text-[10px] bg-gray-100 rounded px-2 py-0.5">{s}</span>
+                      <span key={s} className="text-[10px] bg-emerald-50 text-emerald-700 rounded px-2 py-0.5">{s}</span>
                     ))}
                   </div>
-                  <div className="mt-2 flex gap-2">
-                    <a className="text-sm underline" href={`tel:${x.phone}`}>Call</a>
-                    <a className="text-sm underline" href={`https://wa.me/${x.whats.replace(/\D/g, "")}`} target="_blank" rel="noreferrer">WhatsApp</a>
+                  <div className="mt-2 grid grid-cols-1 gap-2">
+                    <button
+                      onClick={() => window.location.href = `tel:${x.phone}`}
+                      className="w-full text-center text-sm bg-emerald-600 text-white rounded-lg px-3 py-2 hover:bg-emerald-700 transition"
+                    >
+                      Call
+                    </button>
+                    <button
+                      onClick={() => window.open(`https://wa.me/${x.whats.replace(/\\D/g, "")}`, '_blank')}
+                      className="w-full text-center text-sm bg-green-500 text-white rounded-lg px-3 py-2 hover:bg-green-600 transition"
+                    >
+                      WhatsApp
+                    </button>
+                    <button
+                      onClick={() => window.open(`https://www.google.com/maps?q=${x.loc.lat},${x.loc.lng}`, '_blank')}
+                      className="w-full text-center text-sm bg-blue-500 text-white rounded-lg px-3 py-2 hover:bg-blue-600 transition"
+                    >
+                      Show on map
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
           ))}
-        </div>
-      </div>
-
-      {/* Right: Map */}
-      <div className="lg:col-span-2 relative">
-        <MapContainer center={[center.lat, center.lng]} zoom={13} className="h-full w-full z-0">
-          <TileLayer
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          />
-          <FlyTo position={center} />
-          <Circle center={[center.lat, center.lng]} radius={radiusKm * 1000} />
-          {(userLoc ? [userLoc] : []).map((c) => (
-            <Marker key="me" position={[c.lat, c.lng]} icon={pinIcon}>
-              <Popup>You are here</Popup>
-            </Marker>
-          ))}
-          {filtered.map((x) => (
-            <Marker key={x.id} position={[x.loc.lat, x.loc.lng]} icon={pinIcon}>
-              <Popup>
-                <div className="space-y-1">
-                  <div className="font-bold">{x.name}</div>
-                  <div className="text-xs">{x.address}</div>
-                  <div className="text-xs">{x.services.join(", ")}</div>
-                </div>
-              </Popup>
-            </Marker>
-          ))}
-        </MapContainer>
-
-        <div className="absolute top-4 right-4 z-10">
-          <div className="shadow-lg rounded bg-white p-2 text-xs">Drag the map or change radius to refine results.</div>
         </div>
       </div>
     </div>
