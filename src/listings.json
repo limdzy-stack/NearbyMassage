@@ -71,8 +71,9 @@
     "loc": { "lat": 1.3021660473779857, "lng": 103.84078775767097 },
     "address": "5 Koek Rd, B1-02/03, Singapore 228796",
     "photos": [
-      "/Photos/cuppage/Mia.jpg",
-      "/Photos/cuppage/bingbing.jpg",
+      "https://github.com/limdzy-stack/NearbyMassage/blob/main/public/Photos/Cuppage/Jenny.jpg",
+      "https://github.com/limdzy-stack/NearbyMassage/blob/main/public/Photos/Cuppage/Mia.jpg",
+      "https://github.com/limdzy-stack/NearbyMassage/blob/main/public/Photos/Cuppage/bingbing.jpg",
       "/Photos/cuppage/bobo.jpg",
       "/Photos/cuppage/cindy.jpg",
       "/Photos/cuppage/grace.jpg",
