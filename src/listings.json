@@ -9,9 +9,9 @@
     "loc": { "lat": 1.3036130690690089, "lng": 103.85978999999999 },
     "address": "768 North Bridge Rd, Singapore 198736",
     "photos": [
-      "https://lh3.googleusercontent.com/qL_5bCW6h_QFSnAv090ReBU1Hy_aQebkWdxH0l7x68dJLW4gTqw22nOU044IW_bUvcHDch3ACbgK_nb8qQ=s265-w265-h265",
-      "https://lh3.googleusercontent.com/iISizY_VI5u_r7p7s7Zc3tqZoe6sokOaKwg8vrwcOTx9HAWuYAKU4PpOlwsut7lvJKpbXzwZrXXRxvWV=s265-w265-h265",
-      "https://lh3.googleusercontent.com/-neO8cxI2awXSsvkLzSpqjuObcQPQxXdh8lQjPS_-9adGB2_qDUvMEjoPaZtaGITk_Lu6MzKJ2rHI7yZ1g=s265-w265-h265"
+      "https://ik.imagekit.io/nearbymassage/Photos/Yi/Yuki.jpg?updatedAt=1758623148920",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yi/Yoyo.jpg?updatedAt=1758623148488",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yi/Serena.jpg?updatedAt=1758623148403"
     ]
   },
   {
@@ -71,13 +71,13 @@
     "loc": { "lat": 1.3021660473779857, "lng": 103.84078775767097 },
     "address": "5 Koek Rd, B1-02/03, Singapore 228796",
     "photos": [
-      "https://github.com/limdzy-stack/NearbyMassage/blob/main/public/Photos/Cuppage/Jenny.jpg",
-      "https://github.com/limdzy-stack/NearbyMassage/blob/main/public/Photos/Cuppage/Mia.jpg",
-      "https://github.com/limdzy-stack/NearbyMassage/blob/main/public/Photos/Cuppage/bingbing.jpg",
-      "/Photos/cuppage/bobo.jpg",
-      "/Photos/cuppage/cindy.jpg",
-      "/Photos/cuppage/grace.jpg",
-      "/Photos/cuppage/helen.jpg"
+      "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/Jenny.jpg?updatedAt=1758623139215",
+      "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/cindy.jpg?updatedAt=1758623138725",
+      "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/bingbing.jpg?updatedAt=1758623139388",
+      "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/grace.jpg?updatedAt=1758623139381",
+      "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/helen.jpg?updatedAt=1758623139247",
+      "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/Mia.jpg?updatedAt=1758623139224",
+      "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/bobo.jpg?updatedAt=1758623139597"
 
     ]
   }
