@@ -87,12 +87,56 @@ function PhotoStrip({ photos, alt }) {
   );
 }
 
+function DisclaimerPopup({ onClose }) {
+  return (
+    <div
+      onClick={onClose}
+      style={{
+        position: 'fixed',
+        inset: 0,
+        background: 'rgba(0,0,0,0.6)',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        zIndex: 10000
+      }}
+    >
+      <div
+        onClick={(e) => e.stopPropagation()}
+        style={{
+          background: '#fff',
+          padding: '20px',
+          borderRadius: '12px',
+          maxWidth: '600px',
+          maxHeight: '80vh',
+          overflowY: 'auto',
+          textAlign: 'left'
+        }}
+      >
+        <h2 className="text-xl font-bold mb-2">Disclaimer</h2>
+        <p className="text-sm text-gray-700 mb-4">
+          This website is for informational purposes only. We do not guarantee the accuracy of listings, services, or availability. Users are advised to verify details with the respective providers.
+          <br /><br />
+          By continuing to use this site, you agree that the owners of this website are not responsible for any loss, damage, or inconvenience caused by reliance on the information provided here.
+        </p>
+        <button
+          onClick={onClose}
+          className="bg-emerald-600 text-white px-4 py-2 rounded hover:bg-emerald-700"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+  );
+}
+
 export default function App() {
   const [center, setCenter] = useState({ lat: 1.3048, lng: 103.8318 });
   const [query, setQuery] = useState("");
   const [listings, setListings] = useState(DEMO_LISTINGS);
   const [locationDetected, setLocationDetected] = useState(false);
   const [locationAddress, setLocationAddress] = useState("");
+  const [showDisclaimer, setShowDisclaimer] = useState(false);
 
   // Load listings from /listings.json if available
   useEffect(() => {
@@ -139,43 +183,70 @@ export default function App() {
 
    return (
     <div className="w-full min-h-screen grid grid-cols-1 lg:grid-cols-3" style={{ background: "linear-gradient(135deg, #e0f7f4, #fefdfb)" }}>
-        {/* Disclaimer link top right */}
-      <div className="absolute top-4 right-4 text-xs text-gray-500">
-         <button onClick={() => setShowDisclaimer(true)} className="underline hover:text-emerald-700">
+      {/* Disclaimer button top-right */}
+      <div style={{ position: 'absolute', top: 16, right: 16, zIndex: 11000 }}>
+        <button
+          onClick={() => setShowDisclaimer(true)}
+          className="text-xs underline text-emerald-700 hover:text-emerald-900 bg-white/80 rounded px-2 py-1"
+        >
           Disclaimer
         </button>
       </div>
 
-      {showDisclaimer && (
-        <div
-          onClick={() => setShowDisclaimer(false)}
-          style={{
-            position: 'fixed',
-            inset: 0,
-            background: 'rgba(0,0,0,0.7)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            zIndex: 10000
-          }}
-        >
-          <div
-            onClick={(e) => e.stopPropagation()}
-            style={{ background: '#fff', padding: '20px', borderRadius: '8px', maxWidth: '600px', textAlign: 'left' }}
-          >
-            <h2 className="text-xl font-bold mb-2">Disclaimer</h2>
-            <p className="text-sm text-gray-700">
-              This website is for informational purposes only. All listings are provided by third parties. We do not guarantee the accuracy, reliability, or quality of services listed. Users are encouraged to verify details directly with the service providers.
-            </p>
-            <div className="mt-4 text-right">
-              <button
-                onClick={() => setShowDisclaimer(false)}
-                className="bg-emerald-600 text-white px-4 py-2 rounded hover:bg-emerald-700"
-              >
-                Close
-              </button>
-            </div>
+      <div className="p-4 lg:col-span-1 space-y-4 overflow-y-auto bg-white/80 backdrop-blur rounded-r-2xl text-left pl-4">
+        <h1 className="text-2xl font-bold text-emerald-700">Nearby Massage</h1>
+        {locationDetected && (
+          <div className="text-xs text-emerald-700">
+            📍 Using your current location
+            {locationAddress ? ` — ${locationAddress}` : ` (${center.lat.toFixed(4)}, ${center.lng.toFixed(4)})`}
           </div>
+        )}
+        <div className="space-y-3">
+          <h2 className="text-lg font-semibold text-emerald-700">Results ({filtered.length}) — nearest first</h2>
+          {filtered.map((x) => (
+            <div key={x.id} className="rounded-2xl overflow-hidden shadow hover:shadow-lg transition bg-white/80 backdrop-blur text-left pl-4">
+              <div className="grid grid-cols-3 gap-0">
+                <PhotoStrip photos={x.photos} alt={x.name} />
+                <div className="col-span-2 p-3">
+                  <div className="flex items-center justify-between">
+                    <h3 className="font-bold text-emerald-800">{x.name}</h3>
+                  </div>
+                  <p className="text-xs text-gray-600 line-clamp-2">{x.address}</p>
+                  {locationDetected && (
+                    <p className="text-xs text-emerald-700 mt-1">{x._distKm.toFixed(1)} km away</p>
+                  )}
+                  <div className="mt-1 flex flex-wrap gap-1">
+                    {x.services.map((s) => (
+                      <span key={s} className="text-[10px] bg-emerald-50 text-emerald-700 rounded px-2 py-0.5">{s}</span>
+                    ))}
+                  </div>
+                  <div className="mt-2 grid grid-cols-1 gap-2">
+                    <button
+                      onClick={() => window.location.href = `tel:${x.phone}`}
+                      className="w-full text-center text-sm bg-emerald-600 text-white rounded-lg px-3 py-2 hover:bg-emerald-700 transition"
+                    >
+                      Call
+                    </button>
+                    <button
+                      onClick={() => window.open(`https://wa.me/${x.whats.replace(/\\D/g, "")}`, '_blank')}
+                      className="w-full text-center text-sm bg-green-500 text-white rounded-lg px-3 py-2 hover:bg-green-600 transition"
+                    >
+                      WhatsApp
+                    </button>
+                    <button
+                      onClick={() => window.open(`https://www.google.com/maps?q=${x.loc.lat},${x.loc.lng}`, '_blank')}
+                      className="w-full text-center text-sm bg-blue-500 text-white rounded-lg px-3 py-2 hover:bg-blue-600 transition"
+                    >
+                      Show on map
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
-      )}
-
+      </div>
+      {showDisclaimer && <DisclaimerPopup onClose={() => setShowDisclaimer(false)} />}
+    </div>
+  );
+}
