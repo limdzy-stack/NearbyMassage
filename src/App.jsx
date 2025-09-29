@@ -191,6 +191,12 @@ export default function App() {
             </div>
           ))}
         </div>
+	{/* Disclaimer link */}
+        <div className="pt-4 text-xs text-gray-500">
+          <a href="/disclaimer" className="underline hover:text-emerald-700">
+            Disclaimer
+          </a>
+        </div>
       </div>
     </div>
   );

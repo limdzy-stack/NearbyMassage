@@ -10,7 +10,7 @@ function kmBetween(a, b) {
   return L.latLng(a.lat, a.lng).distanceTo(L.latLng(b.lat, b.lng)) / 1000;
 }
 
-function filterListings(listings, { center, radiusKm, query }) {
+function filterListings(listings, { center, query }) {
   const q = (query || "").toLowerCase();
   return listings.filter((x) => {
     if (!x.approved) return false;
@@ -19,8 +19,7 @@ function filterListings(listings, { center, radiusKm, query }) {
       x.name.toLowerCase().includes(q) ||
       x.services.join(" ").toLowerCase().includes(q) ||
       x.address.toLowerCase().includes(q);
-    const d = kmBetween(x.loc, center);
-    return inQuery && d <= radiusKm;
+    return inQuery;
   });
 }
 
@@ -90,11 +89,12 @@ function PhotoStrip({ photos, alt }) {
 
 export default function App() {
   const [center, setCenter] = useState({ lat: 1.3048, lng: 103.8318 });
-  const [radiusKm, setRadiusKm] = useState(5);
   const [query, setQuery] = useState("");
-
-  // Load listings from /listings.json if available (place the file in your project's public/ folder)
   const [listings, setListings] = useState(DEMO_LISTINGS);
+  const [locationDetected, setLocationDetected] = useState(false);
+  const [locationAddress, setLocationAddress] = useState("");
+
+  // Load listings from /listings.json if available
   useEffect(() => {
     fetch('/listings.json')
       .then((r) => (r.ok ? r.json() : null))
@@ -106,42 +106,49 @@ export default function App() {
       });
   }, []);
 
-  const filtered = useMemo(() => {
-    return filterListings(listings, { center, radiusKm, query });
-  }, [listings, query, center, radiusKm]);
+  // Detect user geolocation + reverse geocode to street name
+  useEffect(() => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        (pos) => {
+          const coords = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+          setCenter(coords);
+          setLocationDetected(true);
+          fetch(`https://nominatim.openstreetmap.org/reverse?lat=${coords.lat}&lon=${coords.lng}&format=json`)
+            .then((r) => (r.ok ? r.json() : null))
+            .then((data) => {
+              if (data && data.display_name) {
+                setLocationAddress(data.display_name);
+              }
+            })
+            .catch(() => {});
+        },
+        (err) => {
+          console.warn("Geolocation error", err);
+        }
+      );
+    }
+  }, []);
 
-  return (
+  const filtered = useMemo(() => {
+    const matches = filterListings(listings, { center, query });
+    return matches
+      .map((x) => ({ ...x, _distKm: kmBetween(x.loc, center) }))
+      .sort((a, b) => a._distKm - b._distKm);
+  }, [listings, query, center]);
+
+   return (
     <div className="w-full min-h-screen grid grid-cols-1 lg:grid-cols-3" style={{ background: "linear-gradient(135deg, #e0f7f4, #fefdfb)" }}>
       <div className="p-4 lg:col-span-1 space-y-4 overflow-y-auto bg-white/80 backdrop-blur rounded-r-2xl text-left pl-4">
         <h1 className="text-2xl font-bold text-emerald-700">Nearby Massage</h1>
-        <div className="shadow-md rounded-2xl bg-white p-4 space-y-4">
-          <div className="space-y-2">
-            <label className="text-sm font-medium text-emerald-700">Search services, spa name, or address</label>
-            <input
-              className="w-full border rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring focus:ring-emerald-200 pl-4"
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              placeholder="e.g. aromatherapy, foot reflexology"
-            />
+        {locationDetected && (
+          <div className="text-xs text-emerald-700">
+            📍 Using your current location
+            {locationAddress ? ` — ${locationAddress}` : ` (${center.lat.toFixed(4)}, ${center.lng.toFixed(4)})`}
           </div>
-          <div className="space-y-2">
-            <div className="flex items-center justify-between pr-4">
-              <span className="text-sm text-emerald-700">Radius</span>
-              <span className="text-xs bg-emerald-50 text-emerald-700 rounded px-2 py-0.5">{radiusKm} km</span>
-            </div>
-            <input
-              type="range"
-              min={1}
-              max={50}
-              step={1}
-              value={radiusKm}
-              onChange={(e) => setRadiusKm(Number(e.target.value))}
-              className="w-full accent-emerald-500"
-            />
-          </div>
-        </div>
-         <div className="space-y-3">
-          <h2 className="text-lg font-semibold text-emerald-700">Results ({filtered.length})</h2>
+        )}
+        <div className="space-y-3">
+          <h2 className="text-lg font-semibold text-emerald-700">Results ({filtered.length}) — nearest first</h2>
           {filtered.map((x) => (
             <div key={x.id} className="rounded-2xl overflow-hidden shadow hover:shadow-lg transition bg-white/80 backdrop-blur text-left pl-4">
               <div className="grid grid-cols-3 gap-0">
@@ -149,9 +156,11 @@ export default function App() {
                 <div className="col-span-2 p-3">
                   <div className="flex items-center justify-between">
                     <h3 className="font-bold text-emerald-800">{x.name}</h3>
-                    <span className="text-[10px] bg-emerald-100 text-emerald-700 rounded px-2 py-0.5">Approved</span>
                   </div>
                   <p className="text-xs text-gray-600 line-clamp-2">{x.address}</p>
+                  {locationDetected && (
+                    <p className="text-xs text-emerald-700 mt-1">{x._distKm.toFixed(1)} km away</p>
+                  )}
                   <div className="mt-1 flex flex-wrap gap-1">
                     {x.services.map((s) => (
                       <span key={s} className="text-[10px] bg-emerald-50 text-emerald-700 rounded px-2 py-0.5">{s}</span>
