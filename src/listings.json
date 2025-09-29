@@ -4,14 +4,20 @@
     "name": "Yi Spa",
     "approved": true,
     "services": ["Located in the heart of Singapore and operates 24/7. Chinese massage"],
-    "phone": "+65 6392 3038",
-    "whats": "+65 6392 3038",
+    "phone": "63923038",
+    "whats": "",
     "loc": { "lat": 1.3036130690690089, "lng": 103.85978999999999 },
     "address": "768 North Bridge Rd, Singapore 198736",
     "photos": [
       "https://ik.imagekit.io/nearbymassage/Photos/Yi/Yuki.jpg?updatedAt=1758623148920",
       "https://ik.imagekit.io/nearbymassage/Photos/Yi/Yoyo.jpg?updatedAt=1758623148488",
-      "https://ik.imagekit.io/nearbymassage/Photos/Yi/Serena.jpg?updatedAt=1758623148403"
+      "https://ik.imagekit.io/nearbymassage/Photos/Yi/Serena.jpg?updatedAt=1758623148403",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yi/Mia.jpg?updatedAt=1758623148202",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yi/Lisa.jpg?updatedAt=1758623147928",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yi/Cindy.jpg?updatedAt=1758623147674",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yi/Anna.jpg?updatedAt=1758623146688",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yi/Chloe.jpg?updatedAt=1758623147088"
+
     ]
   },
   {
@@ -19,14 +25,15 @@
     "name": "Moonlight Health Club",
     "approved": true,
     "services": ["Deep tissue", "Foot reflexology"],
-    "phone": "+65 8123 4567",
-    "whats": "+65 8123 4567",
+    "phone": "81234567",
+    "whats": "81234567",
     "loc": { "lat": 1.3169298372632228, "lng": 103.83523812534706 },
     "address": "271 Bukit Timah Road, #B1, #05 Balmoral Plaza, 259708",
     "photos": [
-      "https://lh3.googleusercontent.com/B2aSCoBZQJgOt3RairKnyNvIVZdh2XzKcX2pYHgm8Rw7WOoP3bfO8jKHXSZvHxLjDtFVyF0Jq5sLK7BTLA=s265-w265-h265",
-      "https://lh3.googleusercontent.com/cOcr-kJyYgpWhKzn5zZmLTsfdAP-bUOqBLI94YC3DOrC-elfWLf0j-uboRV8YQPIdDbXKaWbsPz71ZLXYA=s265-w265-h265",
-      "https://lh3.googleusercontent.com/Ti02BAaj4cgGbC3gZz2QpupWV5LHQmnSELMToRmT56xKlH29qJwqW-tQBWplk_FasxeTfetoopEH6iyZdg=s265-w265-h265"
+      "https://ik.imagekit.io/nearbymassage/Photos/Moonlight/Yoyo.jpg?updatedAt=1758623146576",
+      "https://ik.imagekit.io/nearbymassage/Photos/Moonlight/Angela.jpg?updatedAt=1758623144457",
+      "https://ik.imagekit.io/nearbymassage/Photos/Moonlight/Summer.jpg?updatedAt=1758623143926",
+      "https://ik.imagekit.io/nearbymassage/Photos/Moonlight/YanYan.jpg?updatedAt=1758623143872"
     ]
   },
   {
@@ -34,14 +41,16 @@
     "name": "Nice Wellness TCM",
     "approved": true,
     "services": ["TCM massage"],
-    "phone": "+65 8265 8657",
-    "whats": "+65 8265 8657",
+    "phone": "82658657",
+    "whats": "82658657",
     "loc": { "lat": 1.2804060886682276, "lng": 103.82611393159009 },
     "address": "111 Jalan Bukit Merah, #01-1684, Singapore 160111",
     "photos": [
-      "https://lh3.googleusercontent.com/KxV0Ki-fJXfmkNDR9X-mSRX8EQ82hDaHoNIbQJqyC3MLs8eqaEKgJBMGqKTFMbR3c4GIRxhTOW4shjyg=s265-w265-h265",
-      "https://lh3.googleusercontent.com/x26IVA9MnnefkYKRfZjxrgWVGISgG2vnjDX1lhLLysDkV849NlYNZWBgBwIhm_SeJTb9cKB5IqvDLS4y_Q=s265-w265-h265",
-      "https://lh3.googleusercontent.com/YpQbSZm6bNL4u6x0fulo-X6B714J3KYUFKnwtj8Vgd261zH5XcXGNMoJtd0k5VSZ51xIEKxF_QdA4j-h=s265-w265-h265"
+      "https://ik.imagekit.io/nearbymassage/Photos/Nice/Yuki.jpg?updatedAt=1758623145914",
+      "https://ik.imagekit.io/nearbymassage/Photos/Nice/Mia.jpg?updatedAt=1758623144290",
+      "https://ik.imagekit.io/nearbymassage/Photos/Nice/Nana.jpg?updatedAt=1758623144266",
+      "https://ik.imagekit.io/nearbymassage/Photos/Nice/Alice.jpg?updatedAt=1758623144044",
+      "https://ik.imagekit.io/nearbymassage/Photos/Nice/Lucy.jpg?updatedAt=1758623143948"
 
     ]
   },
@@ -50,14 +59,16 @@
     "name": "Hexing Wellness",
     "approved": true,
     "services": ["Massage @ Bukit Merah Cresent"],
-    "phone": "+65 8252 9904",
-    "whats": "+65 8252 9904",
+    "phone": "82529904",
+    "whats": "82529904",
     "loc": { "lat": 1.2732481237455135, "lng": 103.82216248650643 },
     "address": "35 Telok Blangah Rise, #01-295 Telok Blangah, Singapore 090035",
     "photos": [
-      "https://lh3.googleusercontent.com/p/AF1QipM3_9cNW8g8ZyyupwyXABAHXT6-pTT6ely2ZYSK=s680-w680-h510-rw",
-      "https://lh3.googleusercontent.com/p/AF1QipM56QPbd18X-ZBtNutdnomT1qQlKDKkZq1aSZZ_=s680-w680-h510-rw",
-      "https://lh3.googleusercontent.com/p/AF1QipNLkjvvGV8dGd9W-Guou0zs8okG7uu4i-vcdUe8=s680-w680-h510-rw"
+      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/Lily.jpg?updatedAt=1758623143900",
+      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/jolin.jpg?updatedAt=1758623142732",
+      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/elly.jpg?updatedAt=1758623139598",
+      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/amy.jpg?updatedAt=1758623139396",
+      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/angel.jpg?updatedAt=1758623139401"
 
     ]
   },
@@ -66,8 +77,8 @@
     "name": "Cuppage Wellness",
     "approved": true,
     "services": ["Massage @ Cuppage Plaza"],
-    "phone": "+65 8267 5689",
-    "whats": "+65 8267 5689",
+    "phone": "82675689",
+    "whats": "82675689",
     "loc": { "lat": 1.3021660473779857, "lng": 103.84078775767097 },
     "address": "5 Koek Rd, B1-02/03, Singapore 228796",
     "photos": [
@@ -80,7 +91,28 @@
       "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/bobo.jpg?updatedAt=1758623139597"
 
     ]
+  },
+{
+    "id": "spa-6",
+    "name": "TL Beauty Wellness TCM",
+    "approved": true,
+    "services": ["Massage @ Midpoint Orchard"],
+    "phone": "60293138",
+    "whats": "83348801",
+    "loc": { "lat": 1.3019608995303376, "lng": 103.83867868465809 },
+    "address": "220 Orchard Rd, #02-06 Midpoint Orchard, Singapore 238852",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/TLB/YiYi.jpg?updatedAt=1759132751653",
+      "https://ik.imagekit.io/nearbymassage/Photos/TLB/Hannah.jpg?updatedAt=1759132751575",
+      "https://ik.imagekit.io/nearbymassage/Photos/TLB/Avni.jpg?updatedAt=1759132751722",
+      "https://ik.imagekit.io/nearbymassage/Photos/TLB/Summer.jpg?updatedAt=1759132751570",
+      "https://ik.imagekit.io/nearbymassage/Photos/TLB/Ocean.jpg?updatedAt=1759132751553",
+      "https://ik.imagekit.io/nearbymassage/Photos/TLB/Lili.jpg?updatedAt=1759132751542",
+      "https://ik.imagekit.io/nearbymassage/Photos/TLB/Alice.jpg?updatedAt=1759132751557"
+
+    ]
   }
+
 
 
 ]
