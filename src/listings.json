@@ -24,7 +24,7 @@
     "id": "spa-2",
     "name": "Moonlight Health Club",
     "approved": true,
-    "services": ["Professional Massage @ Bukit Merah Road"],
+    "services": ["Professional Massage @ Bukit Timah Road"],
     "phone": "88436378",
     "whats": "6588436378",
     "loc": { "lat": 1.3169298372632228, "lng": 103.83523812534706 },
