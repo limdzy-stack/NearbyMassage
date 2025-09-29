@@ -131,7 +131,25 @@
       "https://ik.imagekit.io/nearbymassage/Photos/NatureHealing/mmexport1757415964041.jpg?updatedAt=1759137838037"
 
     ]
-  }
+  },
+{
+    "id": "spa-8",
+    "name": "Yuan Kang TCM",
+    "approved": true,
+    "services": ["Professional Massage @ Race Course Road"],
+    "phone": "93425428",
+    "whats": "6593425428",
+    "loc": { "lat": 1.3159676761741077, "lng": 103.85783354232905 },
+    "address": "428 Race Course Rd, Singapore 218674",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/mmexport1755502925958.jpg?updatedAt=1759150847891",
+      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/mmexport1755502922946.jpg?updatedAt=1759150847704",
+      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/mmexport1755502917578.jpg?updatedAt=1759150847676",
+      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/mmexport1755502913537.jpg?updatedAt=1759150847544",
+      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/mmexport1755502921300.jpg?updatedAt=1759150847530",
+      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/mmexport1755502909521.jpg?updatedAt=1759150817474"
 
+    ]
+  }
 
 ]
