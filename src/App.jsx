@@ -130,6 +130,58 @@ function DisclaimerPopup({ onClose }) {
   );
 }
 
+function IntroductionPopup({ onClose }) {
+  return (
+    <div
+      onClick={onClose}
+      style={{
+        position: 'fixed',
+        inset: 0,
+        background: 'rgba(0,0,0,0.6)',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        zIndex: 10000
+      }}
+    >
+      <div
+        onClick={(e) => e.stopPropagation()}
+        style={{
+          background: '#fff',
+          padding: '20px',
+          borderRadius: '12px',
+          maxWidth: '600px',
+          maxHeight: '80vh',
+          overflowY: 'auto',
+          textAlign: 'left'
+        }}
+      >
+        <h2 className="text-xl font-bold mb-2">Introduction & Usage Instructions</h2>
+        <p className="text-sm text-gray-700 mb-4">
+          Welcome to Nearby Massage. This website helps you discover massage places near your location, ordered by proximity.
+          <br /><br />
+          <strong>How to use:</strong>
+          <ul className="list-disc ml-5 mt-2 text-sm text-gray-700">
+            <li>Allow the website to access your location so it can find nearby listings.</li>
+            <li>Browse the list of up to 20 nearest massage places sorted by distance.</li>
+            <li>Click on the photo thumbnails to preview more images of each place.</li>
+            <li>Use the <em>Call</em> button to dial directly, or the <em>WhatsApp</em> button to chat with the spa.</li>
+            <li>Click <em>Show on map</em> to open the location in Google Maps for navigation.</li>
+          </ul>
+          <br />
+          This platform is designed to make discovering and contacting nearest massage providers quickly and conveniently.
+        </p>
+        <button
+          onClick={onClose}
+          className="bg-emerald-600 text-white px-4 py-2 rounded hover:bg-emerald-700"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+  );
+}
+
 export default function App() {
   const [center, setCenter] = useState({ lat: 1.3048, lng: 103.8318 });
   const [query, setQuery] = useState("");
@@ -137,6 +189,7 @@ export default function App() {
   const [locationDetected, setLocationDetected] = useState(false);
   const [locationAddress, setLocationAddress] = useState("");
   const [showDisclaimer, setShowDisclaimer] = useState(false);
+  const [showIntroduction, setShowIntroduction] = useState(false);
 
   // Load listings from /listings.json if available
   useEffect(() => {
@@ -179,12 +232,20 @@ export default function App() {
     return matches
       .map((x) => ({ ...x, _distKm: kmBetween(x.loc, center) }))
       .sort((a, b) => a._distKm - b._distKm);
+      .slice(0, 20); // ✅ Limit to nearest 20
   }, [listings, query, center]);
 
    return (
     <div className="w-full min-h-screen grid grid-cols-1 lg:grid-cols-3" style={{ background: "linear-gradient(135deg, #e0f7f4, #fefdfb)" }}>
       {/* Disclaimer button top-right */}
       <div style={{ position: 'absolute', top: 16, right: 16, zIndex: 11000 }}>
+       <button
+          onClick={() => setShowIntroduction(true)}
+          className="text-xs underline text-emerald-700 hover:text-emerald-900 bg-white/80 rounded px-2 py-1"
+        >
+          Introduction
+        </button>       
+
         <button
           onClick={() => setShowDisclaimer(true)}
           className="text-xs underline text-emerald-700 hover:text-emerald-900 bg-white/80 rounded px-2 py-1"
@@ -203,6 +264,7 @@ export default function App() {
         )}
         <div className="space-y-3">
           <h2 className="text-lg font-semibold text-emerald-700">Results ({filtered.length}) — nearest first</h2>
+          <p className="text-xs text-gray-500">Showing top 20 nearest results</p>
           {filtered.map((x) => (
             <div key={x.id} className="rounded-2xl overflow-hidden shadow hover:shadow-lg transition bg-white/80 backdrop-blur text-left pl-4">
               <div className="grid grid-cols-3 gap-0">
