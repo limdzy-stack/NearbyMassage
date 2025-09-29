@@ -4,7 +4,6 @@ import React, { useEffect, useMemo, useState } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import DEMO_LISTINGS from "./listings.json"; //Import from external JSON
-import { Analytics } from "@vercel/analytics/next"
 
 // --- Utilities ---
 function kmBetween(a, b) {
