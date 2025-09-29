@@ -1,0 +1,50 @@
+# Instructions
+
+Save this file as **`public/disclaimer.html`** in your project so it is served directly by Vercel.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Disclaimer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+  </head>
+  <body class="min-h-screen bg-gray-50 flex items-center justify-center p-8">
+    <div class="max-w-2xl bg-white rounded-xl shadow-md p-6 space-y-4">
+      <h1 class="text-2xl font-bold text-emerald-700">Disclaimer</h1>
+      <p class="text-sm text-gray-700">
+        The information provided on this website is for general informational
+        purposes only. While we strive to keep listings accurate and
+        up-to-date, we make no warranties of any kind, express or implied,
+        about the completeness, accuracy, reliability, suitability, or
+        availability with respect to the website or the information, services,
+        or images contained on the website.
+      </p>
+      <p class="text-sm text-gray-700">
+        Any reliance you place on such information is therefore strictly at
+        your own risk. We are not responsible for any losses or damages in
+        connection with the use of this website.
+      </p>
+      <p class="text-sm text-gray-700">
+        External links such as Google Maps or WhatsApp are provided for
+        convenience. We do not endorse or take responsibility for the content
+        of external websites.
+      </p>
+      <p class="text-sm text-gray-700">
+        By continuing to use this site, you acknowledge and agree to this
+        disclaimer.
+      </p>
+      <button
+        onclick="window.history.back()"
+        class="inline-block mt-4 text-sm text-white bg-emerald-600 hover:bg-emerald-700 px-4 py-2 rounded-lg"
+      >
+        Go Back
+      </button>
+    </div>
+  </body>
+</html>

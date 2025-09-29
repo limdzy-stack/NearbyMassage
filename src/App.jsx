@@ -141,69 +141,41 @@ export default function App() {
     <div className="w-full min-h-screen grid grid-cols-1 lg:grid-cols-3" style={{ background: "linear-gradient(135deg, #e0f7f4, #fefdfb)" }}>
         {/* Disclaimer link top right */}
       <div className="absolute top-4 right-4 text-xs text-gray-500">
-        <a href="/disclaimer" className="underline hover:text-emerald-700">
+         <button onClick={() => setShowDisclaimer(true)} className="underline hover:text-emerald-700">
           Disclaimer
-        </a>
+        </button>
       </div>
-      <div className="p-4 lg:col-span-1 space-y-4 overflow-y-auto bg-white/80 backdrop-blur rounded-r-2xl text-left pl-4">
-        <h1 className="text-2xl font-bold text-emerald-700">Nearby Massage</h1>
-        {locationDetected && (
-          <div className="text-xs text-emerald-700">
-            📍 Using your current location
-            {locationAddress ? ` — ${locationAddress}` : ` (${center.lat.toFixed(4)}, ${center.lng.toFixed(4)})`}
-          </div>
-        )}
-        <div className="space-y-3">
-          <h2 className="text-lg font-semibold text-emerald-700">Results ({filtered.length}) — nearest first</h2>
-          {filtered.map((x) => (
-            <div key={x.id} className="rounded-2xl overflow-hidden shadow hover:shadow-lg transition bg-white/80 backdrop-blur text-left pl-4">
-              <div className="grid grid-cols-3 gap-0">
-                <PhotoStrip photos={x.photos} alt={x.name} />
-                <div className="col-span-2 p-3">
-                  <div className="flex items-center justify-between">
-                    <h3 className="font-bold text-emerald-800">{x.name}</h3>
-                  </div>
-                  <p className="text-xs text-gray-600 line-clamp-2">{x.address}</p>
-                  {locationDetected && (
-                    <p className="text-xs text-emerald-700 mt-1">{x._distKm.toFixed(1)} km away</p>
-                  )}
-                  <div className="mt-1 flex flex-wrap gap-1">
-                    {x.services.map((s) => (
-                      <span key={s} className="text-[10px] bg-emerald-50 text-emerald-700 rounded px-2 py-0.5">{s}</span>
-                    ))}
-                  </div>
-                  <div className="mt-2 grid grid-cols-1 gap-2">
-                    <button
-                      onClick={() => window.location.href = `tel:${x.phone}`}
-                      className="w-full text-center text-sm bg-emerald-600 text-white rounded-lg px-3 py-2 hover:bg-emerald-700 transition"
-                    >
-                      Call
-                    </button>
-                    <button
-                      onClick={() => window.open(`https://wa.me/${x.whats.replace(/\\D/g, "")}`, '_blank')}
-                      className="w-full text-center text-sm bg-green-500 text-white rounded-lg px-3 py-2 hover:bg-green-600 transition"
-                    >
-                      WhatsApp
-                    </button>
-                    <button
-                      onClick={() => window.open(`https://www.google.com/maps?q=${x.loc.lat},${x.loc.lng}`, '_blank')}
-                      className="w-full text-center text-sm bg-blue-500 text-white rounded-lg px-3 py-2 hover:bg-blue-600 transition"
-                    >
-                      Show on map
-                    </button>
-                  </div>
-                </div>
-              </div>
+
+      {showDisclaimer && (
+        <div
+          onClick={() => setShowDisclaimer(false)}
+          style={{
+            position: 'fixed',
+            inset: 0,
+            background: 'rgba(0,0,0,0.7)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            zIndex: 10000
+          }}
+        >
+          <div
+            onClick={(e) => e.stopPropagation()}
+            style={{ background: '#fff', padding: '20px', borderRadius: '8px', maxWidth: '600px', textAlign: 'left' }}
+          >
+            <h2 className="text-xl font-bold mb-2">Disclaimer</h2>
+            <p className="text-sm text-gray-700">
+              This website is for informational purposes only. All listings are provided by third parties. We do not guarantee the accuracy, reliability, or quality of services listed. Users are encouraged to verify details directly with the service providers.
+            </p>
+            <div className="mt-4 text-right">
+              <button
+                onClick={() => setShowDisclaimer(false)}
+                className="bg-emerald-600 text-white px-4 py-2 rounded hover:bg-emerald-700"
+              >
+                Close
+              </button>
             </div>
-          ))}
+          </div>
         </div>
-	{/* Disclaimer link */}
-        <div className="pt-4 text-xs text-gray-500">
-          <a href="/disclaimer" className="underline hover:text-emerald-700">
-            Disclaimer
-          </a>
-        </div>
-      </div>
-    </div>
-  );
-}
+      )}
+
