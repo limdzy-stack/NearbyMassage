@@ -139,6 +139,12 @@ export default function App() {
 
    return (
     <div className="w-full min-h-screen grid grid-cols-1 lg:grid-cols-3" style={{ background: "linear-gradient(135deg, #e0f7f4, #fefdfb)" }}>
+        {/* Disclaimer link top right */}
+      <div className="absolute top-4 right-4 text-xs text-gray-500">
+        <a href="/disclaimer" className="underline hover:text-emerald-700">
+          Disclaimer
+        </a>
+      </div>
       <div className="p-4 lg:col-span-1 space-y-4 overflow-y-auto bg-white/80 backdrop-blur rounded-r-2xl text-left pl-4">
         <h1 className="text-2xl font-bold text-emerald-700">Nearby Massage</h1>
         {locationDetected && (
