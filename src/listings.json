@@ -111,8 +111,27 @@
       "https://ik.imagekit.io/nearbymassage/Photos/TLB/Alice.jpg?updatedAt=1759132751557"
 
     ]
-  }
+  },
+{
+    "id": "spa-6",
+    "name": "Nature Healing @ Upper Thomson",
+    "approved": true,
+    "services": ["Professional Massage"],
+    "phone": "64512212",
+    "whats": "6587877747",
+    "loc": { "lat": 1.3532011427283996, "lng": 103.83423027116451 },1.3532011427283996, 103.83423027116451
+    "address": "235 Upper Thomson Road, Thomson Rdg, Estate, Singapore 574366",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/NatureHealing/mmexport1757415962093.jpg?updatedAt=1759137837809",
+      "https://ik.imagekit.io/nearbymassage/Photos/NatureHealing/mmexport1757415960160.jpg?updatedAt=1759137837311",
+      "https://ik.imagekit.io/nearbymassage/Photos/NatureHealing/mmexport1758805787869.jpg?updatedAt=1759137706744",
+      "https://ik.imagekit.io/nearbymassage/Photos/NatureHealing/mmexport1759111850848.jpg?updatedAt=1759137706754",
+      "https://ik.imagekit.io/nearbymassage/Photos/NatureHealing/mmexport1757415955093.jpg?updatedAt=1759137836844",
+      "https://ik.imagekit.io/nearbymassage/Photos/NatureHealing/mmexport1759111820144.jpg?updatedAt=1759137706793",
+      "https://ik.imagekit.io/nearbymassage/Photos/NatureHealing/mmexport1757415964041.jpg?updatedAt=1759137838037"
 
+    ]
+  }
 
 
 ]
