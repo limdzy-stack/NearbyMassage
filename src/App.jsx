@@ -3,7 +3,8 @@
 import React, { useEffect, useMemo, useState } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
-import DEMO_LISTINGS from "./listings.json"; // ✅ Import from external JSON
+import DEMO_LISTINGS from "./listings.json"; //Import from external JSON
+import { Analytics } from "@vercel/analytics/next"
 
 // --- Utilities ---
 function kmBetween(a, b) {
@@ -157,11 +158,11 @@ function IntroductionPopup({ onClose }) {
         }}
       >
         <h2 className="text-xl font-bold mb-2">Introduction & Usage Instructions</h2>
-        <p className="text-sm text-gray-700 mb-4">
-          Welcome to Nearby Massage. This website helps you discover massage places near your location, ordered by proximity.
-          <br /><br />
+        <div className="text-sm text-gray-700 mb-4">
+          <p>Welcome to Nearby Massage. This website helps you discover massage places near your location, ordered by proximity.</p>
+          <br />
           <strong>How to use:</strong>
-          <ul className="list-disc ml-5 mt-2 text-sm text-gray-700">
+          <ul style={{ listStyleType: 'disc', paddingLeft: '20px', marginTop: '8px' }}>
             <li>Allow the website to access your location so it can find nearby listings.</li>
             <li>Browse the list of up to 20 nearest massage places sorted by distance.</li>
             <li>Click on the photo thumbnails to preview more images of each place.</li>
@@ -169,8 +170,8 @@ function IntroductionPopup({ onClose }) {
             <li>Click <em>Show on map</em> to open the location in Google Maps for navigation.</li>
           </ul>
           <br />
-          This platform is designed to make discovering and contacting massage providers quick and convenient.
-        </p>
+          <p>This platform is designed to make discovering and contacting massage providers quick and convenient.</p>
+        </div>
         <button
           onClick={onClose}
           className="bg-emerald-600 text-white px-4 py-2 rounded hover:bg-emerald-700"
