@@ -169,7 +169,7 @@ function IntroductionPopup({ onClose }) {
             <li>Click <em>Show on map</em> to open the location in Google Maps for navigation.</li>
           </ul>
           <br />
-          This platform is designed to make discovering and contacting nearest massage providers quickly and conveniently.
+          This platform is designed to make discovering and contacting massage providers quick and convenient.
         </p>
         <button
           onClick={onClose}
@@ -231,21 +231,20 @@ export default function App() {
     const matches = filterListings(listings, { center, query });
     return matches
       .map((x) => ({ ...x, _distKm: kmBetween(x.loc, center) }))
-      .sort((a, b) => a._distKm - b._distKm);
+      .sort((a, b) => a._distKm - b._distKm)
       .slice(0, 20); // ✅ Limit to nearest 20
   }, [listings, query, center]);
 
    return (
     <div className="w-full min-h-screen grid grid-cols-1 lg:grid-cols-3" style={{ background: "linear-gradient(135deg, #e0f7f4, #fefdfb)" }}>
-      {/* Disclaimer button top-right */}
-      <div style={{ position: 'absolute', top: 16, right: 16, zIndex: 11000 }}>
-       <button
+      {/* Disclaimer and Introduction buttons top-right */}
+      <div style={{ position: 'absolute', top: 16, right: 16, zIndex: 11000, display: 'flex', gap: '8px' }}>
+        <button
           onClick={() => setShowIntroduction(true)}
           className="text-xs underline text-emerald-700 hover:text-emerald-900 bg-white/80 rounded px-2 py-1"
         >
           Introduction
-        </button>       
-
+        </button>
         <button
           onClick={() => setShowDisclaimer(true)}
           className="text-xs underline text-emerald-700 hover:text-emerald-900 bg-white/80 rounded px-2 py-1"
@@ -309,6 +308,7 @@ export default function App() {
         </div>
       </div>
       {showDisclaimer && <DisclaimerPopup onClose={() => setShowDisclaimer(false)} />}
+      {showIntroduction && <IntroductionPopup onClose={() => setShowIntroduction(false)} />}
     </div>
   );
 }
