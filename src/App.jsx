@@ -3,7 +3,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
-import DEMO_LISTINGS from "./listings.json"; // Import from external JSON
+import DEMO_LISTINGS from "./listings.json"; //Import from external JSON
 
 // --- Utilities ---
 function kmBetween(a, b) {
