@@ -303,6 +303,7 @@ export default function App() {
                     >
                       Show on map
                     </button>
+                    <p>____________________________________________________________</p>
                   </div>
                 </div>
               </div>
