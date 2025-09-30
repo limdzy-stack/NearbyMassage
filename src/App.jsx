@@ -289,7 +289,10 @@ export default function App() {
                       Call
                     </button>
                     <button
-                      onClick={() => window.open(`https://wa.me/${x.whats.replace(/\\D/g, "")}`, '_blank')}
+                      onClick={() => {
+                        const message = encodeURIComponent(`Hello, I saw your advertisement on nearbymassage website. I would like to find out more`);
+                        window.open(`https://wa.me/${x.whats.replace(/\\D/g, "")}?text=${message}`, '_blank');
+                      }}
                       className="w-full text-center text-sm bg-green-500 text-white rounded-lg px-3 py-2 hover:bg-green-600 transition"
                     >
                       WhatsApp
