@@ -135,7 +135,7 @@
 {
     "id": "spa-8",
     "name": "Yuan Kang TCM",
-    "approved": true,
+    "approved": false,
     "services": ["Professional Massage @ Race Course Road with new clean environment"],
     "phone": "93425428",
     "whats": "6593425428",
@@ -164,6 +164,24 @@
       "https://ik.imagekit.io/nearbymassage/Photos/Lin%20Lin/mmexport1759202278278.jpg?updatedAt=1759202869007",
       "https://ik.imagekit.io/nearbymassage/Photos/Lin%20Lin/mmexport1759202273420.jpg?updatedAt=1759202868989",
       "https://ik.imagekit.io/nearbymassage/Photos/Lin%20Lin/mmexport1759202809543.jpg?updatedAt=1759202868996"
+
+    ]
+  },
+{
+    "id": "spa-10",
+    "name": "Honey @ Kitchener Road",
+    "approved": true,
+    "services": ["Massage near Farrer Park MRT"],
+    "phone": "91144688",
+    "whats": "6591144688",
+    "loc": { "lat": 1.3097960548022574, "lng": 103.85719213690163 },
+    "address": "137 Kitchener Rd",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/Xuan/mmexport1759323215908.jpg?updatedAt=1759323370644",
+      "https://ik.imagekit.io/nearbymassage/Photos/Xuan/mmexport1759323213944.jpg?updatedAt=1759323370554",
+      "https://ik.imagekit.io/nearbymassage/Photos/Xuan/mmexport1759323217879.jpg?updatedAt=1759323370504",
+      "https://ik.imagekit.io/nearbymassage/Photos/Xuan/mmexport1759323209944.jpg?updatedAt=1759323784105",
+      "https://ik.imagekit.io/nearbymassage/Photos/Xuan/mmexport1759323208180.jpg?updatedAt=1759323753413"
 
     ]
   }
