@@ -184,7 +184,27 @@
       "https://ik.imagekit.io/nearbymassage/Photos/Xuan/mmexport1759323208180.jpg?updatedAt=1759323753413"
 
     ]
+  },
+{
+    "id": "spa-11",
+    "name": "LiLi @ Beauty World",
+    "approved": true,
+    "services": ["Call to make appointment. Meridian massage, hot oil, ear picking, lymphatic drainage. 9am to 1030pm."],
+    "phone": "87105288",
+    "whats": "6587105288",
+    "loc": { "lat": 1.3420499214412227, "lng": 103.77630513068384 },
+    "address": "Near Beauty World MRT exit B",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/LiLi%20Beauty%20World/mmexport1759324508286.jpg?updatedAt=1759324680866",
+      "https://ik.imagekit.io/nearbymassage/Photos/LiLi%20Beauty%20World/mmexport1759324511036.jpg?updatedAt=1759324680806",
+      "https://ik.imagekit.io/nearbymassage/Photos/LiLi%20Beauty%20World/mmexport1759324509750.jpg?updatedAt=1759324680708",
+      "https://ik.imagekit.io/nearbymassage/Photos/LiLi%20Beauty%20World/mmexport1759324512435.jpg?updatedAt=1759324680711",
+      "https://ik.imagekit.io/nearbymassage/Photos/LiLi%20Beauty%20World/mmexport1759324515244.jpg?updatedAt=1759324680626",
+      "https://ik.imagekit.io/nearbymassage/Photos/LiLi%20Beauty%20World/mmexport1759324513935.jpg?updatedAt=1759324680656"
+
+    ]
   }
+
 
 
 ]
