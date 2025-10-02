@@ -2,7 +2,7 @@
   {
     "id": "spa-1",
     "name": "Yi Spa",
-    "approved": true,
+    "approved": false,
     "services": ["Located in the heart of Singapore and operates 24/7. Professional massage from skilled therapists. Call to enquire"],
     "phone": "63923038",
     "whats": "",
