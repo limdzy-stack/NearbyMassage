@@ -203,6 +203,24 @@
       "https://ik.imagekit.io/nearbymassage/Photos/LiLi%20Beauty%20World/mmexport1759324513935.jpg?updatedAt=1759324680656"
 
     ]
+  },
+{
+    "id": "spa-13",
+    "name": "Yumi @ Beauty World",
+    "approved": true,
+    "services": ["Call to make appointment. Meridian massage, hot oil, ear picking, lymphatic drainage. 9am to 1030pm."],
+    "phone": "83007301",
+    "whats": "6583007301",
+    "loc": { "lat": 1.3420499214412227, "lng": 103.77630513068384 },
+    "address": "Near Beauty World MRT exit C",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/Yumi/mmexport1759423573812.jpg?updatedAt=1759423727680",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yumi/mmexport1759423575868.jpg?updatedAt=1759423727940",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yumi/mmexport1759423566016.jpg?updatedAt=1759423727652",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yumi/mmexport1759423564637.jpg?updatedAt=1759423727586",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yumi/mmexport1759423569811.jpg?updatedAt=1759423727589"
+
+    ]
   }
 
 
