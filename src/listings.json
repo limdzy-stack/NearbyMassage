@@ -153,17 +153,21 @@
   },
 {
     "id": "spa-9",
-    "name": "LinLin @ Bussorah St",
+    "name": "Daisy Beauty Wellness",
     "approved": true,
     "services": ["Professional Massage Near Haji Lane"],
-    "phone": "97166821",
-    "whats": "6597166821",
+    "phone": "96491598",
+    "whats": "6596491598",
     "loc": { "lat": 1.300796816750349, "lng": 103.86000142497598 },
     "address": "73A Bussorah St, Singapore 199486",
     "photos": [
-      "https://ik.imagekit.io/nearbymassage/Photos/Lin%20Lin/mmexport1759202278278.jpg?updatedAt=1759202869007",
-      "https://ik.imagekit.io/nearbymassage/Photos/Lin%20Lin/mmexport1759202273420.jpg?updatedAt=1759202868989",
-      "https://ik.imagekit.io/nearbymassage/Photos/Lin%20Lin/mmexport1759202809543.jpg?updatedAt=1759202868996"
+      "https://ik.imagekit.io/nearbymassage/Photos/Daisy/LinLin1.jpg?updatedAt=1759495471961",
+      "https://ik.imagekit.io/nearbymassage/Photos/Daisy/Lucky2.jpg?updatedAt=1759495471923",
+      "https://ik.imagekit.io/nearbymassage/Photos/Daisy/miumiu1.jpg?updatedAt=1759495471914",
+      "https://ik.imagekit.io/nearbymassage/Photos/Daisy/LinLin2.jpg?updatedAt=1759495471981",
+      "https://ik.imagekit.io/nearbymassage/Photos/Daisy/LinLin2.jpg?updatedAt=1759495471981",
+      "https://ik.imagekit.io/nearbymassage/Photos/Daisy/miumiu2.jpg?updatedAt=1759495471915",
+      "https://ik.imagekit.io/nearbymassage/Photos/Daisy/namecard.jpg?updatedAt=1759495669026"
 
     ]
   },
