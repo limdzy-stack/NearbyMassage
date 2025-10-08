@@ -225,7 +225,30 @@
       "https://ik.imagekit.io/nearbymassage/Photos/Yumi/mmexport1759423569811.jpg?updatedAt=1759423727589"
 
     ]
+  },
+{
+    "id": "spa-13",
+    "name": "Natural Soul Spa",
+    "approved": true,
+    "services": ["Make an appintment to prevent disappointment. Meridian massage, hot oil massage."],
+    "phone": "81771959",
+    "whats": "6581771959",
+    "loc": { "lat": 1.3035542778645952, "lng": 103.85988578124791 },
+    "address": "776A N Bridge Rd, Singapore 198744",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/NaturalSoulSpa/Angela1.jpg?updatedAt=1759934292870",
+      "https://ik.imagekit.io/nearbymassage/Photos/NaturalSoulSpa/snow2.jpg?updatedAt=1759934399001",
+      "https://ik.imagekit.io/nearbymassage/Photos/NaturalSoulSpa/Coco1.jpg?updatedAt=1759934328416",
+      "https://ik.imagekit.io/nearbymassage/Photos/NaturalSoulSpa/luck1.jpg?updatedAt=1759934364632",
+      "https://ik.imagekit.io/nearbymassage/Photos/NaturalSoulSpa/celine1.jpg?updatedAt=1759934435358",
+      "https://ik.imagekit.io/nearbymassage/Photos/NaturalSoulSpa/nsswechat.jpg?updatedAt=1759934416898",
+      "https://ik.imagekit.io/nearbymassage/Photos/NaturalSoulSpa/Angela2.jpg?updatedAt=1759934349272",
+      "https://ik.imagekit.io/nearbymassage/Photos/NaturalSoulSpa/Snow1.jpg?updatedAt=1759934309410",
+      "https://ik.imagekit.io/nearbymassage/Photos/NaturalSoulSpa/Lucky2.jpg?updatedAt=1759934380707",
+      "https://ik.imagekit.io/nearbymassage/Photos/NaturalSoulSpa/Celine2.jpg?updatedAt=1759934451637"
+    ]
   }
+
 
 
 
