@@ -247,7 +247,23 @@
       "https://ik.imagekit.io/nearbymassage/Photos/NaturalSoulSpa/Lucky2.jpg?updatedAt=1759934380707",
       "https://ik.imagekit.io/nearbymassage/Photos/NaturalSoulSpa/Celine2.jpg?updatedAt=1759934451637"
     ]
+  },
+{
+    "id": "spa-14",
+    "name": "Yuki @ Textile Center",
+    "approved": true,
+    "services": ["Make an appintment to avoid disappointment. Meridian massage, hot oil massage. Authentic Massage"],
+    "phone": "81872260",
+    "whats": "6581872260",
+    "loc": { "lat": 1.3038049158911758, "lng": 103.86127358197135 },
+    "address": "200 Jln Sultan, Singapore 199018",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/YukiTextile/mmexport1760012687332.jpg?updatedAt=1760014515845",
+      "https://ik.imagekit.io/nearbymassage/Photos/YukiTextile/mmexport1760012691599.jpg?updatedAt=1760014514705",
+      "https://ik.imagekit.io/nearbymassage/Photos/YukiTextile/mmexport1760012689602.jpg?updatedAt=1760014514846"
+    ]
   }
+
 
 
 
