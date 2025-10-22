@@ -181,10 +181,8 @@
     "loc": { "lat": 1.3097960548022574, "lng": 103.85719213690163 },
     "address": "137 Kitchener Rd",
     "photos": [
-      "https://ik.imagekit.io/nearbymassage/Photos/Xuan/mmexport1759323215908.jpg?updatedAt=1759323370644",
-      "https://ik.imagekit.io/nearbymassage/Photos/Xuan/mmexport1759323213944.jpg?updatedAt=1759323370554",
-      "https://ik.imagekit.io/nearbymassage/Photos/Xuan/mmexport1759323217879.jpg?updatedAt=1759323370504",
-      "https://ik.imagekit.io/nearbymassage/Photos/Xuan/mmexport1759323209944.jpg?updatedAt=1759323784105",
+      "https://ik.imagekit.io/nearbymassage/Photos/Xuan/22oct2.jpg?updatedAt=1761136922126",
+      "https://ik.imagekit.io/nearbymassage/Photos/Xuan/22oct1.jpg?updatedAt=1761136922130",
       "https://ik.imagekit.io/nearbymassage/Photos/Xuan/mmexport1759323208180.jpg?updatedAt=1759323753413"
 
     ]
@@ -236,16 +234,12 @@
     "loc": { "lat": 1.3035542778645952, "lng": 103.85988578124791 },
     "address": "776A N Bridge Rd, Singapore 198744",
     "photos": [
-      "https://ik.imagekit.io/nearbymassage/Photos/NaturalSoulSpa/Angela1.jpg?updatedAt=1759934292870",
-      "https://ik.imagekit.io/nearbymassage/Photos/NaturalSoulSpa/snow2.jpg?updatedAt=1759934399001",
-      "https://ik.imagekit.io/nearbymassage/Photos/NaturalSoulSpa/Coco1.jpg?updatedAt=1759934328416",
-      "https://ik.imagekit.io/nearbymassage/Photos/NaturalSoulSpa/luck1.jpg?updatedAt=1759934364632",
-      "https://ik.imagekit.io/nearbymassage/Photos/NaturalSoulSpa/celine1.jpg?updatedAt=1759934435358",
-      "https://ik.imagekit.io/nearbymassage/Photos/NaturalSoulSpa/nsswechat.jpg?updatedAt=1759934416898",
-      "https://ik.imagekit.io/nearbymassage/Photos/NaturalSoulSpa/Angela2.jpg?updatedAt=1759934349272",
-      "https://ik.imagekit.io/nearbymassage/Photos/NaturalSoulSpa/Snow1.jpg?updatedAt=1759934309410",
-      "https://ik.imagekit.io/nearbymassage/Photos/NaturalSoulSpa/Lucky2.jpg?updatedAt=1759934380707",
-      "https://ik.imagekit.io/nearbymassage/Photos/NaturalSoulSpa/Celine2.jpg?updatedAt=1759934451637"
+      "https://ik.imagekit.io/nearbymassage/Photos/EternalBeauty/Celine.jpg?updatedAt=1761136856370",
+      "https://ik.imagekit.io/nearbymassage/Photos/EternalBeauty/Lucky.jpg?updatedAt=1761136856331",
+      "https://ik.imagekit.io/nearbymassage/Photos/EternalBeauty/Angela.jpg?updatedAt=1761136856318",
+      "https://ik.imagekit.io/nearbymassage/Photos/EternalBeauty/Snow1.jpg?updatedAt=1761136789396",
+      "https://ik.imagekit.io/nearbymassage/Photos/EternalBeauty/Coco1.jpg?updatedAt=1761136789346",
+      "https://ik.imagekit.io/nearbymassage/Photos/EternalBeauty/nsswechat.jpg?updatedAt=1761136789359"
     ]
   },
 {
@@ -263,6 +257,24 @@
       "https://ik.imagekit.io/nearbymassage/Photos/YukiTextile/yuki2.jpg?updatedAt=1760105933812",
       "https://ik.imagekit.io/nearbymassage/Photos/YukiTextile/WA.jpg?updatedAt=1760026016124",
       "https://ik.imagekit.io/nearbymassage/Photos/YukiTextile/Tel.jpg?updatedAt=1760026034276"
+    ]
+  },
+{
+    "id": "spa-15",
+    "name": "Muse Beauty TCM",
+    "approved": true,
+    "services": ["Experience genuine massage by professional therapists. Advance booking is advise. "],
+    "phone": "81745068",
+    "whats": "6581745068",
+    "loc": { "lat": 1.3201234574138732, "lng": 103.88722334050698 },
+    "address": "118 Aljunied Ave 2",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/Muse/wechat.jpg?updatedAt=1761137702951",
+      "https://ik.imagekit.io/nearbymassage/Photos/Muse/Lisa1.jpg?updatedAt=1761137956044",
+      "https://ik.imagekit.io/nearbymassage/Photos/Muse/apple.jpg?updatedAt=1761137377054",
+      "https://ik.imagekit.io/nearbymassage/Photos/Muse/Linda2.jpg?updatedAt=1761137406907",
+      "https://ik.imagekit.io/nearbymassage/Photos/Muse/Mandy.jpg?updatedAt=1761137406946",
+      "https://ik.imagekit.io/nearbymassage/Photos/Muse/Yoyo.jpg?updatedAt=1761137406945"
     ]
   }
 
