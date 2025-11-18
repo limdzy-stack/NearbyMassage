@@ -303,12 +303,6 @@ export default function App() {
                     >
                       Show on map
                     </button>
-		    <button
-                     onClick={() => window.open(`/spa-info.html?id=${x.id}`, "_blank")}
-                     className="w-full bg-purple-600 text-white rounded-lg px-3 py-2 hover:bg-purple-700 transition"
-                      >
- 		      Visit Website
-		    </button>
                     <p>____________________________________________________________</p>
                   </div>
                 </div>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Massage Spa Information</title>
+  <meta name="description" content="Professional massage spa information page, optimized for Google Ads quality score, including services, photos, address, contact, and Google Map navigation." />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" />
+  <style>
+    body { font-family: Arial, sans-serif; background: #f8fafc; }
+    .photo-thumb { width: 90px; height: 90px; object-fit: cover; border-radius: 8px; }
+  </style>
+</head>
+<body class="max-w-2xl mx-auto p-4">
+
+  <header class="mb-6">
+    <h1 id="spa-name" class="text-3xl font-bold text-emerald-700"></h1>
+    <p id="spa-address" class="text-gray-700 mt-2"></p>
+    <p id="spa-distance" class="text-sm text-gray-500"></p>
+  </header>
+
+  <section class="mb-6">
+    <h2 class="text-xl font-semibold text-emerald-700 mb-2">Services</h2>
+    <div id="spa-services" class="flex flex-wrap gap-2 text-sm"></div>
+  </section>
+
+  <section class="mb-6">
+    <h2 class="text-xl font-semibold text-emerald-700 mb-2">Photos</h2>
+    <div id="spa-photos" class="flex flex-wrap gap-3"></div>
+  </section>
+
+  <section class="mb-6">
+    <h2 class="text-xl font-semibold text-emerald-700 mb-2">Contact</h2>
+    <div class="space-y-3">
+      <a id="call-btn" href="#" class="block text-center bg-emerald-600 text-white py-2 rounded hover:bg-emerald-700">Call</a>
+      <a id="wa-btn" href="#" target="_blank" class="block text-center bg-green-600 text-white py-2 rounded hover:bg-green-700">WhatsApp</a>
+      <a id="map-btn" href="#" target="_blank" class="block text-center bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Show on Google Map</a>
+    </div>
+  </section>
+
+  <script>
+    // -------- Dynamic Listing Loader --------
+    // URL example: /spa-info.html?id=spa-1
+    const params = new URLSearchParams(window.location.search);
+    const spaId = params.get("id");
+
+    if (!spaId) {
+      document.body.innerHTML = '<p class="text-red-600">Invalid spa ID.</p>';
+    }
+
+    fetch('/listings.json')
+      .then(r => r.json())
+      .then(list => {
+        const spa = list.find(x => x.id === spaId);
+        if (!spa) {
+          document.body.innerHTML = '<p class="text-red-600">Spa not found.</p>';
+          return;
+        }
+
+        // Fill content
+        document.getElementById('spa-name').textContent = spa.name;
+        document.getElementById('spa-address').textContent = spa.address;
+
+        // Services
+        const svc = document.getElementById('spa-services');
+        spa.services.forEach(s => {
+          const tag = document.createElement('span');
+          tag.className = 'bg-emerald-100 text-emerald-700 px-2 py-1 rounded';
+          tag.textContent = s;
+          svc.appendChild(tag);
+        });
+
+        // Photos
+        const photos = document.getElementById('spa-photos');
+        spa.photos.forEach(p => {
+          const img = document.createElement('img');
+          img.src = p;
+          img.className = 'photo-thumb shadow';
+          photos.appendChild(img);
+        });
+
+        // Buttons
+        document.getElementById('call-btn').href = `tel:${spa.phone}`;
+
+        const waText = encodeURIComponent(`Hello, I am interested in your services at ${spa.name}.`);
+        const waNumber = spa.whats.replace(/\D/g, "");
+        document.getElementById('wa-btn').href = `https://wa.me/${waNumber}?text=${waText}`;
+
+        document.getElementById('map-btn').href = `https://www.google.com/maps?q=${spa.loc.lat},${spa.loc.lng}`;
+
+      })
+      .catch(err => {
+        document.body.innerHTML = '<p class="text-red-600">Error loading content.</p>';
+      });
+  </script>
+</body>
+</html>
