@@ -23,7 +23,7 @@
   {
     "id": "spa-2",
     "name": "Moonlight Health Club",
-    "slug": "Moonlight-Health-Club",
+    "slug": "moonlight-health-club",
     "approved": true,
     "services": ["Professional Massage @ Bukit Timah Road by trained therapists"],
     "phone": "88436378",
@@ -41,7 +41,7 @@
   {
     "id": "spa-3",
     "name": "Nice Wellness TCM",
-    "slug": "Nice-Wellness-TCM",
+    "slug": "nice-wellness-tcm",
     "approved": true,
     "services": ["TCM massage, hotoil massage"],
     "phone": "82658657",
@@ -61,7 +61,7 @@
   {
     "id": "spa-4",
     "name": "Hexing Wellness",
-    "slug": "Hexing-Wellness",
+    "slug": "hexing-wellness",
     "approved": true,
     "services": ["Massage @ Telok Blangah Rise. TCM massage, hotoil massage"],
     "phone": "82529904",
@@ -103,7 +103,7 @@
 {
     "id": "spa-6",
     "name": "TL Beauty Wellness TCM",
-    "slug": "TL-Beauty-Wellness",
+    "slug": "tl-beauty-wellness",
     "approved": true,
     "services": ["One of the best massage experience in Orchard Road"],
     "phone": "60293138",
@@ -125,7 +125,7 @@
 {
     "id": "spa-7",
     "name": "Nature Healing @ Upper Thomson",
-    "slug": "Nature-Healing-Upper-Thomson",
+    "slug": "nature-healing-upper-thomson",
     "approved": true,
     "services": ["Professional Massage by skilled therapists. Nice environment"],
     "phone": "64512212",
@@ -274,7 +274,7 @@
   },
 {
     "id": "spa-15",
-    "name": "Muse Beauty TCM",
+    "name": "muse beauty tcm",
     "slug": "Muse-Beauty-TCM",
     "approved": true,
     "services": ["Experience genuine massage by professional therapists. Advance booking is advise. "],
