@@ -103,14 +103,14 @@
 {
     "id": "spa-6",
     "name": "TL Beauty Wellness TCM",
-    "slug": "cuppage-wellness",
+    "slug": "tl-beauty-wellness-tcm",
     "approved": true,
     "services": ["One of the best massage experience in Orchard Road"],
     "phone": "60293138",
     "whats": "6583348801",
     "loc": { "lat": 1.3019608995303376, "lng": 103.83867868465809 },
     "address": "220 Orchard Rd, #02-06 Midpoint Orchard, Singapore 238852",
-    "website": "https://nearbymassage.app/spa.html?slug=tl-beauty-wellness",
+    "website": "https://nearbymassage.app/spa.html?slug=tl-beauty-wellness-tcm",
     "photos": [
       "https://ik.imagekit.io/nearbymassage/Photos/TLB/YiYi.jpg?updatedAt=1759132751653",
       "https://ik.imagekit.io/nearbymassage/Photos/TLB/Hannah.jpg?updatedAt=1759132751575",
