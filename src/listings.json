@@ -257,19 +257,26 @@
   },
 {
     "id": "spa-14",
-    "name": "Yuki @ Textile Center",
-    "approved": false,
-    "services": ["Make an appintment to avoid disappointment. Meridian massage, hot oil massage. Authentic Massage"],
-    "phone": "81872260",
-    "whats": "6581872260",
-    "loc": { "lat": 1.3038049158911758, "lng": 103.86127358197135 },
-    "address": "200 Jln Sultan, Singapore 199018",
+    "name": "SK Spa",
+    "slug": "sk-spa",
+    "approved": true,
+    "services": ["Experience genuine massage by professional therapists. Conveniently located at Siglap Drive. "],
+    "phone": "65557979",
+    "whats": "",
+    "loc": { "lat": 1.3160178753259073, "lng": 103.91953163161594 },
+    "address": "28 Siglap Dr, Singapore 456154",
+    "website": "https://nearbymassage.app/spa.html?slug=sk-spa",
     "photos": [
-      "https://ik.imagekit.io/nearbymassage/Photos/YukiTextile/yuki1.jpg?updatedAt=1760105933746",
-      "https://ik.imagekit.io/nearbymassage/Photos/YukiTextile/mmexport1760012691599.jpg?updatedAt=1760014514705",
-      "https://ik.imagekit.io/nearbymassage/Photos/YukiTextile/yuki2.jpg?updatedAt=1760105933812",
-      "https://ik.imagekit.io/nearbymassage/Photos/YukiTextile/WA.jpg?updatedAt=1760026016124",
-      "https://ik.imagekit.io/nearbymassage/Photos/YukiTextile/Tel.jpg?updatedAt=1760026034276"
+      "https://ik.imagekit.io/nearbymassage/Photos/SK/T8.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/SK/T7.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/SK/T6.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/SK/T5.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/SK/T4.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/SK/T3.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/SK/T2.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/SK/T1.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/SK/T9.jpg"
+
     ]
   },
 {
@@ -292,7 +299,6 @@
       "https://ik.imagekit.io/nearbymassage/Photos/Muse/Yoyo.jpg?updatedAt=1761137406945"
     ]
   }
-
 
 
 ]
