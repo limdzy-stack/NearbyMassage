@@ -1,241 +1,143 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Massage Spa – Details</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <meta charset="UTF-8" />
+  <title>Spa Details</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Spa listing" />
+  <meta name="robots" content="index,follow" />
 
-    <!-- Basic SEO (will be overwritten dynamically based on the listing) -->
-    <meta name="description" content="Massage spa listing." />
-    <meta name="robots" content="index,follow" />
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f6f6f6; }
+    .wrapper { max-width: 960px; margin: 0 auto; padding: 16px; }
+    .card {
+      background: #fff; padding: 20px; border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+    }
+    h1 { margin-bottom: 8px; font-size: 24px; }
+    .subtitle { color: #666; margin-bottom: 18px; }
+    .info { margin-bottom: 8px; }
+    .label { font-weight: bold; }
+    .services li { margin-bottom: 6px; }
+    .contact a {
+      display: inline-block; margin-right: 10px; margin-top: 6px;
+      padding: 8px 12px; border-radius: 6px; border: 1px solid #ddd;
+      text-decoration: none; color: #333; font-size: 14px;
+    }
+    .gallery {
+      margin-top: 16px;
+      display: grid; gap: 10px;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    }
+    .gallery img {
+      width: 100%; border-radius: 8px; object-fit: cover; max-height: 180px;
+    }
+    .error { text-align: center; padding: 40px; color: #b00020; }
+  </style>
+</head>
 
-    <!-- You can add your Google tag here if needed -->
-    <!--
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-XXXXXXX"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'AW-XXXXXXX');
-    </script>
-    -->
+<body>
+  <div class="wrapper">
+    <div id="content" class="card">
+      Loading…
+    </div>
+  </div>
 
-    <style>
-      body {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-        margin: 0;
-        padding: 0;
-        background: #f7f7f7;
-        color: #222;
-      }
+<script>
+function getParam(key) {
+  const p = new URLSearchParams(window.location.search);
+  return p.get(key);
+}
 
-      .page-wrapper {
-        max-width: 960px;
-        margin: 0 auto;
-        padding: 16px;
-      }
+function slugify(name) {
+  return name.toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)+/g, "");
+}
 
-      .card {
-        background: #fff;
-        border-radius: 12px;
-        padding: 20px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-      }
+async function loadSpa() {
+  const content = document.getElementById("content");
 
-      h1 {
-        font-size: 1.8rem;
-        margin-bottom: 8px;
-      }
+  const id = getParam("id");
+  const name = getParam("name");
+  const slug = getParam("slug");
 
-      .subtitle {
-        font-size: 0.95rem;
-        color: #666;
-        margin-bottom: 16px;
-      }
+  const res = await fetch("/listings.json", { cache: "no-store" });
+  const data = await res.json();
 
-      .info-row {
-        margin-bottom: 8px;
-      }
+  let listing = null;
 
-      .info-label {
-        font-weight: 600;
-      }
+  if (id) {
+    listing = data.find(x => x.id === id);
+  } else if (name) {
+    listing = data.find(x => x.name.toLowerCase() === name.toLowerCase());
+  } else if (slug) {
+    listing = data.find(x => slugify(x.name) === slug);
+  }
 
-      .contact-links a {
-        display: inline-block;
-        margin-right: 12px;
-        margin-top: 4px;
-        text-decoration: none;
-        padding: 8px 12px;
-        border-radius: 6px;
-        border: 1px solid #ddd;
-        font-size: 0.9rem;
-      }
+  if (!listing) {
+    content.innerHTML = `
+      <div class="error">
+        <h2>Spa Not Found</h2>
+        <p>Please check the link again.</p>
+      </div>`;
+    return;
+  }
 
-      .gallery {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-        gap: 10px;
-        margin-top: 16px;
-      }
+  if (!listing.approved) {
+    content.innerHTML = `
+      <div class="error">
+        <h2>${listing.name}</h2>
+        <p>This listing is not available.</p>
+      </div>`;
+    return;
+  }
 
-      .gallery img {
-        width: 100%;
-        border-radius: 8px;
-        display: block;
-        object-fit: cover;
-        max-height: 180px;
-      }
+  // SEO updates
+  document.title = `${listing.name} | Massage in Singapore`;
+  const meta = document.querySelector('meta[name="description"]');
+  meta.content = listing.services?.[0] || listing.address || listing.name;
 
-      .notice {
-        margin-top: 20px;
-        font-size: 0.85rem;
-        color: #777;
-      }
+  // Format services HTML
+  const serviceHTML = listing.services?.length
+    ? `<ul class="services">${listing.services.map(s => `<li>${s}</li>`).join("")}</ul>`
+    : "";
 
-      .error {
-        text-align: center;
-        padding: 40px 0;
-        color: #b00020;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="page-wrapper">
-      <div id="content" class="card">
-        <!-- Filled by JavaScript -->
-        <p>Loading spa details...</p>
-      </div>
-      <div class="notice">
-        * All information is provided by the respective spa and subject to change.
-        Please contact the spa directly to confirm latest details.
-      </div>
+  // Photos
+  const photosHTML = listing.photos?.length
+    ? `
+      <div class="gallery">
+        ${listing.photos.map((src,i) => `
+          <img src="${src}" alt="${listing.name} photo ${i+1}" loading="lazy" />
+        `).join("")}
+      </div>`
+    : "";
+
+  // WhatsApp number cleaned
+  const wa = listing.whats ? listing.whats.replace(/[^0-9]/g, "") : "";
+
+  content.innerHTML = `
+    <h1>${listing.name}</h1>
+    <div class="subtitle">${listing.services?.[0] || ""}</div>
+
+    <div class="info"><span class="label">Address:</span> ${listing.address || "N/A"}</div>
+
+    <div class="contact">
+      ${listing.phone ? `<a href="tel:${listing.phone}">Call ${listing.phone}</a>` : ""}
+      ${wa ? `<a href="https://wa.me/${wa}" target="_blank">WhatsApp</a>` : ""}
+      ${listing.website ? `<a href="${listing.website}" target="_blank">Visit Website</a>` : ""}
     </div>
 
-    <script>
-      // Helper: read ?slug=xxx from the URL
-      function getQueryParam(key) {
-        const params = new URLSearchParams(window.location.search);
-        return params.get(key);
-      }
+    <h3>Services</h3>
+    ${serviceHTML}
 
-      // Load JSON and render the listing
-      async function loadListing() {
-        const slugFromUrl = getQueryParam('slug');
-        const contentEl = document.getElementById('content');
+    <h3>Photos</h3>
+    ${photosHTML}
+  `;
+}
 
-        if (!slugFromUrl) {
-          contentEl.innerHTML = '<div class="error"><h2>No spa specified</h2><p>Please use a link with ?slug=spa-slug in the URL.</p></div>';
-          return;
-        }
+loadSpa();
+</script>
 
-        try {
-          const res = await fetch('/listings.json', { cache: 'no-store' });
-          if (!res.ok) throw new Error('Failed to load listings.json');
-
-          const listings = await res.json();
-          const listing = listings.find(
-            (item) =>
-              item.slug === slugFromUrl ||
-              (item.name && item.name.toLowerCase() === slugFromUrl.toLowerCase())
-          );
-
-          if (!listing) {
-            contentEl.innerHTML = '<div class="error"><h2>Spa not found</h2><p>The requested spa could not be found.</p></div>';
-            return;
-          }
-
-          // Build HTML for the listing
-          const {
-            name,
-            address,
-            phone,
-            whatsapp,
-            description,
-            openingHours,
-            images,
-            googleMapsLink,
-          } = listing;
-
-          // Update title & meta for Google Ads / SEO
-          const pageTitle = name ? name + ' | Massage in Singapore' : 'Massage Spa | Singapore';
-          document.title = pageTitle;
-
-          const metaDescText =
-            description ||
-            (name && address
-              ? name + ' massage spa located at ' + address
-              : 'Massage spa details and contact information.');
-
-          let metaDesc = document.querySelector('meta[name="description"]');
-          if (!metaDesc) {
-            metaDesc = document.createElement('meta');
-            metaDesc.name = 'description';
-            document.head.appendChild(metaDesc);
-          }
-          metaDesc.content = metaDescText;
-
-          // Render main content
-          contentEl.innerHTML = `
-            <h1>${name || 'Massage Spa'}</h1>
-            <div class="subtitle">${description || ''}</div>
-
-            ${
-              address
-                ? `<div class="info-row"><span class="info-label">Address:</span> ${address}</div>`
-                : ''
-            }
-
-            ${
-              openingHours
-                ? `<div class="info-row"><span class="info-label">Opening Hours:</span> ${openingHours}</div>`
-                : ''
-            }
-
-            <div class="info-row contact-links">
-              ${
-                phone
-                  ? `<a href="tel:${phone.replace(/\s+/g, '')}">Call: ${phone}</a>`
-                  : ''
-              }
-              ${
-                whatsapp
-                  ? `<a href="https://wa.me/${whatsapp.replace(/[^0-9]/g, '')}" target="_blank" rel="noopener">WhatsApp</a>`
-                  : ''
-              }
-              ${
-                googleMapsLink
-                  ? `<a href="${googleMapsLink}" target="_blank" rel="noopener">View on Map</a>`
-                  : ''
-              }
-            </div>
-
-            ${
-              images && images.length
-                ? `
-                  <div class="info-row">
-                    <span class="info-label">Photos:</span>
-                    <div class="gallery">
-                      ${images
-                        .map(
-                          (src, idx) =>
-                            `<img src="${src}" alt="${name || 'Spa'} photo ${idx + 1}" loading="lazy" />`
-                        )
-                        .join('')}
-                    </div>
-                  </div>
-                `
-                : ''
-            }
-          `;
-        } catch (err) {
-          console.error(err);
-          contentEl.innerHTML =
-            '<div class="error"><h2>Error loading spa</h2><p>Please try again later.</p></div>';
-        }
-      }
-
-      loadListing();
-    </script>
-  </body>
+</body>
 </html>
