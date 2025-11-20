@@ -1,0 +1,291 @@
+[
+  {
+    "id": "spa-1",
+    "name": "Yi Spa",
+    "approved": false,
+    "services": ["Located in the heart of Singapore and operates 24/7. Professional massage from skilled therapists. Call to enquire"],
+    "phone": "63923038",
+    "whats": "",
+    "loc": { "lat": 1.3036130690690089, "lng": 103.85978999999999 },
+    "address": "768 North Bridge Rd, Singapore 198736",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/Yi/Yuki.jpg?updatedAt=1758623148920",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yi/Yoyo.jpg?updatedAt=1758623148488",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yi/Serena.jpg?updatedAt=1758623148403",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yi/Mia.jpg?updatedAt=1758623148202",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yi/Lisa.jpg?updatedAt=1758623147928",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yi/Cindy.jpg?updatedAt=1758623147674",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yi/Anna.jpg?updatedAt=1758623146688",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yi/Chloe.jpg?updatedAt=1758623147088"
+
+    ]
+  },
+  {
+    "id": "spa-2",
+    "name": "Moonlight Health Club",
+    "approved": true,
+    "services": ["Professional Massage @ Bukit Timah Road by trained therapists"],
+    "phone": "88436378",
+    "whats": "6588436378",
+    "loc": { "lat": 1.3169298372632228, "lng": 103.83523812534706 },
+    "address": "271 Bukit Timah Road, #B1, #05 Balmoral Plaza, 259708",
+    "website": "https://example.com",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/Moonlight/Yoyo.jpg?updatedAt=1758623146576",
+      "https://ik.imagekit.io/nearbymassage/Photos/Moonlight/Angela.jpg?updatedAt=1758623144457",
+      "https://ik.imagekit.io/nearbymassage/Photos/Moonlight/Summer.jpg?updatedAt=1758623143926",
+      "https://ik.imagekit.io/nearbymassage/Photos/Moonlight/YanYan.jpg?updatedAt=1758623143872"
+    ]
+  },
+  {
+    "id": "spa-3",
+    "name": "Nice Wellness TCM",
+    "approved": true,
+    "services": ["TCM massage, hotoil massage"],
+    "phone": "82658657",
+    "whats": "6582658657",
+    "loc": { "lat": 1.2804060886682276, "lng": 103.82611393159009 },
+    "address": "111 Jalan Bukit Merah, #01-1684, Singapore 160111",
+    "website": "https://example.com",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/Nice/Yuki.jpg?updatedAt=1758623145914",
+      "https://ik.imagekit.io/nearbymassage/Photos/Nice/Mia.jpg?updatedAt=1758623144290",
+      "https://ik.imagekit.io/nearbymassage/Photos/Nice/Nana.jpg?updatedAt=1758623144266",
+      "https://ik.imagekit.io/nearbymassage/Photos/Nice/Alice.jpg?updatedAt=1758623144044",
+      "https://ik.imagekit.io/nearbymassage/Photos/Nice/Ada,jpg?updatedAt=1759935032392"
+
+    ]
+  },
+  {
+    "id": "spa-4",
+    "name": "Hexing Wellness",
+    "approved": true,
+    "services": ["Massage @ Telok Blangah Rise. TCM massage, hotoil massage"],
+    "phone": "82529904",
+    "whats": "6582529904",
+    "loc": { "lat": 1.2732481237455135, "lng": 103.82216248650643 },
+    "address": "35 Telok Blangah Rise, #01-295 Telok Blangah, Singapore 090035",
+    "website": "https://example.com",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/Lily.jpg?updatedAt=1758623143900",
+      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/jolin.jpg?updatedAt=1758623142732",
+      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/elly.jpg?updatedAt=1758623139598",
+      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/amy.jpg?updatedAt=1758623139396",
+      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/angel.jpg?updatedAt=1758623139401"
+
+    ]
+  },
+  {
+    "id": "spa-5",
+    "name": "Cuppage Wellness",
+    "approved": true,
+    "services": ["One of the best massage experience in Orchard Road"],
+    "phone": "82675689",
+    "whats": "6582675689",
+    "loc": { "lat": 1.3021660473779857, "lng": 103.84078775767097 },
+    "address": "5 Koek Rd, B1-02/03, Singapore 228796",
+    "website": "https://example.com",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/Jenny.jpg?updatedAt=1758623139215",
+      "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/cindy.jpg?updatedAt=1758623138725",
+      "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/bingbing.jpg?updatedAt=1758623139388",
+      "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/grace.jpg?updatedAt=1758623139381",
+      "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/helen.jpg?updatedAt=1758623139247",
+      "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/Mia.jpg?updatedAt=1758623139224",
+      "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/bobo.jpg?updatedAt=1758623139597"
+
+    ]
+  },
+{
+    "id": "spa-6",
+    "name": "TL Beauty Wellness TCM",
+    "approved": true,
+    "services": ["One of the best massage experience in Orchard Road"],
+    "phone": "60293138",
+    "whats": "6583348801",
+    "loc": { "lat": 1.3019608995303376, "lng": 103.83867868465809 },
+    "address": "220 Orchard Rd, #02-06 Midpoint Orchard, Singapore 238852",
+    "website": "https://example.com",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/TLB/YiYi.jpg?updatedAt=1759132751653",
+      "https://ik.imagekit.io/nearbymassage/Photos/TLB/Hannah.jpg?updatedAt=1759132751575",
+      "https://ik.imagekit.io/nearbymassage/Photos/TLB/Avni.jpg?updatedAt=1759132751722",
+      "https://ik.imagekit.io/nearbymassage/Photos/TLB/Summer.jpg?updatedAt=1759132751570",
+      "https://ik.imagekit.io/nearbymassage/Photos/TLB/Ocean.jpg?updatedAt=1759132751553",
+      "https://ik.imagekit.io/nearbymassage/Photos/TLB/Lili.jpg?updatedAt=1759132751542",
+      "https://ik.imagekit.io/nearbymassage/Photos/TLB/Alice.jpg?updatedAt=1759132751557"
+
+    ]
+  },
+{
+    "id": "spa-7",
+    "name": "Nature Healing @ Upper Thomson",
+    "approved": true,
+    "services": ["Professional Massage by skilled therapists. Nice environment"],
+    "phone": "64512212",
+    "whats": "6587877747",
+    "loc": { "lat": 1.3532011427283996, "lng": 103.83423027116451 },
+    "address": "235 Upper Thomson Road, Thomson Rdg, Estate, Singapore 574366",
+    "website": "https://example.com",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/NatureHealing/mmexport1757415962093.jpg?updatedAt=1759137837809",
+      "https://ik.imagekit.io/nearbymassage/Photos/NatureHealing/mmexport1757415960160.jpg?updatedAt=1759137837311",
+      "https://ik.imagekit.io/nearbymassage/Photos/NatureHealing/mmexport1758805787869.jpg?updatedAt=1759137706744",
+      "https://ik.imagekit.io/nearbymassage/Photos/NatureHealing/mmexport1759111850848.jpg?updatedAt=1759137706754",
+      "https://ik.imagekit.io/nearbymassage/Photos/NatureHealing/mmexport1757415955093.jpg?updatedAt=1759137836844",
+      "https://ik.imagekit.io/nearbymassage/Photos/NatureHealing/mmexport1759111820144.jpg?updatedAt=1759137706793",
+      "https://ik.imagekit.io/nearbymassage/Photos/NatureHealing/mmexport1757415964041.jpg?updatedAt=1759137838037"
+
+    ]
+  },
+{
+    "id": "spa-8",
+    "name": "Yuan Kang TCM",
+    "approved": false,
+    "services": ["Professional Massage @ Race Course Road with new clean environment"],
+    "phone": "93425428",
+    "whats": "6593425428",
+    "loc": { "lat": 1.3159676761741077, "lng": 103.85783354232905 },
+    "website": "https://example.com",
+    "address": "428 Race Course Rd, Singapore 218674",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/mmexport1755502925958.jpg?updatedAt=1759150847891",
+      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/mmexport1755502922946.jpg?updatedAt=1759150847704",
+      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/mmexport1755502917578.jpg?updatedAt=1759150847676",
+      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/mmexport1755502913537.jpg?updatedAt=1759150847544",
+      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/mmexport1755502921300.jpg?updatedAt=1759150847530",
+      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/mmexport1755502909521.jpg?updatedAt=1759150817474"
+
+    ]
+  },
+{
+    "id": "spa-9",
+    "name": "Daisy Beauty Wellness",
+    "approved": true,
+    "services": ["Professional Massage Near Haji Lane"],
+    "phone": "96491598",
+    "whats": "6596491598",
+    "loc": { "lat": 1.300796816750349, "lng": 103.86000142497598 },
+    "address": "73A Bussorah St, Singapore 199486",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/Daisy/LinLin1.jpg?updatedAt=1759495471961",
+      "https://ik.imagekit.io/nearbymassage/Photos/Daisy/Lucky2.jpg?updatedAt=1759495471923",
+      "https://ik.imagekit.io/nearbymassage/Photos/Daisy/miumiu1.jpg?updatedAt=1759495471914",
+      "https://ik.imagekit.io/nearbymassage/Photos/Daisy/LinLin2.jpg?updatedAt=1759495471981",
+      "https://ik.imagekit.io/nearbymassage/Photos/Daisy/Lucky1.jpg?updatedAt=1759495471987",
+      "https://ik.imagekit.io/nearbymassage/Photos/Daisy/miumiu2.jpg?updatedAt=1759495471915",
+      "https://ik.imagekit.io/nearbymassage/Photos/Daisy/namecard.jpg?updatedAt=1759495669026"
+
+    ]
+  },
+{
+    "id": "spa-10",
+    "name": "Honey @ Kitchener Road",
+    "approved": true,
+    "services": ["Massage near Farrer Park MRT"],
+    "phone": "81579106",
+    "whats": "6581579106",
+    "loc": { "lat": 1.3097960548022574, "lng": 103.85719213690163 },
+    "address": "137 Kitchener Rd",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/Xuan/22oct2.jpg?updatedAt=1761136922126",
+      "https://ik.imagekit.io/nearbymassage/Photos/Xuan/22oct1.jpg?updatedAt=1761136922130",
+      "https://ik.imagekit.io/nearbymassage/Photos/Xuan/mmexport1759323208180.jpg?updatedAt=1759323753413"
+
+    ]
+  },
+{
+    "id": "spa-11",
+    "name": "LiLi @ Beauty World",
+    "approved": true,
+    "services": ["Call to make appointment. Meridian massage, hot oil, ear picking, lymphatic drainage. 9am to 1030pm."],
+    "phone": "87105288",
+    "whats": "6587105288",
+    "loc": { "lat": 1.3420499214412227, "lng": 103.77630513068384 },
+    "address": "Near Beauty World MRT exit B",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/LiLi%20Beauty%20World/mmexport1759324508286.jpg?updatedAt=1759324680866",
+      "https://ik.imagekit.io/nearbymassage/Photos/LiLi%20Beauty%20World/mmexport1759324511036.jpg?updatedAt=1759324680806",
+      "https://ik.imagekit.io/nearbymassage/Photos/LiLi%20Beauty%20World/mmexport1759324509750.jpg?updatedAt=1759324680708",
+      "https://ik.imagekit.io/nearbymassage/Photos/LiLi%20Beauty%20World/mmexport1759324512435.jpg?updatedAt=1759324680711",
+      "https://ik.imagekit.io/nearbymassage/Photos/LiLi%20Beauty%20World/mmexport1759324515244.jpg?updatedAt=1759324680626",
+      "https://ik.imagekit.io/nearbymassage/Photos/LiLi%20Beauty%20World/mmexport1759324513935.jpg?updatedAt=1759324680656"
+
+    ]
+  },
+{
+    "id": "spa-12",
+    "name": "Yumi @ Beauty World",
+    "approved": true,
+    "services": ["Call to make appointment. Meridian massage, hot oil, ear picking, lymphatic drainage. 9am to 1030pm."],
+    "phone": "83007301",
+    "whats": "6583007301",
+    "loc": { "lat": 1.3420499214412227, "lng": 103.77630513068384 },
+    "address": "Near Beauty World MRT exit C",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/Yumi/mmexport1759423573812.jpg?updatedAt=1759423727680",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yumi/mmexport1759423575868.jpg?updatedAt=1759423727940",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yumi/mmexport1759423566016.jpg?updatedAt=1759423727652",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yumi/mmexport1759423564637.jpg?updatedAt=1759423727586",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yumi/mmexport1759423569811.jpg?updatedAt=1759423727589"
+
+    ]
+  },
+{
+    "id": "spa-13",
+    "name": "Eternal Beauty Spa",
+    "approved": true,
+    "services": ["Make an appintment to avoid disappointment. Meridian massage, hot oil massage."],
+    "phone": "81771959",
+    "whats": "6581771959",
+    "loc": { "lat": 1.3035542778645952, "lng": 103.85988578124791 },
+    "address": "776A N Bridge Rd, Singapore 198744",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/EternalBeauty/Celine.jpg?updatedAt=1761136856370",
+      "https://ik.imagekit.io/nearbymassage/Photos/EternalBeauty/Lucky.jpg?updatedAt=1761136856331",
+      "https://ik.imagekit.io/nearbymassage/Photos/EternalBeauty/Angela.jpg?updatedAt=1761136856318",
+      "https://ik.imagekit.io/nearbymassage/Photos/EternalBeauty/Snow1.jpg?updatedAt=1761136789396",
+      "https://ik.imagekit.io/nearbymassage/Photos/EternalBeauty/Coco1.jpg?updatedAt=1761136789346",
+      "https://ik.imagekit.io/nearbymassage/Photos/EternalBeauty/nsswechat.jpg?updatedAt=1761136789359"
+    ]
+  },
+{
+    "id": "spa-14",
+    "name": "Yuki @ Textile Center",
+    "approved": false,
+    "services": ["Make an appintment to avoid disappointment. Meridian massage, hot oil massage. Authentic Massage"],
+    "phone": "81872260",
+    "whats": "6581872260",
+    "loc": { "lat": 1.3038049158911758, "lng": 103.86127358197135 },
+    "address": "200 Jln Sultan, Singapore 199018",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/YukiTextile/yuki1.jpg?updatedAt=1760105933746",
+      "https://ik.imagekit.io/nearbymassage/Photos/YukiTextile/mmexport1760012691599.jpg?updatedAt=1760014514705",
+      "https://ik.imagekit.io/nearbymassage/Photos/YukiTextile/yuki2.jpg?updatedAt=1760105933812",
+      "https://ik.imagekit.io/nearbymassage/Photos/YukiTextile/WA.jpg?updatedAt=1760026016124",
+      "https://ik.imagekit.io/nearbymassage/Photos/YukiTextile/Tel.jpg?updatedAt=1760026034276"
+    ]
+  },
+{
+    "id": "spa-15",
+    "name": "Muse Beauty TCM",
+    "approved": true,
+    "services": ["Experience genuine massage by professional therapists. Advance booking is advise. "],
+    "phone": "81745068",
+    "whats": "6581745068",
+    "loc": { "lat": 1.3201234574138732, "lng": 103.88722334050698 },
+    "address": "118 Aljunied Ave 2",
+    "website": "https://example.com",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/Muse/wechat.jpg?updatedAt=1761137702951",
+      "https://ik.imagekit.io/nearbymassage/Photos/Muse/Lisa1.jpg?updatedAt=1761137956044",
+      "https://ik.imagekit.io/nearbymassage/Photos/Muse/apple.jpg?updatedAt=1761137377054",
+      "https://ik.imagekit.io/nearbymassage/Photos/Muse/Linda2.jpg?updatedAt=1761137406907",
+      "https://ik.imagekit.io/nearbymassage/Photos/Muse/Mandy.jpg?updatedAt=1761137406946",
+      "https://ik.imagekit.io/nearbymassage/Photos/Muse/Yoyo.jpg?updatedAt=1761137406945"
+    ]
+  }
+
+
+
+]
