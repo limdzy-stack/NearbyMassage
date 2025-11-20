@@ -25,29 +25,13 @@
       text-decoration: none; color: #333; font-size: 14px;
     }
     .gallery {
-    margin-top: 16px;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      margin-top: 16px;
+      display: grid; gap: 10px;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
     }
-
-    .gallery .frame {
-    position: relative;
-    width: 100%;
-    padding-top: calc(16 / 9 * 100%); /* 9 x 16 portrait */
-    overflow: hidden;
-    border-radius: 10px;
-    background: #000;
-    }
-
     .gallery img {
-     position: absolute;
-     top: 0; left: 0;
-     width: 100%;
-     height: 100%;
-     object-fit: cover;
+      width: 100%; border-radius: 8px; object-fit: cover; max-height: 180px;
     }
-
     .error { text-align: center; padding: 40px; color: #b00020; }
   </style>
 </head>
