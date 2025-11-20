@@ -2,31 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Nice Wellness TCM | Massage in Bukit Merah Singapore</title>
+  <title>SK Spa | Professional Massage at Siglap Drive, Singapore</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
   <meta name="description"
-        content="Nice Wellness TCM offers TCM massage and hot oil massage at 111 Jalan Bukit Merah, Singapore. Professional massage by friendly therapists. Call or WhatsApp 8265 8657 to book." />
+        content="Experience genuine massage by professional therapists at SK Spa, conveniently located at 28 Siglap Drive, Singapore. Call 65557979 to enquire." />
   <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://nearbymassage.app/spa.html?slug=sk-spa" />
 
+  <!-- Simple, clean styles -->
   <style>
     :root {
-      --bg: #f5f5f5;
-      --card-bg: #ffffff;
-      --accent: #e0a96d;
-      --text: #222222;
-      --muted: #666666;
-      --border: #e2e2e2;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color-scheme: light;
     }
-
-    * { box-sizing: border-box; }
 
     body {
       margin: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.5;
+      background: #f7f7f7;
+      color: #222;
     }
 
     .page {
@@ -36,303 +29,254 @@
     }
 
     .card {
-      background: var(--card-bg);
+      background: #fff;
       border-radius: 16px;
-      padding: 20px;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
-    }
-
-    header.hero {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 16px;
-      align-items: flex-start;
-      margin-bottom: 24px;
-    }
-
-    .hero-text {
-      flex: 1 1 280px;
-    }
-
-    .hero-text h1 {
-      margin: 0 0 8px;
-      font-size: 1.9rem;
-    }
-
-    .hero-text .tagline {
-      color: var(--muted);
-      margin-bottom: 12px;
-      font-size: 0.98rem;
-    }
-
-    .hero-text .badges {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-bottom: 12px;
+      padding: 20px 20px 24px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
     }
 
     .badge {
-      font-size: 0.75rem;
+      display: inline-block;
+      font-size: 12px;
       padding: 4px 8px;
       border-radius: 999px;
-      background: #fff5ea;
-      border: 1px solid #ffe3c2;
-      color: #8b5a27;
+      background: #e7f3ff;
+      color: #1554ad;
+      margin-bottom: 8px;
     }
 
-    .hero-main-photo {
-      flex: 0 0 260px;
-      max-width: 100%;
-      border-radius: 14px;
-      overflow: hidden;
-      border: 1px solid var(--border);
+    h1 {
+      font-size: 1.9rem;
+      margin: 4px 0 6px;
     }
 
-    .hero-main-photo img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
+    .subtitle {
+      font-size: 0.98rem;
+      color: #666;
+      margin-bottom: 16px;
     }
 
-    .contact-row {
-      margin-top: 12px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
+    .info-row {
+      margin-bottom: 8px;
+      font-size: 0.95rem;
+    }
+
+    .info-label {
+      font-weight: 600;
+    }
+
+    .cta-row {
+      margin: 16px 0 20px;
     }
 
     .btn {
       display: inline-block;
-      padding: 9px 14px;
+      padding: 10px 16px;
       border-radius: 999px;
-      font-size: 0.9rem;
+      border: 1px solid #ddd;
       text-decoration: none;
-      border: 1px solid var(--accent);
-      color: #ffffff;
-      background: var(--accent);
-    }
-
-    .btn-outline {
-      background: #ffffff;
-      color: var(--accent);
-    }
-
-    .section {
-      margin-top: 20px;
-      padding-top: 16px;
-      border-top: 1px solid var(--border);
-    }
-
-    .section h2 {
-      margin: 0 0 8px;
-      font-size: 1.2rem;
-    }
-
-    .section p {
-      margin: 4px 0;
       font-size: 0.95rem;
+      margin-right: 10px;
+      margin-bottom: 8px;
+      cursor: pointer;
     }
 
-    .info-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 12px;
+    .btn-primary {
+      background: #0070f3;
+      color: #fff;
+      border-color: #0070f3;
     }
 
-    .info-item .label {
+    .btn-primary:hover {
+      background: #005fd1;
+      border-color: #005fd1;
+    }
+
+    .btn-outline:hover {
+      background: #f0f0f0;
+    }
+
+    .section-title {
+      font-size: 1.1rem;
+      margin: 18px 0 10px;
       font-weight: 600;
-      font-size: 0.9rem;
-      color: var(--muted);
-      margin-bottom: 3px;
     }
 
-    ul.service-list {
+    .services {
       padding-left: 18px;
-      margin: 4px 0;
+      margin: 0;
       font-size: 0.95rem;
     }
 
-    ul.service-list li {
-      margin-bottom: 4px;
+    .services li {
+      margin-bottom: 6px;
     }
 
+    /* 9 x 16 photo gallery */
     .gallery {
       margin-top: 10px;
       display: grid;
-      gap: 8px;
+      gap: 10px;
       grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
     }
 
-    .gallery img {
+    .photo-frame {
+      position: relative;
       width: 100%;
-      border-radius: 10px;
-      border: 1px solid var(--border);
+      padding-top: calc(16 / 9 * 100%); /* 9 x 16 portrait format */
+      overflow: hidden;
+      border-radius: 12px;
+      background: #000;
+    }
+
+    .photo-frame img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
       object-fit: cover;
-      max-height: 180px;
     }
 
     .disclaimer {
-      margin-top: 20px;
+      margin-top: 18px;
       font-size: 0.8rem;
-      color: var(--muted);
+      color: #777;
+      line-height: 1.5;
     }
 
-    @media (min-width: 720px) {
-      .info-grid {
-        grid-template-columns: 1.2fr 1fr;
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.6rem;
+      }
+      .card {
+        padding: 16px 14px 20px;
       }
     }
   </style>
+
+  <!-- LocalBusiness structured data for better relevance / quality signal -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HealthAndBeautyBusiness",
+    "name": "SK Spa",
+    "description": "Experience genuine massage by professional therapists. Conveniently located at Siglap Drive.",
+    "telephone": "+65 6555 7979",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "28 Siglap Dr",
+      "addressLocality": "Singapore",
+      "postalCode": "456154",
+      "addressCountry": "SG"
+    },
+    "url": "https://nearbymassage.app/spa.html?slug=sk-spa",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 1.3160178753259073,
+      "longitude": 103.91953163161594
+    }
+  }
+  </script>
 </head>
 
 <body>
   <div class="page">
     <article class="card">
-      <!-- ===== HERO SECTION ===== -->
-      <header class="hero">
-        <div class="hero-text">
-          <h1>Nice Wellness TCM</h1>
-          <div class="tagline">
-            TCM massage and hot oil massage at Bukit Merah, by friendly and skilled therapists.
-          </div>
+      <div class="badge">Massage · Siglap Drive · Singapore</div>
+      <h1>SK Spa</h1>
+      <p class="subtitle">
+        Experience genuine massage by professional therapists. Conveniently located at Siglap Drive in the East of Singapore.
+      </p>
 
-          <div class="badges">
-            <span class="badge">TCM Massage</span>
-            <span class="badge">Hot Oil Massage</span>
-            <span class="badge">Bukit Merah</span>
-          </div>
-
-          <div class="info-item">
-            <div class="label">Address</div>
-            <p>111 Jalan Bukit Merah, #01-1684, Singapore 160111</p>
-          </div>
-
-          <div class="contact-row">
-            <a class="btn" href="tel:82658657">
-              Call 8265 8657
-            </a>
-
-            <a class="btn btn-outline"
-               href="https://wa.me/6582658657"
-               target="_blank"
-               rel="noopener">
-              WhatsApp Us
-            </a>
-          </div>
-        </div>
-
-        <!-- HERO MAIN PHOTO (first image from photos[]) -->
-        <div class="hero-main-photo">
-          <img src="https://ik.imagekit.io/nearbymassage/Photos/Nice/Yuki.jpg?updatedAt=1758623145914"
-               alt="Nice Wellness TCM massage environment"
-               loading="lazy" />
-        </div>
-      </header>
-
-      <!-- ===== ABOUT & KEY INFO ===== -->
-      <section class="section">
-        <h2>About Nice Wellness TCM</h2>
-        <p>
-          Nice Wellness TCM offers relaxing TCM-style body massage and hot oil massage
-          in a cosy Bukit Merah neighbourhood setting. Therapists focus on helping you
-          relieve tension, improve circulation and enjoy a comfortable massage experience.
-        </p>
-        <p>
-          Located at 111 Jalan Bukit Merah, the shop is convenient for nearby residents
-          and office workers. Call or WhatsApp to check therapist availability and make
-          an appointment before heading down.
-        </p>
-
-        <div class="info-grid">
-          <div class="info-item">
-            <div class="label">Services</div>
-            <ul class="service-list">
-              <li>TCM massage</li>
-              <li>Hot oil massage</li>
-              <li>Relaxing full body massage</li>
-              <li>Neck, shoulder and back focus</li>
-            </ul>
-          </div>
-
-          <div class="info-item">
-            <div class="label">Opening Hours</div>
-            <p>Daily: 11:00am – late (please call to confirm)</p>
-
-            <div class="label" style="margin-top:8px;">Contact</div>
-            <p>
-              Phone: <a href="tel:82658657">8265 8657</a><br />
-              WhatsApp: +65 8265 8657<br />
-            </p>
-
-            <div class="label" style="margin-top:8px;">Location</div>
-            <p>
-              Bukit Merah area, convenient for nearby HDB blocks and offices.
-            </p>
-
-            <p>
-              <a href="https://www.google.com/maps/search/?api=1&query=111+Jalan+Bukit+Merah+%2301-1684+Singapore+160111"
-                 target="_blank"
-                 rel="noopener">
-                View on Google Maps
-              </a>
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!-- ===== PHOTO GALLERY ===== -->
-      <section class="section">
-        <h2>Photos</h2>
-        <p>View photos of the therapists and environment at Nice Wellness TCM:</p>
-
-        <div class="gallery">
-          <img src="https://ik.imagekit.io/nearbymassage/Photos/Nice/Yuki.jpg?updatedAt=1758623145914"
-               alt="Nice Wellness TCM photo 1"
-               loading="lazy" />
-          <img src="https://ik.imagekit.io/nearbymassage/Photos/Nice/Mia.jpg?updatedAt=1758623144290"
-               alt="Nice Wellness TCM photo 2"
-               loading="lazy" />
-          <img src="https://ik.imagekit.io/nearbymassage/Photos/Nice/Nana.jpg?updatedAt=1758623144266"
-               alt="Nice Wellness TCM photo 3"
-               loading="lazy" />
-          <img src="https://ik.imagekit.io/nearbymassage/Photos/Nice/Alice.jpg?updatedAt=1758623144044"
-               alt="Nice Wellness TCM photo 4"
-               loading="lazy" />
-          <!-- Note: one URL in your JSON has a comma in the filename ("Ada,jpg") which may be a typo.
-               You can fix that in ImageKit or use the correct link here when ready. -->
-        </div>
-      </section>
-
-      <!-- ===== CALL TO ACTION ===== -->
-      <section class="section">
-        <h2>Make an Appointment</h2>
-        <p>
-          To avoid waiting time, please call or send a WhatsApp message before visiting.
-          The shop will share the latest therapist availability and help you book a suitable slot.
-        </p>
-
-        <div class="contact-row">
-          <a class="btn" href="tel:82658657">
-            Call 8265 8657
-          </a>
-          <a class="btn btn-outline"
-             href="https://wa.me/6582658657"
-             target="_blank"
-             rel="noopener">
-            WhatsApp Booking
-          </a>
-        </div>
-      </section>
-
-      <!-- ===== DISCLAIMER ===== -->
-      <div class="disclaimer">
-        * Information (services, pricing, therapists and opening hours) is provided by
-        Nice Wellness TCM and may change without prior notice. Please contact the shop
-        directly for the latest details.
+      <div class="info-row">
+        <span class="info-label">Address:</span>
+        28 Siglap Dr, Singapore 456154
       </div>
+      <div class="info-row">
+        <span class="info-label">Phone:</span>
+        <a href="tel:65557979">6555&nbsp;7979</a>
+      </div>
+      <div class="info-row">
+        <span class="info-label">Location:</span>
+        Easy access from the Siglap area and nearby East Coast neighbourhoods.
+      </div>
+
+      <div class="cta-row">
+        <a class="btn btn-primary" href="tel:65557979">Call to Enquire</a>
+        <a class="btn btn-outline"
+           href="https://www.google.com/maps/search/?api=1&query=28+Siglap+Dr,+Singapore+456154"
+           target="_blank" rel="noopener">
+          View in Google Maps
+        </a>
+      </div>
+
+      <section>
+        <h2 class="section-title">Massage &amp; Services</h2>
+        <ul class="services">
+          <li>Experience genuine massage by professional therapists.</li>
+          <li>Convenient East-side location at Siglap Drive.</li>
+          <li>Comfortable and relaxing environment – call to check available timings.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="section-title">Spa Photos</h2>
+        <div id="gallery" class="gallery">
+          <!-- Filled dynamically by JavaScript -->
+        </div>
+      </section>
+
+      <p class="disclaimer">
+        All information is provided for general reference and may change without notice.
+        For the latest details on services, pricing, and availability, please contact SK Spa directly at
+        <a href="tel:65557979">6555&nbsp;7979</a>.
+      </p>
     </article>
   </div>
+
+  <script>
+    // Listing data (you can also keep this in a separate JS file if needed)
+    const listing = {
+      id: "spa-14",
+      name: "SK Spa",
+      slug: "sk-spa",
+      approved: true,
+      services: [
+        "Experience genuine massage by professional therapists. Conveniently located at Siglap Drive."
+      ],
+      phone: "65557979",
+      whats: "",
+      loc: { lat: 1.3160178753259073, lng: 103.91953163161594 },
+      address: "28 Siglap Dr, Singapore 456154",
+      website: "https://nearbymassage.app/spa.html?slug=sk-spa",
+      photos: [
+        "https://ik.imagekit.io/nearbymassage/Photos/SK/T8.jpg",
+        "https://ik.imagekit.io/nearbymassage/Photos/SK/T7.jpg",
+        "https://ik.imagekit.io/nearbymassage/Photos/SK/T6.jpg",
+        "https://ik.imagekit.io/nearbymassage/Photos/SK/T5.jpg",
+        "https://ik.imagekit.io/nearbymassage/Photos/SK/T4.jpg",
+        "https://ik.imagekit.io/nearbymassage/Photos/SK/T3.jpg",
+        "https://ik.imagekit.io/nearbymassage/Photos/SK/T2.jpg",
+        "https://ik.imagekit.io/nearbymassage/Photos/SK/T1.jpg",
+        "https://ik.imagekit.io/nearbymassage/Photos/SK/T9.jpg"
+      ]
+    };
+
+    // Build 9x16 gallery dynamically
+    (function renderGallery() {
+      const gallery = document.getElementById("gallery");
+      if (!gallery || !listing.photos || !listing.photos.length) return;
+
+      gallery.innerHTML = listing.photos
+        .map((src, i) => `
+          <div class="photo-frame">
+            <img src="${src}"
+                 alt="SK Spa photo ${i + 1}"
+                 loading="lazy" />
+          </div>
+        `)
+        .join("");
+    })();
+  </script>
 </body>
 </html>
