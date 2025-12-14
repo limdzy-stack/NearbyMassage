@@ -187,13 +187,13 @@
   },
 {
     "id": "spa-10",
-    "name": "Honey @ Kitchener Road",
+    "name": "Honey @ Jalan Besar",
     "approved": true,
-    "services": ["Massage near Farrer Park MRT"],
+    "services": ["Massage near Jalan Besar MRT"],
     "phone": "81579106",
     "whats": "6581579106",
-    "loc": { "lat": 1.3097960548022574, "lng": 103.85719213690163 },
-    "address": "137 Kitchener Rd",
+    "loc": { "lat": 1.3073739992771165, "lng": 103.85635053610547 },
+    "address": "159 Jalan Besar Road",
     "photos": [
       "https://ik.imagekit.io/nearbymassage/Photos/Xuan/22oct2.jpg?updatedAt=1761136922126",
       "https://ik.imagekit.io/nearbymassage/Photos/Xuan/22oct1.jpg?updatedAt=1761136922130",
