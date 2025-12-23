@@ -8,3 +8,6 @@ Or
 git add .
 git commit -m "Prepare for Vercel deploy"
 git push origin main
+
+//
+npm run dev
