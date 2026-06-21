@@ -10,38 +10,31 @@
 <body>
   <header class="hero">
     <div class="hero-content">
-      <p class="eyebrow">Nearby Massage Directory</p>
+      <p class="eyebrow">Singapore Massage Directory</p>
       <h1>Find Massage Shops Near You</h1>
       <p class="intro">Use your location to see nearby massage shops sorted from nearest to furthest.</p>
-      <button id="useLocationBtn" class="primary-btn">Use My Location</button>
-      <p id="status" class="status">Tap the button to sort listings by distance.</p>
+      <div class="hero-actions">
+        <button id="useLocationBtn" class="primary-btn">📍 Use My Location</button>
+        <p id="status" class="status">Tap the button to sort listings by distance.</p>
+      </div>
     </div>
   </header>
 
-  <main class="container">
-    <section class="notice">
-      <strong>Simple directory:</strong> 
-    </section>
-
-    <section class="toolbar">
-      <h2>Nearest Shops</h2>
-      <select id="areaFilter" aria-label="Filter by area">
-        <option value="all">All areas</option>
-      </select>
-    </section>
-
+  <main class="page">
+    <section class="notice"><span class="notice-icon">ⓘ</span><div><strong></strong> Listings are managed from one JSON file. Each shop uses thumbnails, contact buttons, and Google Maps directions.</div></section>
+    <section class="toolbar"><h2>Nearest Shops</h2><select id="areaFilter" aria-label="Filter by area"><option value="all">All areas</option></select></section>
     <section id="listings" class="listings" aria-live="polite"></section>
   </main>
 
   <div id="lightbox" class="lightbox" hidden>
     <button id="closeLightbox" class="close" aria-label="Close image">×</button>
+    <button id="prevPhoto" class="nav-btn prev" aria-label="Previous photo">‹</button>
     <img id="lightboxImage" alt="Listing photo" />
+    <button id="nextPhoto" class="nav-btn next" aria-label="Next photo">›</button>
+    <div id="lightboxThumbs" class="lightbox-thumbs"></div>
   </div>
 
-  <footer class="footer">
-    <p>© NearByMassage Singapore. Call or WhatsApp businesses directly to confirm availability and pricing.</p>
-  </footer>
-
-  <script src="script.js?v=2"></script>
+  <footer class="footer"><p>© NearByMassage Singapore. Call or WhatsApp businesses directly to confirm availability and pricing.</p></footer>
+  <script src="script.js?v=3"></script>
 </body>
 </html>
