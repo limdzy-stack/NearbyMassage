@@ -1,0 +1,56 @@
+# NearByMassage Simple Website
+
+This is a simplified static website for NearByMassage.
+
+## Features
+- GPS location detection
+- Distance sorting from nearest to furthest
+- 3 photos per listing
+- Call button
+- WhatsApp button with pre-filled message
+- Google Maps button
+- Area filter
+- Single JSON file for easy management
+
+## How to edit listings
+Open `listings.json` and edit the shop details.
+
+Each listing needs:
+- name
+- area
+- address
+- phone
+- whatsapp, with country code and no + symbol
+- latitude
+- longitude
+- featured true/false
+- description
+- 3 photo paths
+
+Example:
+```json
+{
+  "name": "Example Spa",
+  "area": "Orchard",
+  "address": "Orchard Road, Singapore",
+  "phone": "61234567",
+  "whatsapp": "6561234567",
+  "latitude": 1.3048,
+  "longitude": 103.8318,
+  "featured": true,
+  "description": "Professional massage services.",
+  "photos": [
+    "photos/example-1.jpg",
+    "photos/example-2.jpg",
+    "photos/example-3.jpg"
+  ]
+}
+```
+
+## Photos
+Put photos inside the `photos` folder. Use simple file names with no spaces.
+
+Recommended size: 1200 x 900 px or similar.
+
+## Deployment
+Upload all files to Vercel, Netlify, GitHub Pages, or your existing NearByMassage project.
