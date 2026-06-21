@@ -1,50 +1,196 @@
 [
   {
+    "name": "Hexing Wellness",
+    "area": "Bukit Merah",
+    "address": "35 Telok Blangah Rise, #01-295 Telok Blangah, Singapore 090035",
+    "phone": "81344927",
+    "whatsapp": "6581344927",
+    "latitude": 1.2730500174040043, 
+    "longitude": 103.82213121880105,
+    "featured": true,
+    "description": "Hexing Wellness in Telok Blangah is a tranquil massage spa offering a range of rejuvenating treatments designed to relax the body and restore balance. Our services include soothing body massages, hot oil massage for deep muscle relief, and traditional TCM tuina therapy to promote circulation and healing. We also offer a unique and refreshing bubble massage experience for full-body relaxation. With skilled therapists and a calming atmosphere, Hexing Wellness provides personalised care to help you unwind and recharge. Visit us in Telok Blangah for a peaceful, revitalising escape. We look forward to welcoming you.",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/01.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/02.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/03.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/04.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/05.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/06.jpg"
+  },
+  {
+    "name": "Cuppage Wellness",
+    "area": "Orchard",
+    "address": "5 Koek Rd, B1-02/03, Singapore 228796",
+    "phone": "82675689",
+    "whatsapp": "6582675689",
+    "latitude": 1.3019550764688073, 
+    "longitude": 103.84076785442889,
+    "featured": true,
+    "description": "Indulge in a soothing escape at Cuppage Wellness, located in the heart of the city. Enjoy a 60-minute full-body massage, offering a perfect way to relax and rejuvenate. We provide a variety of services, including body massage, oil massage, bubble massage, and cupping therapy. Our serene and tranquil atmosphere ensures a peaceful experience, helping you unwind from the stresses of everyday life. Visit Cuppage Wellness today and let us create the perfect retreat for your mind and body. Experience ultimate relaxation and pampering with our skilled therapists.",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/01.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/02.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/03.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/04.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/05.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/06.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/07.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/08.jpg"
+    ]
+  },
+  {
+    "name": "Nice Wellness",
+    "area": "Bukit Merah",
+    "address": "111 Jalan Bukit Merah, #01-1684, Singapore 160111",
+    "phone": "82658657",
+    "whatsapp": "6582658657",
+    "latitude": 1.280030323957777,
+    "longitude": 103.82641662660251,
+    "featured": true,
+    "description": "Nice Wellness TCM is a professional massage and wellness centre located at Block 111 Jalan Bukit Merah. Our trained therapists provide relaxing Chinese massage, body therapy, and stress-relief treatments using traditional techniques. Conveniently open daily until 1 am, we offer a clean, comfortable and friendly environment for full-body relaxation, pain relief and wellness care. Whether you need a soothing massage after work or targeted pressure therapy, our team is here to help you feel refreshed and rejuvenated.",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/Nice/01.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Nice/02.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Nice/03.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Nice/04.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Nice/05.jpg"
+    ]
+  },
+  {
+    "name": "Favorite Wellness",
+    "area": "Kallang",
+    "address": "66 Kallang Bahru, #01-517, Singapore 330066",
+    "phone": "82853755",
+    "whatsapp": "6582853755",
+    "latitude": 1.3206594217366319, 
+    "longitude": 103.86980030093301,
+    "featured": true,
+    "description": "Favorite Wellness TCM is a professional TCM massage spa near Kallang Bahru, offering authentic traditional Chinese massage for relaxation, pain relief, and overall wellness. Conveniently located in Kallang Bahru, we provide a clean, comfortable, and private environment for customers searching for a reliable massage near Kallang Bahru. Our experienced therapists specialize in Chinese massage to relieve muscle tension, improve circulation, and reduce stress. Whether you need relaxation or relief from body aches, Favorite Wellness TCM is a trusted choice for quality massage in Kallang Bahru.",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/Favorite/01.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Favorite/02.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Favorite/03.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Favorite/04.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Favorite/05.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Favorite/06.jpg"
+    ]
+  },
+  {
+    "name": "Yi Spa",
+    "area": "Kallang",
+    "address": "768 N Bridge Rd, Singapore 198736",
+    "phone": "63923038",
+    "whatsapp": "",
+    "latitude": 1.3034301401935282,  
+    "longitude": 103.85979208278495,
+    "featured": true,
+    "description": "Welcome to Yi Spa, your sanctuary for relaxation and rejuvenation in the heart of Kampong Glam. Nestled in a tranquil setting, Yi Spa offers a wide range of massage services from body massage, oil massage, and deep tissue massage to Chinese massage, lymphatic drainage massage, and Swedish massage, designed to soothe the body, calm the mind, and restore balance to your life. At Yi Spa, we believe in the healing power of touch and the importance of self-care. Our team of skilled therapists are dedicated to providing personalised massage experiences tailored to meet your individual needs and preferences. Contact us today to schedule an appointment and experience the transformative power of our massage therapies.",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/Yi/01.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yi/02.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yi/03.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yi/04.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yi/05.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yi/06.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yi/07.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Yi/08.jpg"
+    ]
+  },
+  {
+    "name": "TL Beauty Wellness",
+    "area": "Orchard",
+    "address": "220 Orchard Rd, #02-06 Midpoint Orchard, Singapore 238852",
+    "phone": "84615202",
+    "whatsapp": "6584615202",
+    "latitude": 1.301688463756249, 
+    "longitude": 103.83858248762022,
+    "featured": true,
+    "description": "Welcome to TL Beauty Wellness in Orchard. At TL Beauty Wellness, we are passionate about providing our clients with an unforgettable spa experience. Our team of licensed massage therapists are highly skilled and dedicated to making sure you feel relaxed and rejuvenated after each visit. At TL Beauty Wellness Massage Spa, we believe that self-care is essential for achieving balance and harmony in mind, body, and spirit. Our team of skilled massage therapists is committed to providing you with a personalized and therapeutic experience tailored to your unique needs. Experience the healing power of touch at TL Beauty Wellness. Book your appointment today and treat yourself to a journey of tranquility, serenity, and ultimate relaxation.",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/TLB/01.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/TLB/02.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/TLB/03.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/TLB/04.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/TLB/05.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/TLB/06.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/TLB/07.jpg"
+    ]
+  },
+  {
+    "name": "Yuan Kang TCM",
+    "area": "Farrer Park",
+    "address": "428 Race Course Rd, Singapore 218674",
+    "phone": "93425428",
+    "whatsapp": "6593425428",
+    "latitude": 1.3157806410008737,  
+    "longitude": 103.85778971955001,
+    "featured": true,
+    "description": "Step into the past with rich Chinese ambience and enjoy the treatment of traditional massage.",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/01.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/02.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/03.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/04.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/05.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/06.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/07.jpg"
+    ]
+  },
+  {
     "name": "SK Spa",
     "area": "Siglap",
-    "address": "Siglap Drive, Singapore",
+    "address": "28 Siglap Dr, Singapore 456154",
     "phone": "65557979",
-    "whatsapp": "6565557979",
-    "latitude": 1.3123,
-    "longitude": 103.9123,
+    "whatsapp": "6588000582",
+    "latitude": 1.316060085305619,  
+    "longitude": 103.91950713321599,
     "featured": true,
-    "description": "Professional massage by trained therapists in a comfortable environment.",
+    "description": "SK Spa offers a calming and rejuvenating massage experience designed to help you relax, unwind, and restore balance. Our trained therapists provide a range of professional treatments—including traditional Chinese massage, hot oil therapy, and body wellness sessions—tailored to relieve tension and improve overall well-being. Conveniently located in Siglap area. and open daily, SK Spa provides a clean, comfortable, and welcoming environment for customers seeking reliable massage services. Whether you’re looking to ease muscle stiffness, reduce stress, or simply enjoy a peaceful break from your busy day, SK Spa is dedicated to delivering quality care with a friendly touch. Visit us for a refreshing wellness experience and feel renewed.",
     "photos": [
-      "photos/sk-spa-1.jpg",
-      "photos/sk-spa-2.jpg",
-      "photos/sk-spa-3.jpg"
+      "https://ik.imagekit.io/nearbymassage/Photos/SK/T1.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/SK/T2.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/SK/T3.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/SK/T4.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/SK/T5.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/SK/T6.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/SK/T7.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/SK/T8.jpg"
     ]
   },
   {
     "name": "Moonlight Health Club",
     "area": "Bukit Timah",
     "address": "Balmoral Plaza, Bukit Timah Road, Singapore",
-    "phone": "61234567",
-    "whatsapp": "6561234567",
-    "latitude": 1.3168,
-    "longitude": 103.8342,
-    "featured": false,
-    "description": "Relaxing massage services near Bukit Timah Road.",
+    "phone": "88436378",
+    "whatsapp": "6588436378",
+    "latitude": 1.3167609579718562,
+    "longitude": 103.8352584773258,
+    "featured": true,
+    "description": "Beauty Salon and Wellness. Moonlight Health Club offers professional Chinese body massage in Balmoral Plaza along Bukit Timah Road, just 5 mins from Newton MRT. We have trained pretty therapists who offers professional massage to ease your mood, fatigue and aches.",
     "photos": [
-      "photos/moonlight-1.jpg",
-      "photos/moonlight-2.jpg",
-      "photos/moonlight-3.jpg"
+      "https://ik.imagekit.io/nearbymassage/Photos/Moonlight/01.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Moonlight/02.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Moonlight/03.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Moonlight/04.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Moonlight/05.jpg"
     ]
   },
   {
-    "name": "I Spa",
+    "name": "IM Beauty",
     "area": "Orchard",
-    "address": "Midpoint Orchard, Singapore",
-    "phone": "62345678",
-    "whatsapp": "6562345678",
-    "latitude": 1.3013,
-    "longitude": 103.8397,
+    "address": "220 Orchard Rd, #04-12A Midpoint Orchard, Singapore 238852",
+    "phone": "89587588",
+    "whatsapp": "6589587588",
+    "latitude": 1.301750608335528,  
+    "longitude": 103.83892307147636,
     "featured": true,
-    "description": "Convenient massage and wellness services in Orchard.",
+    "description": "IM Beauty offers professional wellness and relaxation services designed to help you recharge and feel your best. Our friendly team provides personalized care in a clean, comfortable, and welcoming environment, allowing you to unwind, relieve daily stress, and restore your overall well-being.",
     "photos": [
-      "photos/i-spa-1.jpg",
-      "photos/i-spa-2.jpg",
-      "photos/i-spa-3.jpg"
+      "https://ik.imagekit.io/nearbymassage/Photos/IMBeauty/01.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/IMBeauty/02.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/IMBeauty/03.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/IMBeauty/04.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/IMBeauty/05.jpg"
     ]
   }
 ]
