@@ -1,5 +1,18 @@
 [
   {
+    "name": "Li Xin Massage Spa",
+    "area": "ChinaTown",
+    "address": "30 Sago St, Singapore 059024",
+    "phone": "62253231",
+    "whatsapp": "6584527006",
+    "latitude": 1.2819384158018785,     
+    "longitude": 103.84400859720392,
+    "featured": false,
+    "description": "Escape the everyday and enter a sanctuary of tranquility at Li Xin Beauty Massage. Nestled in the heart of Chinatown on Sago Street, this massage spa offers a serene retreat from the bustling city. Our skilled therapists specialize in a variety of traditional massage techniques, designed to soothe your mind, body, and soul. Discover a space where ancient traditions meet modern wellness, dedicated to providing a rejuvenating and deeply relaxing experience.",
+    "photos": [
+     ]
+  },
+  {
     "name": "Xuan Spa",
     "area": "Farrer Park",
     "address": "438 Race Course Rd, Singapore 218684",
