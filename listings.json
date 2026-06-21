@@ -1,7 +1,117 @@
 [
   {
+    "name": "Xuan Spa",
+    "area": "Farrer Park",
+    "address": "438 Race Course Rd, Singapore 218684",
+    "phone": "97793468",
+    "whatsapp": "6597793468",
+    "latitude": 1.3159010258615684,     
+    "longitude": 103.85798495108556,
+    "featured": true,
+    "description": "Xuan Beauty & Spa in Farrer Park is a serene massage spa dedicated to relaxation, rejuvenation, and holistic well-being. We offer a range of luxurious body treatments, including lymphatic drainage massage, soothing bubble massage, nourishing hot oil massage, and full-body massage therapies tailored to your needs. Our skilled therapists create a calming experience designed to relieve tension, boost circulation, and restore balance. Whether you’re looking to unwind or revitalise, Xuan Beauty & Spa provides a tranquil escape in the heart of Farrer Park—where expert care and peaceful surroundings come together for total body wellness. Visit Xuan Beauty & Spa today for some rejuvenation and holistic well-being.",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/XuanSpa/01.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/XuanSpa/02.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/XuanSpa/03.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/XuanSpa/04.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/XuanSpa/05.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/XuanSpa/06.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/XuanSpa/07.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/XuanSpa/08.jpg",
+    ]
+  },
+  {
+    "name": "RSG Wellness",
+    "area": "Bukit Batok",
+    "address": "54 Jalan Jurong Kechil, Building, JK, 598580",
+    "phone": "69312499",
+    "whatsapp": "",
+    "latitude": 1.3405757526212974,     
+    "longitude": 103.77422522653336,
+    "featured": true,
+    "description": "RSG Wellness Spa is a Singapore-based Massage Spa, specializes in top-of-the-line, yet affordable, budget-friendly massage therapy. We pride ourselves with well-trained and seasoned therapists that will give you the relaxing session you need. Our Signature full body massage and relaxing reflexology will help you ease the tension and soreness on your muscles. If you are in need of an oil massage, hot oil massage, body massage we are the massage spa for you. We recommend a two-hour full body massage for an ultimate head-to-toe relaxation session. For reservation contact us today! Located in Toh Tuck..",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/RSG/01.jpg"
+    ]
+  },
+  {
+    "name": "Healthy Path Spa",
+    "area": "Bedok",
+    "address": "Blk 84 Bedok North Street 4, #01-51, Singapore 460084",
+    "phone": "69777233",
+    "whatsapp": "6584527006",
+    "latitude": 1.3316576092607508,    
+    "longitude": 103.9392127720729,
+    "featured": true,
+    "description": "Healthy Path Spa is a Singapore-based massage spa that specializes in top-notch yet affordable massage therapies. We pride ourselves on having well-trained and experienced therapists who will provide you with the relaxing treatments you need. Our signature full-body massage and relaxing reflexology will help relieve muscle tension and soreness. We recommend a two-hour body massage for ultimate head-to-toe relaxation. Our services include oil massage, foot reflexology, body massage or ear picking we are the massage spa for you. Inspired by our connection to life and nature, our minimal and elementary setting invites you into a world of self-transformation and relaxation. Located in Bedok.",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/HealthyPathSpa/01.jpg"
+    ]
+  },
+  {
+    "name": "Lin Spa",
+    "area": "Tampines",
+    "address": "Blk 139 Tampines St. 11, #01-136. Singapore 521139",
+    "phone": "67822250",
+    "whatsapp": "6581697732",
+    "latitude": 1.3467533097408397,   
+    "longitude": 103.94410936083312,
+    "featured": true,
+    "description": "Lin Spa is a cozy and clean massage center located in Tampines, Singapore. It is praised for its friendly staff and professional masseurs",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/Lin%20Spa/01.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Lin%20Spa/02.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Lin%20Spa/03.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Lin%20Spa/04.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Lin%20Spa/05.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Lin%20Spa/06.jpg"
+    ]
+  },
+  {
+    "name": "AX Spa @ Havelock",
+    "area": "Tiong Bahru",
+    "address": "739 Havelock Rd, Singapore 169654",
+    "phone": "88253670",
+    "whatsapp": "6588253670",
+    "latitude": 1.2894960451671722,  
+    "longitude": 103.82749289999218,
+    "featured": true,
+    "description": "Welcome to AX Spa, your premier Massage Spa in the heart of Tiong Bahru, Singapore. We specialize in providing a sanctuary for relaxation and rejuvenation through our professional therapy services. Whether you are looking to de-stress or relieve muscle tension, our expert therapists offer a curated menu including our signature Hot Oil Massage, therapeutic Full Body Massage, and the unique, skin-softening Bubble Massage. For a truly indulgent experience, enjoy our luxurious Bath Tub Massage, designed to melt away fatigue in a tranquil environment. Located at 739 Havelock Rd (169654), AX Spa is committed to excellence, cleanliness, and personalized care. Book your session today and rediscover your well-being!",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/AX%20Spa/01.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/AX%20Spa/02.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/AX%20Spa/03.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/AX%20Spa/04.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/AX%20Spa/05.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/AX%20Spa/06.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/AX%20Spa/07.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/AX%20Spa/08.jpg"
+    ]
+  },
+  {
+    "name": "Ozio Spa",
+    "area": "Bedok",
+    "address": "Blk742 Bedok Reservoir Rd, #01-3119, Singapore 470742",
+    "phone": "69797319",
+    "whatsapp": "6581427299",
+    "latitude": 1.3382661040980222,  
+    "longitude": 103.92221082226453,
+    "featured": true,
+    "description": "At Ozio Spa, we are dedicated to providing a rejuvenating and relaxing wellness experience in the heart of Bedok Reservoir. Ozio Spa offers a wide range of professional services, including massage spa treatments, oil massage, full body massage, Japanese bubble massage, and lymphatic drainage massage. Our skilled therapists focus on relieving stress, improving circulation, and restoring balance to your body and mind. Whether you are seeking deep relaxation or therapeutic care, Ozio Spa creates a calm and welcoming environment tailored to your needs. Visit Ozio Spa at Bedok Reservoir and experience the perfect escape from daily stress.",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/Ozio/01.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Ozio/02.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Ozio/03.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Ozio/04.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Ozio/05.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Ozio/06.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Ozio/07.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Ozio/08.jpg"
+    ]
+  },
+  {
     "name": "Hexing Wellness",
-    "area": "Bukit Merah",
+    "area": "Tiong Bahru",
     "address": "35 Telok Blangah Rise, #01-295 Telok Blangah, Singapore 090035",
     "phone": "81344927",
     "whatsapp": "6581344927",
@@ -41,7 +151,7 @@
   },
   {
     "name": "Nice Wellness",
-    "area": "Bukit Merah",
+    "area": "Tiong Bahru",
     "address": "111 Jalan Bukit Merah, #01-1684, Singapore 160111",
     "phone": "82658657",
     "whatsapp": "6582658657",
