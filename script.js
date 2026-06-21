@@ -1,1 +1,152 @@
-let listings = []; let userLocation = null; let currentArea = 'all'; const listingsEl = document.getElementById('listings'); const statusEl = document.getElementById('status'); const useLocationBtn = document.getElementById('useLocationBtn'); const areaFilter = document.getElementById('areaFilter'); const lightbox = document.getElementById('lightbox'); const lightboxImage = document.getElementById('lightboxImage'); const closeLightbox = document.getElementById('closeLightbox'); init(); async function init() { try { const response = await fetch('listings.json'); listings = await response.json(); populateAreaFilter(); renderListings(); } catch (error) { listingsEl.innerHTML = '<p>Unable to load listings. Please check listings.json.</p>'; } } function populateAreaFilter() { const areas = [...new Set(listings.map(item => item.area).filter(Boolean))].sort(); areas.forEach(area => { const option = document.createElement('option'); option.value = area; option.textContent = area; areaFilter.appendChild(option); }); } useLocationBtn.addEventListener('click', () => { if (!navigator.geolocation) { statusEl.textContent = 'GPS location is not supported by this browser.'; return; } statusEl.textContent = 'Requesting location permission...'; navigator.geolocation.getCurrentPosition( position => { userLocation = { latitude: position.coords.latitude, longitude: position.coords.longitude }; statusEl.textContent = 'Listings are now sorted by nearest distance.'; renderListings(); }, () => { statusEl.textContent = 'Location permission was not allowed. Showing default order.'; }, { enableHighAccuracy: true, timeout: 10000, maximumAge: 60000 } ); }); areaFilter.addEventListener('change', event => { currentArea = event.target.value; renderListings(); }); function renderListings() { let visibleListings = listings.filter(item => currentArea === 'all' || item.area === currentArea); visibleListings = visibleListings.map(item => ({ ...item, distanceKm: userLocation ? calculateDistanceKm(userLocation.latitude, userLocation.longitude, item.latitude, item.longitude) : null })); visibleListings.sort((a, b) => { if (userLocation) return a.distanceKm - b.distanceKm; if (a.featured !== b.featured) return a.featured ? -1 : 1; return a.name.localeCompare(b.name); }); if (!visibleListings.length) { listingsEl.innerHTML = '<p>No listings found for this area.</p>'; return; } listingsEl.innerHTML = visibleListings.map(createListingCard).join(''); attachPhotoEvents(); } function createListingCard(item) { const distanceText = item.distanceKm !== null ? <p class="distance">${item.distanceKm.toFixed(1)} km away</p> : ''; const mapsUrl = https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.address)}; const whatsappMessage = encodeURIComponent(Hi ${item.name}, I found your listing on NearByMassage. May I check your availability?); const whatsappUrl = https://wa.me/${item.whatsapp}?text=${whatsappMessage}; const photoHtml = item.photos.slice(0, 3).map(photo => <img class="photo" src="${photo}" alt="${escapeHtml(item.name)} photo" onerror="this.src='placeholder.svg'" />).join(''); return <article class="card"> <div class="photo-row">${photoHtml}</div> <div class="card-body"> <div class="card-title-row"> <h3>${escapeHtml(item.name)}</h3> ${item.featured ? '<span class="badge">Featured</span>' : ''} </div> <p class="meta">${escapeHtml(item.description || '')}</p> <p class="meta">${escapeHtml(item.address)}</p> ${distanceText} <div class="actions"> <a class="action-btn primary" href="tel:${item.phone}">Call</a> <a class="action-btn" href="${whatsappUrl}" target="_blank" rel="noopener">WhatsApp</a> <a class="action-btn" href="${mapsUrl}" target="_blank" rel="noopener">Show on Map</a> </div> </div> </article> ; } function attachPhotoEvents() { document.querySelectorAll('.photo').forEach(photo => { photo.addEventListener('click', () => { lightboxImage.src = photo.src; lightbox.hidden = false; }); }); } closeLightbox.addEventListener('click', () => lightbox.hidden = true); lightbox.addEventListener('click', event => { if (event.target === lightbox) lightbox.hidden = true; }); function calculateDistanceKm(lat1, lon1, lat2, lon2) { const earthRadiusKm = 6371; const dLat = toRadians(lat2 - lat1); const dLon = toRadians(lon2 - lon1); const a = Math.sin(dLat / 2) ** 2 + Math.cos(toRadians(lat1)) * Math.cos(toRadians(lat2)) * Math.sin(dLon / 2) ** 2; return earthRadiusKm * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)); } function toRadians(degrees) { return degrees * Math.PI / 180; } function escapeHtml(value) { return String(value).replace(/[&<>'"]/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[char])); }
+let listings = [];
+let userLocation = null;
+let currentArea = 'all';
+
+const listingsEl = document.getElementById('listings');
+const statusEl = document.getElementById('status');
+const useLocationBtn = document.getElementById('useLocationBtn');
+const areaFilter = document.getElementById('areaFilter');
+const lightbox = document.getElementById('lightbox');
+const lightboxImage = document.getElementById('lightboxImage');
+const closeLightbox = document.getElementById('closeLightbox');
+
+init();
+
+async function init() {
+  try {
+    const response = await fetch('listings.json');
+    listings = await response.json();
+    populateAreaFilter();
+    renderListings();
+  } catch (error) {
+    listingsEl.innerHTML = '<p>Unable to load listings. Please check listings.json.</p>';
+  }
+}
+
+function populateAreaFilter() {
+  const areas = [...new Set(listings.map(item => item.area).filter(Boolean))].sort();
+  areas.forEach(area => {
+    const option = document.createElement('option');
+    option.value = area;
+    option.textContent = area;
+    areaFilter.appendChild(option);
+  });
+}
+
+useLocationBtn.addEventListener('click', () => {
+  if (!navigator.geolocation) {
+    statusEl.textContent = 'GPS location is not supported by this browser.';
+    return;
+  }
+
+  statusEl.textContent = 'Requesting location permission...';
+
+  navigator.geolocation.getCurrentPosition(
+    position => {
+      userLocation = {
+        latitude: position.coords.latitude,
+        longitude: position.coords.longitude
+      };
+      statusEl.textContent = 'Listings are now sorted by nearest distance.';
+      renderListings();
+    },
+    () => {
+      statusEl.textContent = 'Location permission was not allowed. Showing default order.';
+    },
+    { enableHighAccuracy: true, timeout: 10000, maximumAge: 60000 }
+  );
+});
+
+areaFilter.addEventListener('change', event => {
+  currentArea = event.target.value;
+  renderListings();
+});
+
+function renderListings() {
+  let visibleListings = listings.filter(item => currentArea === 'all' || item.area === currentArea);
+
+  visibleListings = visibleListings.map(item => ({
+    ...item,
+    distanceKm: userLocation ? calculateDistanceKm(userLocation.latitude, userLocation.longitude, item.latitude, item.longitude) : null
+  }));
+
+  visibleListings.sort((a, b) => {
+    if (userLocation) return a.distanceKm - b.distanceKm;
+    if (a.featured !== b.featured) return a.featured ? -1 : 1;
+    return a.name.localeCompare(b.name);
+  });
+
+  if (!visibleListings.length) {
+    listingsEl.innerHTML = '<p>No listings found for this area.</p>';
+    return;
+  }
+
+  listingsEl.innerHTML = visibleListings.map(createListingCard).join('');
+  attachPhotoEvents();
+}
+
+function createListingCard(item) {
+  const distanceText = item.distanceKm !== null ? `<p class="distance">${item.distanceKm.toFixed(1)} km away</p>` : '';
+  const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.address)}`;
+  const whatsappMessage = encodeURIComponent(`Hi ${item.name}, I found your listing on NearByMassage. May I check your availability?`);
+  const whatsappUrl = `https://wa.me/${item.whatsapp}?text=${whatsappMessage}`;
+  const photoHtml = item.photos.slice(0, 3).map(photo => `<img class="photo" src="${photo}" alt="${escapeHtml(item.name)} photo" onerror="this.src='placeholder.svg'" />`).join('');
+
+  return `
+    <article class="card">
+      <div class="photo-row">${photoHtml}</div>
+      <div class="card-body">
+        <div class="card-title-row">
+          <h3>${escapeHtml(item.name)}</h3>
+          ${item.featured ? '<span class="badge">Featured</span>' : ''}
+        </div>
+        <p class="meta">${escapeHtml(item.description || '')}</p>
+        <p class="meta">${escapeHtml(item.address)}</p>
+        ${distanceText}
+        <div class="actions">
+          <a class="action-btn primary" href="tel:${item.phone}">Call</a>
+          <a class="action-btn" href="${whatsappUrl}" target="_blank" rel="noopener">WhatsApp</a>
+          <a class="action-btn" href="${mapsUrl}" target="_blank" rel="noopener">Show on Map</a>
+        </div>
+      </div>
+    </article>
+  `;
+}
+
+function attachPhotoEvents() {
+  document.querySelectorAll('.photo').forEach(photo => {
+    photo.addEventListener('click', () => {
+      lightboxImage.src = photo.src;
+      lightbox.hidden = false;
+    });
+  });
+}
+
+closeLightbox.addEventListener('click', () => lightbox.hidden = true);
+lightbox.addEventListener('click', event => {
+  if (event.target === lightbox) lightbox.hidden = true;
+});
+
+function calculateDistanceKm(lat1, lon1, lat2, lon2) {
+  const earthRadiusKm = 6371;
+  const dLat = toRadians(lat2 - lat1);
+  const dLon = toRadians(lon2 - lon1);
+  const a = Math.sin(dLat / 2) ** 2 +
+    Math.cos(toRadians(lat1)) * Math.cos(toRadians(lat2)) *
+    Math.sin(dLon / 2) ** 2;
+  return earthRadiusKm * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+function toRadians(degrees) {
+  return degrees * Math.PI / 180;
+}
+
+function escapeHtml(value) {
+  return String(value).replace(/[&<>'"]/g, char => ({
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    "'": '&#39;',
+    '"': '&quot;'
+  }[char]));
+}
