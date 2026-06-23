@@ -1,10 +1,140 @@
 [
   {
+    "name": "Hai Tian Healthcare",
+    "area": "Hougang",
+    "address": "Hougang St.61, #01-14 Singapore: 530698",
+    "phone": "65131878",
+    "whatsapp": "",
+    "latitude": 1.3752900094138236,        
+    "longitude": 103.88690654341569,
+    "featured": false,
+    "description": "",
+    "photos": [
+     ]
+  },
+  {
+    "name": "Spa Now",
+    "area": "Hougang",
+    "address": "684 Hougang Ave 8, Singapore 530684",
+    "phone": "62824342",
+    "whatsapp": "",
+    "latitude": 1.3742958067868687,       
+    "longitude": 103.88717282798945,
+    "featured": false,
+    "description": "",
+    "photos": [
+     ]
+  },
+  {
+    "name": "Hao Spa - Massage(Hougang)",
+    "area": "Hougang",
+    "address": "685 Hougang St. 61, #01-152, Singapore 530685",
+    "phone": "88861779",
+    "whatsapp": "",
+    "latitude": 1.3750003383558962,     
+    "longitude": 103.88585539104237,
+    "featured": false,
+    "description": "",
+    "photos": [
+     ]
+  },
+  {
+    "name": "Envy Soa",
+    "area": "Hougang",
+    "address": "1000 Upper Serangoon Rd, Singapore 534738",
+    "phone": "63850010",
+    "whatsapp": "",
+    "latitude": 1.3623879733577215,       
+    "longitude": 103.88779022774557,
+    "featured": false,
+    "description": "",
+    "photos": [
+     ]
+  },
+  {
+    "name": "Garden Spa",
+    "area": "Hougang",
+    "address": "1024 Upper Serangoon Rd, #1024, Singapore 534762",
+    "phone": "62823581",
+    "whatsapp": "",
+    "latitude": 1.3629493375160595,      
+    "longitude": 103.8883910062316,
+    "featured": false,
+    "description": "",
+    "photos": [
+     ]
+  },
+  {
+    "name": "Viet Massage & Spa",
+    "area": "Hougang",
+    "address": "684 Hougang Ave 8, #01-979 Viet massage & spa, Singapore 530684",
+    "phone": "97648648",
+    "whatsapp": "6597648648",
+    "latitude": 1.3742827775466424,        
+    "longitude": 103.88660844722284,
+    "featured": false,
+    "description": "",
+    "photos": [
+     ]
+  },
+  {
+    "name": "Guizu Health Center",
+    "area": "Hougang",
+    "address": "681 Hougang Ave 8, #01-847, Singapore 530681",
+    "phone": "97267509",
+    "whatsapp": "6597267509",
+    "latitude": 1.3727194072000466,         
+    "longitude": 103.88588399860618,
+    "featured": false,
+    "description": "",
+    "photos": [
+     ]
+  },
+  {
+    "name": "Xin Lin Spa",
+    "area": "Hougang",
+    "address": "678 Hougang Ave 8, #01-511, Singapore 530678",
+    "phone": "98883201",
+    "whatsapp": "6598883201",
+    "latitude": 1.3708112360310538,        
+    "longitude": 103.88445276773933,
+    "featured": false,
+    "description": "",
+    "photos": [
+     ]
+  },
+  {
+    "name": "Mt Everests Spa - Hougang",
+    "area": "Hougang",
+    "address": "620 Hougang Ave 8, #01-260, Singapore 530620",
+    "phone": "62458759",
+    "whatsapp": "",
+    "latitude": 1.3702886218655985,       
+    "longitude": 103.88369137488246,
+    "featured": false,
+    "description": "",
+    "photos": [
+     ]
+  },
+  {
+    "name": "Sekai TCM Hougang",
+    "area": "Hougang",
+    "address": "631 Hougang Ave 8, #01-10, Singapore 530631",
+    "phone": "62221742",
+    "whatsapp": "",
+    "latitude": 1.3707595937098194,      
+    "longitude": 103.88137317820457,
+    "featured": false,
+    "description": "",
+    "photos": [
+     ]
+  },
+  {
     "name": "Li Xin Massage Spa",
     "area": "ChinaTown",
     "address": "30 Sago St, Singapore 059024",
     "phone": "62253231",
-    "whatsapp": "6584527006",
+    "whatsapp": "6591121766",
     "latitude": 1.2819384158018785,     
     "longitude": 103.84400859720392,
     "featured": false,
