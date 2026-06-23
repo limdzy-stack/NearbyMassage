@@ -1,5 +1,71 @@
 [
   {
+    "name": "Hawaii Spa",
+    "area": "Yio Chu Kang",
+    "address": "14 Jln Selaseh, #01-00 Seletar Hills Estate, Singapore 808439",
+    "phone": "64819768",
+    "whatsapp": "",
+    "latitude": 1.385947978723118,    
+    "longitude": 103.8731902909981,
+    "featured": false,
+    "description": "",
+    "photos": [
+    "https://ik.imagekit.io/nearbymassage/Photos/hawaii/01.jpg"
+     ]
+  },
+  {
+    "name": "House of Traditional Javanese Massage (Greenwich V)",
+    "area": "Hougang",
+    "address": "46 Lor 1 Realty Pk, Singapore 536961",
+    "phone": "82094346",
+    "whatsapp": "",
+    "latitude": 1.387488936757123,    
+    "longitude": 103.86893247053614,
+    "featured": false,
+    "description": "",
+    "photos": [
+     ]
+  },
+  {
+    "name": "Cozy Cove Spa",
+    "area": "Hougang",
+    "address": "46 Lor 1 Realty Pk, Singapore 536961",
+    "phone": "81777721",
+    "whatsapp": "",
+    "latitude": 1.3676895072241873,      
+    "longitude": 103.89012930611837,
+    "featured": false,
+    "description": "",
+    "photos": [
+     ]
+  },
+  {
+    "name": "Knead Press Spa @ Kovan",
+    "area": "Hougang",
+    "address": "23A Simon Rd, Singapore 545910",
+    "phone": "62038880",
+    "whatsapp": "",
+    "latitude": 1.3620778207842446,      
+    "longitude": 103.88570590799098,
+    "featured": false,
+    "description": "",
+    "photos": [
+     ]
+  },
+  {
+    "name": "Rong Ting Wellness and Foot Spa",
+    "area": "Hougang",
+    "address": "1187 Upper Serangoon Rd, The Midtown, #01-06 Singapore: 533971",
+    "phone": "88191312",
+    "whatsapp": "",
+    "latitude": 1.370685246072801,       
+    "longitude": 103.89494709657687,
+    "featured": false,
+    "description": "",
+    "photos": [
+     ]
+  },
+  {
     "name": "Hai Tian Healthcare",
     "area": "Hougang",
     "address": "Hougang St.61, #01-14 Singapore: 530698",
@@ -39,7 +105,7 @@
      ]
   },
   {
-    "name": "Envy Soa",
+    "name": "Envy Spa",
     "area": "Hougang",
     "address": "1000 Upper Serangoon Rd, Singapore 534738",
     "phone": "63850010",
