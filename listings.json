@@ -1,5 +1,31 @@
 [
   {
+    "name": "Royal Massage",
+    "area": "Yio Chu Kang",
+    "address": "14 Jln Kelulut, Singapore 809031",
+    "phone": "62355350",
+    "whatsapp": "",
+    "latitude": 1.383330828237726,      
+    "longitude": 103.87597668449577, 
+    "featured": false,
+    "description": "",
+    "photos": [
+     ]
+  },
+  {
+    "name": "Young Skin Spa",
+    "area": "Hougang",
+    "address": "17 Simon Rd, Singapore 545902",
+    "phone": "62220308",
+    "whatsapp": "",
+    "latitude": 1.3619802766547695,     
+    "longitude": 103.88582118584249, 
+    "featured": false,
+    "description": "",
+    "photos": [
+     ]
+  },
+  {
     "name": "Hawaii Spa",
     "area": "Yio Chu Kang",
     "address": "14 Jln Selaseh, #01-00 Seletar Hills Estate, Singapore 808439",
@@ -206,6 +232,7 @@
     "featured": false,
     "description": "Escape the everyday and enter a sanctuary of tranquility at Li Xin Beauty Massage. Nestled in the heart of Chinatown on Sago Street, this massage spa offers a serene retreat from the bustling city. Our skilled therapists specialize in a variety of traditional massage techniques, designed to soothe your mind, body, and soul. Discover a space where ancient traditions meet modern wellness, dedicated to providing a rejuvenating and deeply relaxing experience.",
     "photos": [
+       "https://ik.imagekit.io/nearbymassage/Photos/Li%20Xin/01.jpg"
      ]
   },
   {
