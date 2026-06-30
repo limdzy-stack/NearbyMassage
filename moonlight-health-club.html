@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Moonlight Health Club | Massage in Bukit Timah | NearByMassage</title>
+<meta name="description" content="Moonlight Health Club offers professional Chinese massage in Balmoral Plaza, Bukit Timah Road, Singapore.">
+<link rel="stylesheet" href="styles.css">
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:#f7f3ee;color:#222}
+.hero{background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.45)),url('https://ik.imagekit.io/nearbymassage/Photos/Moonlight/01.jpg') center/cover;color:#fff;padding:70px 20px}
+.wrap{max-width:1100px;margin:auto}
+a.back{color:#ffe8a8;text-decoration:none;font-weight:bold}
+h1{font-size:56px;margin:15px 0}
+.btn{display:inline-block;margin:6px;padding:14px 20px;background:#b88a2b;color:#fff;text-decoration:none;border-radius:8px;font-weight:bold}
+.white{background:#fff;color:#222}
+main{max-width:1100px;margin:25px auto;display:grid;grid-template-columns:2fr 1fr;gap:20px;padding:0 15px}
+.panel{background:#fff;padding:20px;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,.08)}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.gallery img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:top center;border-radius:8px;cursor:pointer}
+.side a{display:block;text-align:center;margin-top:10px;padding:14px;border-radius:8px;text-decoration:none;font-weight:bold}
+.call{background:#0b9649;color:#fff}
+.wa{border:1px solid #0b9649;color:#0b9649}
+.map{border:1px solid #1f73c9;color:#1f73c9}
+.lightbox{position:fixed;inset:0;background:rgba(0,0,0,.9);display:grid;place-items:center}
+.lightbox[hidden]{display:none}
+.lightbox img{max-width:92vw;max-height:90vh}
+.close{position:fixed;top:20px;right:25px;background:none;color:#fff;border:0;font-size:42px}
+@media(max-width:850px){main{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+<a class="back" href="index.html">← Back to NearByMassage</a>
+<h1>Moonlight Health Club</h1>
+<p>Professional Chinese body massage in Balmoral Plaza along Bukit Timah Road, just minutes from Newton MRT.</p>
+<a class="btn" href="tel:88436378">☎ Call</a>
+<a class="btn white" target="_blank" href="https://wa.me/6588436378?text=Hi%20Moonlight%20Health%20Club,%20I%20found%20you%20on%20NearByMassage.%20May%20I%20check%20your%20availability?">WhatsApp</a>
+<a class="btn white" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Balmoral%20Plaza%20Bukit%20Timah%20Road%20Singapore">Directions</a>
+</div></header>
+<main>
+<section>
+<div class="panel">
+<h2>About Moonlight Health Club</h2>
+<p>Moonlight Health Club is a wellness and massage centre located at Balmoral Plaza on Bukit Timah Road. Our therapists provide professional Chinese body massage to help reduce stress, relieve muscle tension and promote relaxation in a clean and welcoming environment.</p>
+</div>
+<div class="panel">
+<h2>Gallery</h2>
+<div class="gallery">
+<img src="https://ik.imagekit.io/nearbymassage/Photos/Moonlight/01.jpg">
+<img src="https://ik.imagekit.io/nearbymassage/Photos/Moonlight/02.jpg">
+<img src="https://ik.imagekit.io/nearbymassage/Photos/Moonlight/03.jpg">
+<img src="https://ik.imagekit.io/nearbymassage/Photos/Moonlight/04.jpg">
+<img src="https://ik.imagekit.io/nearbymassage/Photos/Moonlight/05.jpg">
+</div>
+</div>
+<div class="panel">
+<h2>Services</h2>
+<ul>
+<li>Chinese Body Massage</li>
+<li>Hot Oil Massage</li>
+<li>Relaxation Massage</li>
+<li>Body Wellness Therapy</li>
+</ul>
+</div>
+<div class="panel">
+<h2>FAQ</h2>
+<p><strong>Where are you located?</strong><br>Balmoral Plaza, Bukit Timah Road, Singapore.</p>
+<p><strong>How do I book?</strong><br>Call or WhatsApp using the buttons on this page.</p>
+</div>
+</section>
+<aside>
+<div class="panel side">
+<h2>Contact</h2>
+<p><b>Address</b><br>Balmoral Plaza, Bukit Timah Road, Singapore</p>
+<p><b>Phone</b><br>8843 6378</p>
+<a class="call" href="tel:88436378">☎ Call Now</a>
+<a class="wa" target="_blank" href="https://wa.me/6588436378">WhatsApp</a>
+<a class="map" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Balmoral%20Plaza%20Bukit%20Timah%20Road%20Singapore">Google Maps</a>
+</div>
+</aside>
+</main>
+<div id="lb" class="lightbox" hidden><button class="close">×</button><img id="full"></div>
+<script>
+const lb=document.getElementById('lb'),full=document.getElementById('full');
+document.querySelectorAll('.gallery img').forEach(i=>i.onclick=()=>{full.src=i.src;lb.hidden=false});
+document.querySelector('.close').onclick=()=>lb.hidden=true;
+lb.onclick=e=>{if(e.target===lb)lb.hidden=true}
+</script>
+</body>
+</html>
