@@ -9,7 +9,9 @@
     "longitude": 103.87597668449577,
     "featured": false,
     "description": "",
-    "photos": []
+    "photos": [],
+    "slug": "royal-massage",
+    "page": ""
   },
   {
     "name": "Young Skin Spa",
@@ -21,7 +23,9 @@
     "longitude": 103.88582118584249,
     "featured": false,
     "description": "",
-    "photos": []
+    "photos": [],
+    "slug": "young-skin-spa",
+    "page": ""
   },
   {
     "name": "Hawaii Spa",
@@ -35,7 +39,9 @@
     "description": "",
     "photos": [
       "https://ik.imagekit.io/nearbymassage/Photos/hawaii/01.jpg"
-    ]
+    ],
+    "slug": "hawaii-spa",
+    "page": ""
   },
   {
     "name": "House of Traditional Javanese Massage (Greenwich V)",
@@ -47,7 +53,9 @@
     "longitude": 103.86893247053614,
     "featured": false,
     "description": "",
-    "photos": []
+    "photos": [],
+    "slug": "house-of-traditional-javanese-massage-greenwich-v",
+    "page": ""
   },
   {
     "name": "Cozy Cove Spa",
@@ -59,7 +67,9 @@
     "longitude": 103.89012930611837,
     "featured": false,
     "description": "",
-    "photos": []
+    "photos": [],
+    "slug": "cozy-cove-spa",
+    "page": ""
   },
   {
     "name": "Knead Press Spa @ Kovan",
@@ -71,7 +81,9 @@
     "longitude": 103.88570590799098,
     "featured": false,
     "description": "",
-    "photos": []
+    "photos": [],
+    "slug": "knead-press-spa-kovan",
+    "page": ""
   },
   {
     "name": "Rong Ting Wellness and Foot Spa",
@@ -83,7 +95,9 @@
     "longitude": 103.89494709657687,
     "featured": false,
     "description": "",
-    "photos": []
+    "photos": [],
+    "slug": "rong-ting-wellness-and-foot-spa",
+    "page": ""
   },
   {
     "name": "Hai Tian Healthcare",
@@ -95,7 +109,9 @@
     "longitude": 103.88690654341569,
     "featured": false,
     "description": "",
-    "photos": []
+    "photos": [],
+    "slug": "hai-tian-healthcare",
+    "page": ""
   },
   {
     "name": "Spa Now",
@@ -107,7 +123,9 @@
     "longitude": 103.88717282798945,
     "featured": false,
     "description": "",
-    "photos": []
+    "photos": [],
+    "slug": "spa-now",
+    "page": ""
   },
   {
     "name": "Hao Spa - Massage(Hougang)",
@@ -119,7 +137,9 @@
     "longitude": 103.88585539104237,
     "featured": false,
     "description": "",
-    "photos": []
+    "photos": [],
+    "slug": "hao-spa-massage-hougang",
+    "page": ""
   },
   {
     "name": "Envy Spa",
@@ -131,7 +151,9 @@
     "longitude": 103.88779022774557,
     "featured": false,
     "description": "",
-    "photos": []
+    "photos": [],
+    "slug": "envy-spa",
+    "page": ""
   },
   {
     "name": "Garden Spa",
@@ -143,7 +165,9 @@
     "longitude": 103.8883910062316,
     "featured": false,
     "description": "",
-    "photos": []
+    "photos": [],
+    "slug": "garden-spa",
+    "page": ""
   },
   {
     "name": "Viet Massage & Spa",
@@ -155,7 +179,9 @@
     "longitude": 103.88660844722284,
     "featured": false,
     "description": "",
-    "photos": []
+    "photos": [],
+    "slug": "viet-massage-and-spa",
+    "page": ""
   },
   {
     "name": "Guizu Health Center",
@@ -167,7 +193,9 @@
     "longitude": 103.88588399860618,
     "featured": false,
     "description": "",
-    "photos": []
+    "photos": [],
+    "slug": "guizu-health-center",
+    "page": ""
   },
   {
     "name": "Xin Lin Spa",
@@ -179,7 +207,9 @@
     "longitude": 103.88445276773933,
     "featured": false,
     "description": "",
-    "photos": []
+    "photos": [],
+    "slug": "xin-lin-spa",
+    "page": ""
   },
   {
     "name": "Mt Everests Spa - Hougang",
@@ -191,7 +221,9 @@
     "longitude": 103.88369137488246,
     "featured": false,
     "description": "",
-    "photos": []
+    "photos": [],
+    "slug": "mt-everests-spa-hougang",
+    "page": ""
   },
   {
     "name": "Sekai TCM Hougang",
@@ -203,7 +235,9 @@
     "longitude": 103.88137317820457,
     "featured": false,
     "description": "",
-    "photos": []
+    "photos": [],
+    "slug": "sekai-tcm-hougang",
+    "page": ""
   },
   {
     "name": "Li Xin Massage Spa",
@@ -217,7 +251,9 @@
     "description": "Escape the everyday and enter a sanctuary of tranquility at Li Xin Beauty Massage. Nestled in the heart of Chinatown on Sago Street, this massage spa offers a serene retreat from the bustling city. Our skilled therapists specialize in a variety of traditional massage techniques, designed to soothe your mind, body, and soul. Discover a space where ancient traditions meet modern wellness, dedicated to providing a rejuvenating and deeply relaxing experience.",
     "photos": [
       "https://ik.imagekit.io/nearbymassage/Photos/Li%20Xin/01.jpg"
-    ]
+    ],
+    "slug": "li-xin-massage-spa",
+    "page": ""
   },
   {
     "name": "Xuan Spa",
@@ -238,7 +274,9 @@
       "https://ik.imagekit.io/nearbymassage/Photos/XuanSpa/06.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/XuanSpa/07.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/XuanSpa/08.jpg"
-    ]
+    ],
+    "slug": "xuan-spa",
+    "page": ""
   },
   {
     "name": "RSG Wellness",
@@ -252,7 +290,9 @@
     "description": "RSG Wellness Spa is a Singapore-based Massage Spa, specializes in top-of-the-line, yet affordable, budget-friendly massage therapy. We pride ourselves with well-trained and seasoned therapists that will give you the relaxing session you need. Our Signature full body massage and relaxing reflexology will help you ease the tension and soreness on your muscles. If you are in need of an oil massage, hot oil massage, body massage we are the massage spa for you. We recommend a two-hour full body massage for an ultimate head-to-toe relaxation session. For reservation contact us today! Located in Toh Tuck..",
     "photos": [
       "https://ik.imagekit.io/nearbymassage/Photos/RSG/01.jpg"
-    ]
+    ],
+    "slug": "rsg-wellness",
+    "page": ""
   },
   {
     "name": "Healthy Path Spa",
@@ -266,7 +306,9 @@
     "description": "Healthy Path Spa is a Singapore-based massage spa that specializes in top-notch yet affordable massage therapies. We pride ourselves on having well-trained and experienced therapists who will provide you with the relaxing treatments you need. Our signature full-body massage and relaxing reflexology will help relieve muscle tension and soreness. We recommend a two-hour body massage for ultimate head-to-toe relaxation. Our services include oil massage, foot reflexology, body massage or ear picking we are the massage spa for you. Inspired by our connection to life and nature, our minimal and elementary setting invites you into a world of self-transformation and relaxation. Located in Bedok.",
     "photos": [
       "https://ik.imagekit.io/nearbymassage/Photos/HealthyPathSpa/01.jpg"
-    ]
+    ],
+    "slug": "healthy-path-spa",
+    "page": ""
   },
   {
     "name": "Lin Spa",
@@ -285,7 +327,9 @@
       "https://ik.imagekit.io/nearbymassage/Photos/Lin%20Spa/04.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Lin%20Spa/05.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Lin%20Spa/06.jpg"
-    ]
+    ],
+    "slug": "lin-spa",
+    "page": ""
   },
   {
     "name": "AX Spa @ Havelock",
@@ -306,7 +350,9 @@
       "https://ik.imagekit.io/nearbymassage/Photos/AX%20Spa/06.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/AX%20Spa/07.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/AX%20Spa/08.jpg"
-    ]
+    ],
+    "slug": "ax-spa-havelock",
+    "page": ""
   },
   {
     "name": "Ozio Spa",
@@ -327,7 +373,9 @@
       "https://ik.imagekit.io/nearbymassage/Photos/Ozio/06.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Ozio/07.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Ozio/08.jpg"
-    ]
+    ],
+    "slug": "ozio-spa",
+    "page": ""
   },
   {
     "name": "Hexing Wellness",
@@ -346,7 +394,9 @@
       "https://ik.imagekit.io/nearbymassage/Photos/Hexing/04.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Hexing/05.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Hexing/06.jpg"
-    ]
+    ],
+    "slug": "hexing-wellness",
+    "page": ""
   },
   {
     "name": "Cuppage Wellness",
@@ -367,7 +417,9 @@
       "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/06.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/07.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/08.jpg"
-    ]
+    ],
+    "slug": "cuppage-wellness",
+    "page": ""
   },
   {
     "name": "Nice Wellness",
@@ -385,7 +437,9 @@
       "https://ik.imagekit.io/nearbymassage/Photos/Nice/03.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Nice/04.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Nice/05.jpg"
-    ]
+    ],
+    "slug": "nice-wellness",
+    "page": ""
   },
   {
     "name": "Favorite Wellness",
@@ -404,7 +458,9 @@
       "https://ik.imagekit.io/nearbymassage/Photos/Favorite/04.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Favorite/05.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Favorite/06.jpg"
-    ]
+    ],
+    "slug": "favorite-wellness",
+    "page": ""
   },
   {
     "name": "Yi Spa",
@@ -425,7 +481,9 @@
       "https://ik.imagekit.io/nearbymassage/Photos/Yi/06.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Yi/07.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Yi/08.jpg"
-    ]
+    ],
+    "slug": "yi-spa",
+    "page": ""
   },
   {
     "name": "TL Beauty Wellness",
@@ -445,7 +503,9 @@
       "https://ik.imagekit.io/nearbymassage/Photos/TLB/05.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/TLB/06.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/TLB/07.jpg"
-    ]
+    ],
+    "slug": "tl-beauty-wellness",
+    "page": ""
   },
   {
     "name": "Yuan Kang TCM",
@@ -465,7 +525,9 @@
       "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/05.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/06.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/07.jpg"
-    ]
+    ],
+    "slug": "yuan-kang-tcm",
+    "page": "yuan-kang-tcm.html"
   },
   {
     "name": "SK Spa",
@@ -486,7 +548,9 @@
       "https://ik.imagekit.io/nearbymassage/Photos/SK/T6.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/SK/T7.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/SK/T8.jpg"
-    ]
+    ],
+    "slug": "sk-spa",
+    "page": "sk-spa.html"
   },
   {
     "name": "Moonlight Health Club",
@@ -504,7 +568,9 @@
       "https://ik.imagekit.io/nearbymassage/Photos/Moonlight/03.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Moonlight/04.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Moonlight/05.jpg"
-    ]
+    ],
+    "slug": "moonlight-health-club",
+    "page": "moonlight-health-club.html"
   },
   {
     "name": "IM Beauty",
@@ -522,7 +588,9 @@
       "https://ik.imagekit.io/nearbymassage/Photos/IMBeauty/03.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/IMBeauty/04.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/IMBeauty/05.jpg"
-    ]
+    ],
+    "slug": "im-beauty",
+    "page": ""
   },
   {
     "name": "Q Spa",
@@ -534,7 +602,9 @@
     "longitude": 103.85393608689,
     "featured": false,
     "description": "",
-    "photos": []
+    "photos": [],
+    "slug": "q-spa",
+    "page": ""
   },
   {
     "name": "Wellness Yu Kang Ning",
@@ -546,7 +616,9 @@
     "longitude": 103.853474663272,
     "featured": false,
     "description": "",
-    "photos": []
+    "photos": [],
+    "slug": "wellness-yu-kang-ning",
+    "page": ""
   },
   {
     "name": "Yi He Tang TCM",
@@ -558,7 +630,9 @@
     "longitude": 103.853618578687,
     "featured": false,
     "description": "",
-    "photos": []
+    "photos": [],
+    "slug": "yi-he-tang-tcm",
+    "page": ""
   },
   {
     "name": "Oscar Foot & Body Massage",
@@ -570,7 +644,9 @@
     "longitude": 103.8532876959,
     "featured": false,
     "description": "",
-    "photos": []
+    "photos": [],
+    "slug": "oscar-foot-and-body-massage",
+    "page": ""
   },
   {
     "name": "Kang Zhi Yuan",
@@ -582,7 +658,9 @@
     "longitude": 103.853690380117,
     "featured": false,
     "description": "",
-    "photos": []
+    "photos": [],
+    "slug": "kang-zhi-yuan",
+    "page": ""
   },
   {
     "name": "Tian Tian Wellness Spa",
@@ -594,6 +672,8 @@
     "longitude": 103.857180886196,
     "featured": false,
     "description": "",
-    "photos": []
+    "photos": [],
+    "slug": "tian-tian-wellness-spa",
+    "page": ""
   }
 ]
