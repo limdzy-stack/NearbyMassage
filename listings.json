@@ -1,7 +1,7 @@
 [
   {
     "name": "Royal Massage",
-    "area": "Ang Mo Kio",
+    "area": "Yio Chu Kang",
     "address": "14 Jln Kelulut, Singapore 809031",
     "phone": "62355350",
     "whatsapp": "",
@@ -15,7 +15,7 @@
   },
   {
     "name": "Young Skin Spa",
-    "area": "Serangoon",
+    "area": "Hougang",
     "address": "17 Simon Rd, Singapore 545902",
     "phone": "62220308",
     "whatsapp": "",
@@ -29,7 +29,7 @@
   },
   {
     "name": "Hawaii Spa",
-    "area": "Ang Mo Kio",
+    "area": "Yio Chu Kang",
     "address": "14 Jln Selaseh, #01-00 Seletar Hills Estate, Singapore 808439",
     "phone": "64819768",
     "whatsapp": "",
@@ -45,7 +45,7 @@
   },
   {
     "name": "House of Traditional Javanese Massage (Greenwich V)",
-    "area": "Ang Mo Kio",
+    "area": "Yio Chu Kang",
     "address": "1 Seletar Rd, #01-01, Singapore 807011",
     "phone": "82094346",
     "whatsapp": "",
@@ -59,7 +59,7 @@
   },
   {
     "name": "Cozy Cove Spa",
-    "area": "Serangoon",
+    "area": "Hougang",
     "address": "46 Lor 1 Realty Pk, Singapore 536961",
     "phone": "81777721",
     "whatsapp": "",
@@ -73,7 +73,7 @@
   },
   {
     "name": "Knead Press Spa @ Kovan",
-    "area": "Serangoon",
+    "area": "Hougang",
     "address": "23A Simon Rd, Singapore 545910",
     "phone": "62038880",
     "whatsapp": "",
@@ -87,7 +87,7 @@
   },
   {
     "name": "Rong Ting Wellness and Foot Spa",
-    "area": "Serangoon",
+    "area": "Hougang",
     "address": "1187 Upper Serangoon Rd, The Midtown, #01-06 Singapore: 533971",
     "phone": "88191312",
     "whatsapp": "",
@@ -101,7 +101,7 @@
   },
   {
     "name": "Hai Tian Healthcare",
-    "area": "Serangoon",
+    "area": "Hougang",
     "address": "Hougang St.61, #01-14 Singapore: 530698",
     "phone": "65131878",
     "whatsapp": "",
@@ -115,7 +115,7 @@
   },
   {
     "name": "Spa Now",
-    "area": "Serangoon",
+    "area": "Hougang",
     "address": "684 Hougang Ave 8, Singapore 530684",
     "phone": "62824342",
     "whatsapp": "",
@@ -129,7 +129,7 @@
   },
   {
     "name": "Hao Spa - Massage(Hougang)",
-    "area": "Serangoon",
+    "area": "Hougang",
     "address": "685 Hougang St. 61, #01-152, Singapore 530685",
     "phone": "88861779",
     "whatsapp": "",
@@ -143,7 +143,7 @@
   },
   {
     "name": "Envy Spa",
-    "area": "Serangoon",
+    "area": "Hougang",
     "address": "1000 Upper Serangoon Rd, Singapore 534738",
     "phone": "63850010",
     "whatsapp": "",
@@ -157,7 +157,7 @@
   },
   {
     "name": "Garden Spa",
-    "area": "Serangoon",
+    "area": "Hougang",
     "address": "1024 Upper Serangoon Rd, #1024, Singapore 534762",
     "phone": "62823581",
     "whatsapp": "",
@@ -171,7 +171,7 @@
   },
   {
     "name": "Viet Massage & Spa",
-    "area": "Serangoon",
+    "area": "Hougang",
     "address": "684 Hougang Ave 8, #01-979 Viet massage & spa, Singapore 530684",
     "phone": "97648648",
     "whatsapp": "6597648648",
@@ -185,7 +185,7 @@
   },
   {
     "name": "Guizu Health Center",
-    "area": "Serangoon",
+    "area": "Hougang",
     "address": "681 Hougang Ave 8, #01-847, Singapore 530681",
     "phone": "97267509",
     "whatsapp": "6597267509",
@@ -199,7 +199,7 @@
   },
   {
     "name": "Xin Lin Spa",
-    "area": "Serangoon",
+    "area": "Hougang",
     "address": "678 Hougang Ave 8, #01-511, Singapore 530678",
     "phone": "98883201",
     "whatsapp": "6598883201",
@@ -213,7 +213,7 @@
   },
   {
     "name": "Mt Everests Spa - Hougang",
-    "area": "Serangoon",
+    "area": "Hougang",
     "address": "620 Hougang Ave 8, #01-260, Singapore 530620",
     "phone": "62458759",
     "whatsapp": "",
@@ -227,7 +227,7 @@
   },
   {
     "name": "Sekai TCM Hougang",
-    "area": "Serangoon",
+    "area": "Hougang",
     "address": "631 Hougang Ave 8, #01-10, Singapore 530631",
     "phone": "62221742",
     "whatsapp": "",
@@ -241,7 +241,7 @@
   },
   {
     "name": "Li Xin Massage Spa",
-    "area": "",
+    "area": "Chinatown",
     "address": "30 Sago St, Singapore 059024",
     "phone": "62253231",
     "whatsapp": "6591121766",
@@ -255,7 +255,7 @@
   },
   {
     "name": "Xuan Spa",
-    "area": "",
+    "area": "Farrer Park",
     "address": "438 Race Course Rd, Singapore 218684",
     "phone": "97793468",
     "whatsapp": "6597793468",
@@ -278,7 +278,7 @@
   },
   {
     "name": "RSG Wellness",
-    "area": "Upper Thomson",
+    "area": "Bukit Timah",
     "address": "54 Jalan Jurong Kechil, Building, JK, 598580",
     "phone": "69312499",
     "whatsapp": "",
@@ -310,7 +310,7 @@
   },
   {
     "name": "Lin Spa",
-    "area": "",
+    "area": "Tampines",
     "address": "Blk 139 Tampines St. 11, #01-136. Singapore 521139",
     "phone": "67822250",
     "whatsapp": "6581697732",
@@ -376,7 +376,7 @@
   },
   {
     "name": "Hexing Wellness",
-    "area": "Orchard",
+    "area": "Bukit Merah",
     "address": "35 Telok Blangah Rise, #01-295 Telok Blangah, Singapore 090035",
     "phone": "81344927",
     "whatsapp": "6581344927",
@@ -397,7 +397,7 @@
   },
   {
     "name": "Cuppage Wellness",
-    "area": "",
+    "area": "Orchard",
     "address": "5 Koek Rd, B1-02/03, Singapore 228796",
     "phone": "82675689",
     "whatsapp": "6582675689",
@@ -440,7 +440,7 @@
   },
   {
     "name": "Favorite Wellness",
-    "area": "Farrer Park",
+    "area": "Kallang",
     "address": "66 Kallang Bahru, #01-517, Singapore 330066",
     "phone": "82853755",
     "whatsapp": "6582853755",
@@ -461,7 +461,7 @@
   },
   {
     "name": "Yi Spa",
-    "area": "Chinatown",
+    "area": "Lavender",
     "address": "768 N Bridge Rd, Singapore 198736",
     "phone": "63923038",
     "whatsapp": "",
@@ -484,7 +484,7 @@
   },
   {
     "name": "TL Beauty Wellness",
-    "area": "",
+    "area": "Orchard",
     "address": "220 Orchard Rd, #02-06 Midpoint Orchard, Singapore 238852",
     "phone": "84615202",
     "whatsapp": "6584615202",
@@ -506,7 +506,7 @@
   },
   {
     "name": "Yuan Kang TCM",
-    "area": "",
+    "area": "Farrer Park",
     "address": "428 Race Course Rd, Singapore 218674",
     "phone": "93425428",
     "whatsapp": "6593425428",
@@ -551,7 +551,7 @@
   },
   {
     "name": "Moonlight Health Club",
-    "area": "Bukit Timah",
+    "area": "Novena",
     "address": "Balmoral Plaza, Bukit Timah Road, Singapore",
     "phone": "88436378",
     "whatsapp": "6588436378",
@@ -571,7 +571,7 @@
   },
   {
     "name": "IM Beauty",
-    "area": "",
+    "area": "Orchard",
     "address": "220 Orchard Rd, #04-12A Midpoint Orchard, Singapore 238852",
     "phone": "89587588",
     "whatsapp": "6589587588",
@@ -590,22 +590,8 @@
     "page": ""
   },
   {
-    "name": "Q Spa",
-    "area": "",
-    "address": "89 Rangoon Rd, #01-04 Urban Lofts, Singapore 218375",
-    "phone": "",
-    "whatsapp": "",
-    "latitude": 1.3143208829491,
-    "longitude": 103.85393608689,
-    "featured": false,
-    "description": "",
-    "photos": [],
-    "slug": "q-spa",
-    "page": ""
-  },
-  {
     "name": "Wellness Yu Kang Ning",
-    "area": "",
+    "area": "Farrer Park",
     "address": "123 Rangoon Rd, Singapore 218401",
     "phone": "82330076",
     "whatsapp": "6582330076",
@@ -619,7 +605,7 @@
   },
   {
     "name": "Yi He Tang TCM",
-    "area": "",
+    "area": "Farrer Park",
     "address": "134 Rangoon Rd, Singapore 218412",
     "phone": "85459319",
     "whatsapp": "6585459319",
@@ -633,7 +619,7 @@
   },
   {
     "name": "Oscar Foot & Body Massage",
-    "area": "",
+    "area": "Farrer Park",
     "address": "168 Rangoon Rd, Singapore 218437",
     "phone": "62352862",
     "whatsapp": "",
@@ -647,7 +633,7 @@
   },
   {
     "name": "Kang Zhi Yuan",
-    "area": "",
+    "area": "Farrer Park",
     "address": "128 Rangoon Rd, Singapore 218406",
     "phone": "94219456",
     "whatsapp": "6594219456",
@@ -661,7 +647,7 @@
   },
   {
     "name": "Tian Tian Wellness Spa",
-    "area": "",
+    "area": "Farrer Park",
     "address": "1 Marne Rd, #01-04 The Citron, Singapore 208380",
     "phone": "84514378",
     "whatsapp": "6584514378",
@@ -675,7 +661,7 @@
   },
   {
     "name": "Gem TCM",
-    "area": "",
+    "area": "Chinatown",
     "address": "12 Gemhill Lane. Singapore 069252",
     "phone": "83740522",
     "whatsapp": "6583740522",
@@ -714,7 +700,7 @@
     "name": "Lush Massage",
     "area": "Ang Mo Kio",
     "address": "226C Ang Mo Kio Avenue 1, #01-651",
-    "phone": "",
+    "phone": "62666606",
     "whatsapp": "",
     "latitude": 1.36945,
     "longitude": 103.8401,
@@ -767,20 +753,6 @@
     "page": ""
   },
   {
-    "name": "Essence Health Spa",
-    "area": "Ang Mo Kio",
-    "address": "443 Ang Mo Kio Avenue 10, #01-1257",
-    "phone": "",
-    "whatsapp": "",
-    "latitude": 1.3669,
-    "longitude": 103.8552,
-    "featured": false,
-    "description": "",
-    "photos": [],
-    "slug": "essence-health-spa",
-    "page": ""
-  },
-  {
     "name": "Xpress Foot Wellness @ AMK Hub",
     "area": "Ang Mo Kio",
     "address": "53 Ang Mo Kio Avenue 3, B1-42/43/44, AMK Hub",
@@ -812,7 +784,7 @@
     "name": "108 Spa",
     "area": "Ang Mo Kio",
     "address": "108 Ang Mo Kio Avenue 4, #01-90",
-    "phone": "",
+    "phone": "65179829",
     "whatsapp": "",
     "latitude": 1.3709,
     "longitude": 103.8372,
@@ -876,20 +848,6 @@
     "description": "",
     "photos": [],
     "slug": "kangjia-the-best-acutherapy-centre",
-    "page": ""
-  },
-  {
-    "name": "Chien Chi Tow Healthcare",
-    "area": "Ang Mo Kio",
-    "address": "452 Ang Mo Kio Avenue 10",
-    "phone": "6564577677",
-    "whatsapp": "",
-    "latitude": 1.36815,
-    "longitude": 103.85655,
-    "featured": false,
-    "description": "",
-    "photos": [],
-    "slug": "chien-chi-tow-healthcare",
     "page": ""
   },
   {
@@ -991,34 +949,6 @@
     "page": ""
   },
   {
-    "name": "Hua Jian TCM",
-    "area": "Ang Mo Kio",
-    "address": "4190 Ang Mo Kio Avenue 6, #02-01, Broadway Plaza",
-    "phone": "",
-    "whatsapp": "",
-    "latitude": 1.3718,
-    "longitude": 103.8462,
-    "featured": false,
-    "description": "",
-    "photos": [],
-    "slug": "hua-jian-tcm",
-    "page": ""
-  },
-  {
-    "name": "Rejuv Footwork",
-    "area": "Ang Mo Kio",
-    "address": "339 Ang Mo Kio Avenue 1, #01-1591",
-    "phone": "",
-    "whatsapp": "",
-    "latitude": 1.3632,
-    "longitude": 103.8492,
-    "featured": false,
-    "description": "",
-    "photos": [],
-    "slug": "rejuv-footwork",
-    "page": ""
-  },
-  {
     "name": "Aramsa – The Garden Spa",
     "area": "Bishan-Ang Mo Kio Park",
     "address": "1384 Ang Mo Kio Avenue 1, Bishan Park 2",
@@ -1062,7 +992,7 @@
   },
   {
     "name": "Healing Touch Spa - Centrepoint",
-    "area": "Somerset",
+    "area": "Orchard",
     "address": "176 Orchard Road, #02-20, The Centrepoint",
     "phone": "65655667806597717890",
     "whatsapp": "",
@@ -1076,7 +1006,7 @@
   },
   {
     "name": "Elements Wellness - Centrepoint",
-    "area": "Somerset",
+    "area": "Orchard",
     "address": "176 Orchard Road, #02-28, The Centrepoint",
     "phone": "65685636396581636915",
     "whatsapp": "",
@@ -1090,9 +1020,9 @@
   },
   {
     "name": "Chrysalis Spa - Centrepoint",
-    "area": "Somerset",
+    "area": "Orchard",
     "address": "176 Orchard Road, #03-24, The Centrepoint",
-    "phone": "",
+    "phone": "68849636",
     "whatsapp": "",
     "latitude": 1.30123,
     "longitude": 103.83922,
@@ -1104,7 +1034,7 @@
   },
   {
     "name": "The Thai Spa - Orchard Central",
-    "area": "Somerset",
+    "area": "Orchard",
     "address": "181 Orchard Road, #04-12, Orchard Central",
     "phone": "65688496366596353999",
     "whatsapp": "",
@@ -1118,7 +1048,7 @@
   },
   {
     "name": "i Spa",
-    "area": "Dhoby Ghaut / Orchard",
+    "area": "Orchard",
     "address": "100 Orchard Road, #02-44/45/46, Concorde Hotel & Shopping Mall",
     "phone": "6581818242",
     "whatsapp": "",
@@ -1146,7 +1076,7 @@
   },
   {
     "name": "Nuffield Wellness",
-    "area": "Somerset",
+    "area": "Orchard",
     "address": "11 Cavenagh Road, #B1-01, Holiday Inn Singapore Orchard City Centre",
     "phone": "6567321318",
     "whatsapp": "",
@@ -1310,6 +1240,34 @@
     "description": "",
     "photos": [],
     "slug": "en-na-spa",
+    "page": ""
+  },
+  {
+    "name": "Yasumi Spa",
+    "area": "Hougang",
+    "address": "522 Upper Serangoon Rd, Singapore 534538",
+    "phone": "80381766",
+    "whatsapp": "",
+    "latitude": 1.34569001744106,
+    "longitude": 103.871459545517,
+    "featured": false,
+    "description": "",
+    "photos": [],
+    "slug": "yasumi-spa",
+    "page": ""
+  },
+  {
+    "name": "Nic's Day Wellness & Beauty (Ang Mo Kio)",
+    "area": "Ang Mo Kio",
+    "address": "Ang Mo Kio Ave 1, blk 226C #01-661 Singapore: 563226",
+    "phone": "65137883",
+    "whatsapp": "",
+    "latitude": 1.36719071901218,
+    "longitude": 103.839310422646,
+    "featured": false,
+    "description": "",
+    "photos": [],
+    "slug": "nic-s-day-wellness-and-beauty-ang-mo-kio",
     "page": ""
   }
 ]
