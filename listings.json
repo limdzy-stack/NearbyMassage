@@ -675,5 +675,28 @@
     "photos": [],
     "slug": "tian-tian-wellness-spa",
     "page": ""
+  },
+  {
+    "name": "Gem TCM",
+    "area": "ChinaTown",
+    "address": "12 Gemhill Lane. Singapore 069252",
+    "phone": "83740522",
+    "whatsapp": "6583740522",
+    "latitude": 1.28243198163925,
+    "longitude": 103.847067242655,
+    "featured": false,
+    "description": "GEM TCM offers a wide range of theraputic massages as well as side services such as ear picking.",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/GemTCM/01.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/GemTCM/08.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/GemTCM/07.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/GemTCM/06.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/GemTCM/05.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/GemTCM/04.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/GemTCM/03.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/GemTCM/02.jpg"
+    ],
+    "slug": "gem-tcm",
+    "page": "gem-tcm.html"
   }
 ]
