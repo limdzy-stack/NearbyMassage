@@ -375,27 +375,6 @@
     "page": ""
   },
   {
-    "name": "Hexing Wellness",
-    "area": "Bukit Merah",
-    "address": "35 Telok Blangah Rise, #01-295 Telok Blangah, Singapore 090035",
-    "phone": "81344927",
-    "whatsapp": "6581344927",
-    "latitude": 1.273050017404004,
-    "longitude": 103.822131218801,
-    "featured": true,
-    "description": "Hexing Wellness in Telok Blangah is a tranquil massage spa offering a range of rejuvenating treatments designed to relax the body and restore balance. Our services include soothing body massages, hot oil massage for deep muscle relief, and traditional TCM tuina therapy to promote circulation and healing. We also offer a unique and refreshing bubble massage experience for full-body relaxation. With skilled therapists and a calming atmosphere, Hexing Wellness provides personalised care to help you unwind and recharge. Visit us in Telok Blangah for a peaceful, revitalising escape. We look forward to welcoming you.",
-    "photos": [
-      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/01.jpg",
-      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/02.jpg",
-      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/03.jpg",
-      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/04.jpg",
-      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/05.jpg",
-      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/06.jpg"
-    ],
-    "slug": "hexing-wellness",
-    "page": ""
-  },
-  {
     "name": "Cuppage Wellness",
     "area": "Orchard",
     "address": "5 Koek Rd, B1-02/03, Singapore 228796",
@@ -449,12 +428,13 @@
     "featured": true,
     "description": "Favorite Wellness TCM is a professional TCM massage spa near Kallang Bahru, offering authentic traditional Chinese massage for relaxation, pain relief, and overall wellness. Conveniently located in Kallang Bahru, we provide a clean, comfortable, and private environment for customers searching for a reliable massage near Kallang Bahru. Our experienced therapists specialize in Chinese massage to relieve muscle tension, improve circulation, and reduce stress. Whether you need relaxation or relief from body aches, Favorite Wellness TCM is a trusted choice for quality massage in Kallang Bahru.",
     "photos": [
-      "https://ik.imagekit.io/nearbymassage/Photos/Favorite/01.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Favorite/07.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Favorite/02.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Favorite/03.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Favorite/04.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Favorite/05.jpg",
-      "https://ik.imagekit.io/nearbymassage/Photos/Favorite/06.jpg"
+      "https://ik.imagekit.io/nearbymassage/Photos/Favorite/06.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Favorite/01.jpg"
     ],
     "slug": "favorite-wellness",
     "page": ""
