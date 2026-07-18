@@ -1249,5 +1249,33 @@
     "photos": [],
     "slug": "nic-s-day-wellness-and-beauty-ang-mo-kio",
     "page": ""
+  },
+  {
+    "name": "Spell Spa",
+    "area": "Lavender",
+    "address": "278 Lavender St., Singapore 338799",
+    "phone": "63968008",
+    "whatsapp": "",
+    "latitude": 1.3143500294893,
+    "longitude": 103.860463068757,
+    "featured": false,
+    "description": "",
+    "photos": [],
+    "slug": "spell-spa",
+    "page": ""
+  },
+  {
+    "name": "Eternal Beauty Spa",
+    "area": "Lavender",
+    "address": "776A N Bridge Rd, Singapore 198744",
+    "phone": "81771959",
+    "whatsapp": "",
+    "latitude": 1.30355392130643,
+    "longitude": 103.859886662882,
+    "featured": false,
+    "description": "",
+    "photos": [],
+    "slug": "eternal-beauty-spa",
+    "page": ""
   }
 ]
