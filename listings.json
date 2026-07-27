@@ -1275,5 +1275,22 @@
     "photos": [],
     "slug": "eternal-beauty-spa",
     "page": ""
+  },
+  {
+    "name": "Shu Xun Ge",
+    "area": "Chinatown",
+    "address": "63A Temple Street Singapore 058608",
+    "phone": "84123108",
+    "whatsapp": "",
+    "latitude": 1.28326921426425,
+    "longitude": 103.843329086658,
+    "featured": false,
+    "description": "",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/shuxinge/01.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/shuxinge/02.jpg"
+    ],
+    "slug": "shu-xun-ge",
+    "page": "shu-xun-ge.html"
   }
 ]
