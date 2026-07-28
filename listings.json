@@ -1292,5 +1292,25 @@
     ],
     "slug": "shu-xun-ge",
     "page": "shu-xun-ge.html"
+  },
+  {
+    "name": "LanGuiRen Beauty Spa",
+    "area": "Jalan Besar",
+    "address": "110 Jln Besar, Singapore 208830",
+    "phone": "93449110",
+    "whatsapp": "6593449110",
+    "latitude": 1.30633272292886,
+    "longitude": 103.855995963583,
+    "featured": true,
+    "description": "",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/Nearbytherapists/LGR_Ella/03.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Nearbytherapists/LGR_Abby/5.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Nearbytherapists/LGR_Rose/02.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Nearbytherapists/LGR_YoYo/01.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Nearbytherapists/LGR_Lucky/01.jpg"
+    ],
+    "slug": "languiren-beauty-spa",
+    "page": "languiren-beauty-spa.html"
   }
 ]
