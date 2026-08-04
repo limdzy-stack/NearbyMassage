@@ -1312,5 +1312,25 @@
     ],
     "slug": "languiren-beauty-spa",
     "page": "languiren-beauty-spa.html"
+  },
+  {
+    "name": "Dew Beauty Wellness",
+    "area": "Clarke Quay",
+    "address": "17 Carpenter Street",
+    "phone": "81344927",
+    "whatsapp": "6581344927",
+    "latitude": 1.28828931312109,
+    "longitude": 103.847794634461,
+    "featured": true,
+    "description": "",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/5.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/4.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/2.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/06.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Hexing/03.jpg"
+    ],
+    "slug": "dew-beauty-wellness",
+    "page": "dew-beauty-wellness.html"
   }
 ]
