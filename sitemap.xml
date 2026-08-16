@@ -1,29 +1,143 @@
-<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">  
-<url><loc>https://nearbymassage.app/</loc></url>  
-<url><loc>https://nearbymassage.app/qing-mu-428.html</loc></url>
-<url><loc>https://nearbymassage.app/sk-spa.html</loc></url>
-<url><loc>https://nearbymassage.app/moonlight-health-club.html</loc></url>
-<url><loc>https://nearbymassage.app/gem-tcm.html</loc></url>
-<url><loc>https://nearbymassage.app/shu-xun-ge.html</loc></url>
-<url><loc>https://nearbymassage.app/languiren-beauty-spa.html</loc></url>
-<url><loc>https://nearbymassage.app/dew-beauty-wellness.html</loc></url>
-<url><loc>https://nearbymassage.app/massage-yio-chu-kang.html</loc></url>
-<url><loc>https://nearbymassage.app/massage-hougang.html</loc></url>
-<url><loc>https://nearbymassage.app/massage-chinatown.html</loc></url>
-<url><loc>https://nearbymassage.app/massage-farrer-park.html</loc></url>
-<url><loc>https://nearbymassage.app/massage-bukit-timah.html</loc></url>
-<url><loc>https://nearbymassage.app/massage-bedok.html</loc></url>
-<url><loc>https://nearbymassage.app/massage-tampines.html</loc></url>
-<url><loc>https://nearbymassage.app/massage-bukit-merah.html</loc></url>
-<url><loc>https://nearbymassage.app/massage-orchard.html</loc></url>
-<url><loc>https://nearbymassage.app/massage-kallang.html</loc></url>
-<url><loc>https://nearbymassage.app/massage-lavender.html</loc></url>
-<url><loc>https://nearbymassage.app/massage-katong.html</loc></url>
-<url><loc>https://nearbymassage.app/massage-novena.html</loc></url>
-<url><loc>https://nearbymassage.app/massage-ang-mo-kio.html</loc></url>
-<url><loc>https://nearbymassage.app/massage-ang-mo-kio-yio-chu-kang.html</loc></url>
-<url><loc>https://nearbymassage.app/massage-bishan-ang-mo-kio-park.html</loc></url>
-<url><loc>https://nearbymassage.app/massage-upper-thomson.html</loc></url>
-<url><loc>https://nearbymassage.app/massage-jalan-besar.html</loc></url>
-<url><loc>https://nearbymassage.app/massage-clarke-quay.html</loc></url>
-</urlset>\n
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://nearbymassage.app/dew-beauty-wellness.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/gem-tcm.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/languiren-beauty-spa.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/massage-ang-mo-kio-yio-chu-kang.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/massage-ang-mo-kio.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/massage-bedok.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/massage-bishan-ang-mo-kio-park.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/massage-bukit-batok.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/massage-bukit-merah.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/massage-bukit-timah.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/massage-chinatown.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/massage-clarke-quay.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/massage-dhoby-ghaut-orchard.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/massage-farrer-park.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/massage-hougang.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/massage-jalan-besar.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/massage-kallang.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/massage-katong.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/massage-lavender.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/massage-novena.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/massage-orchard.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/massage-serangoon.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/massage-siglap.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/massage-singapore.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/massage-somerset.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/massage-tampines.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/massage-tiong-bahru.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/massage-upper-thomson.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/massage-yio-chu-kang.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/moonlight-health-club.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/qing-mu-428.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/shu-xun-ge.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/sk-spa.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nearbymassage.app/yuan-kang-tcm.html</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+</urlset>
