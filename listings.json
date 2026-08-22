@@ -1334,5 +1334,28 @@
     ],
     "slug": "dew-beauty-wellness",
     "page": "dew-beauty-wellness.html"
+  },
+  {
+    "name": "Yi Shun Yang Sheng Ge",
+    "area": "Jalan Besar",
+    "address": "34 Norris Rd, Singapore 208276",
+    "phone": "98935839",
+    "whatsapp": "6598935839",
+    "latitude": 1.307857076563121,
+    "longitude": 103.85399947788828,
+    "featured": true,
+    "description": "Discover a quiet space dedicated to relaxation, grooming and personal care. Yi Shun Yang Sheng Ge offers professional head spa and facial care treatments designed to help you unwind, refresh your appearance and feel renewed.\n\nOur services include relaxing head and scalp care, cleansing treatments, facial care and wellness treatments, provided in a comfortable and private environment. Whether you need a break after a long day, regular grooming care, or simply some time to recharge, our friendly team is ready to welcome you.\n\nA comfortable choice for gentlemen looking for professional personal care in a calm setting.",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/YiShunYSG/2.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/YiShunYSG/1.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/YiShunYSG/3.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/YiShunYSG/4.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/YiShunYSG/5.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/YiShunYSG/6.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/YiShunYSG/7.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/YiShunYSG/8.jpg"
+    ],
+    "slug": "yi-shun-yang-sheng-ge",
+    "page": "yi-shun-yang-sheng-ge.html"
   }
 ]
