@@ -1099,12 +1099,14 @@
     "area": "Upper Thomson",
     "address": "235 Upper Thomson Road, Thomson Rdg, Estate, Singapore 574366",
     "phone": "64512212",
-    "whatsapp": "",
+    "whatsapp": "6587877713",
     "latitude": 1.35298241835636,
     "longitude": 103.834243365102,
-    "featured": false,
-    "description": "",
-    "photos": [],
+    "featured": true,
+    "description": "Step away from the rush of everyday life and enjoy a calm, comfortable environment designed for rest and relaxation. Our friendly and attentive therapists provide professional wellness and body care services tailored to help you unwind, ease everyday tension, and feel refreshed.",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/Nature%20Healing/01.jpg"
+    ],
     "slug": "nature-healing",
     "page": "nature-healing.html"
   },
