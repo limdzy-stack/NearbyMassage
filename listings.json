@@ -1391,5 +1391,23 @@
     "photos": [],
     "slug": "yangshengtang-tcm-wellness-center",
     "page": "yangshengtang-tcm-wellness-center.html"
+  },
+  {
+    "name": "Jin Shun Li Spa",
+    "area": "Chinatown",
+    "address": "People's Park Center #01-37, 101 Upper Cross St, Singapore 058357",
+    "phone": "80102231",
+    "whatsapp": "6580102231",
+    "latitude": 1.28571767806108,
+    "longitude": 103.843662819814,
+    "featured": true,
+    "description": "Jin Shun Li Beauty 金顺丽美容 offers a relaxing and welcoming space to unwind and recharge. Enjoy professional beauty and wellness services in a clean, comfortable environment, with friendly and attentive service focused on helping you feel refreshed and revitalised.",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/JinShunLi/1.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/JinShunLi/2.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/JinShunLi/3.jpg"
+    ],
+    "slug": "jinshunli-spa",
+    "page": "jinshunli-spa.html"
   }
 ]
