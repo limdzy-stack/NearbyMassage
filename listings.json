@@ -1359,5 +1359,37 @@
     ],
     "slug": "yi-shun-yang-sheng-ge",
     "page": "yi-shun-yang-sheng-ge.html"
+  },
+  {
+    "name": "Jas Spa",
+    "area": "Telok Blangah",
+    "address": "38 Telok Blangah Rise, #01-315.Singapore 090038",
+    "phone": "62718066",
+    "whatsapp": "6596401088",
+    "latitude": 1.27252081035159,
+    "longitude": 103.822395649225,
+    "featured": true,
+    "description": "Located at 38 Telok Blangah Rise, JAS Spa offers a peaceful retreat where you can unwind from the stresses of everyday life. With experienced therapists and a comfortable, welcoming environment, the spa provides a range of wellness treatments including hot oil massage, Chinese-style massage, foot reflexology, Gua Sha, cupping, body scrub and sauna.",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/Jas%20Spa/1.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Jas%20Spa/2.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/Jas%20Spa/3.jpg"
+    ],
+    "slug": "jas-spa",
+    "page": "jas-spa.html"
+  },
+  {
+    "name": "养生堂理疗中心",
+    "area": "Ang Mo Kio",
+    "address": "607 Ang Mo Kio Ave 4 #01-1293/1281",
+    "phone": "80600800",
+    "whatsapp": "6580600800",
+    "latitude": 1.38039010294945,
+    "longitude": 103.838783197851,
+    "featured": false,
+    "description": "",
+    "photos": [],
+    "slug": "yangshengtang-tcm-wellness-center",
+    "page": "yangshengtang-tcm-wellness-center.html"
   }
 ]
