@@ -1417,5 +1417,26 @@
     ],
     "slug": "jinshunli-spa",
     "page": "jinshunli-spa.html"
+  },
+  {
+    "name": "BW Spa",
+    "area": "Geylang",
+    "address": "90 Lorong 27 Geylang S(388195)",
+    "phone": "88307578",
+    "whatsapp": "6588307578",
+    "latitude": 1.31609399107879,
+    "longitude": 103.883923513017,
+    "featured": true,
+    "description": "2 minutes walk from Aljunied MRT, BW Spa offers ear picking and massage services at affordable rates. Enjoy the session in a clean and quiet environment.",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/BWSpa/2.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/BWSpa/3.jpghttps://ik.imagekit.io/nearbymassage/Photos/BWSpa/4.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/BWSpa/5.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/BWSpa/6.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/BWSpa/12.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/BWSpa/13.jpg"
+    ],
+    "slug": "bw-spa",
+    "page": "bw-spa.html"
   }
 ]
