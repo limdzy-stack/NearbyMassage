@@ -1439,5 +1439,26 @@
     ],
     "slug": "bw-spa",
     "page": "bw-spa.html"
+  },
+  {
+    "name": "Qian Xi Beauty Spa",
+    "area": "Chinatown",
+    "address": "12 Bukit Pasoh Rpad",
+    "phone": "93476628",
+    "whatsapp": "6593476628",
+    "latitude": 1.27897687165441,
+    "longitude": 103.840903575575,
+    "featured": true,
+    "description": "Discover a place where men's grooming and personal wellness come together. At Qian Xi Beauty, we provide a welcoming and comfortable environment for gentlemen to unwind, refresh and take care of themselves.",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/QianXi/1.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/QianXi/3.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/QianXi/6.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/QianXi/4.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/QianXi/5.jpg",
+      "https://ik.imagekit.io/nearbymassage/Photos/QianXi/2.jpg"
+    ],
+    "slug": "qianxi-beauty-spa",
+    "page": "qianxi-beauty-spa.html"
   }
 ]
