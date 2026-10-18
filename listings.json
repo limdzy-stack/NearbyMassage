@@ -10,6 +10,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "royal-massage",
     "page": "royal-massage.html"
   },
@@ -24,6 +25,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "young-skin-spa",
     "page": "young-skin-spa.html"
   },
@@ -40,6 +42,7 @@
     "photos": [
       "https://ik.imagekit.io/nearbymassage/Photos/hawaii/01.jpg"
     ],
+    "video_urls": [],
     "slug": "hawaii-spa",
     "page": "hawaii-spa.html"
   },
@@ -54,6 +57,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "house-of-traditional-javanese-massage-greenwich-v",
     "page": "house-of-traditional-javanese-massage-greenwich-v.html"
   },
@@ -68,6 +72,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "cozy-cove-spa",
     "page": "cozy-cove-spa.html"
   },
@@ -82,6 +87,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "knead-press-spa-kovan",
     "page": "knead-press-spa-kovan.html"
   },
@@ -96,6 +102,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "rong-ting-wellness-and-foot-spa",
     "page": "rong-ting-wellness-and-foot-spa.html"
   },
@@ -110,6 +117,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "hai-tian-healthcare",
     "page": "hai-tian-healthcare.html"
   },
@@ -124,6 +132,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "spa-now",
     "page": "spa-now.html"
   },
@@ -138,6 +147,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "hao-spa-massage-hougang",
     "page": "hao-spa-massage-hougang.html"
   },
@@ -152,6 +162,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "envy-spa",
     "page": "envy-spa.html"
   },
@@ -166,6 +177,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "garden-spa",
     "page": "garden-spa.html"
   },
@@ -180,6 +192,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "viet-massage-and-spa",
     "page": "viet-massage-and-spa.html"
   },
@@ -194,6 +207,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "guizu-health-center",
     "page": "guizu-health-center.html"
   },
@@ -208,6 +222,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "xin-lin-spa",
     "page": "xin-lin-spa.html"
   },
@@ -222,6 +237,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "mt-everests-spa-hougang",
     "page": "mt-everests-spa-hougang.html"
   },
@@ -236,6 +252,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "sekai-tcm-hougang",
     "page": "sekai-tcm-hougang.html"
   },
@@ -250,6 +267,7 @@
     "featured": false,
     "description": "Escape the everyday and enter a sanctuary of tranquility at Li Xin Beauty Massage. Nestled in the heart of Chinatown on Sago Street, this massage spa offers a serene retreat from the bustling city. Our skilled therapists specialize in a variety of traditional massage techniques, designed to soothe your mind, body, and soul. Discover a space where ancient traditions meet modern wellness, dedicated to providing a rejuvenating and deeply relaxing experience.",
     "photos": [],
+    "video_urls": [],
     "slug": "li-xin-massage-spa",
     "page": "li-xin-massage-spa.html"
   },
@@ -273,6 +291,7 @@
       "https://ik.imagekit.io/nearbymassage/Photos/XuanSpa/07.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/XuanSpa/08.jpg"
     ],
+    "video_urls": [],
     "slug": "xuan-spa",
     "page": "xuan-spa.html"
   },
@@ -289,6 +308,7 @@
     "photos": [
       "https://ik.imagekit.io/nearbymassage/Photos/RSG/01.jpg"
     ],
+    "video_urls": [],
     "slug": "rsg-wellness",
     "page": "rsg-wellness.html"
   },
@@ -311,6 +331,7 @@
       "https://ik.imagekit.io/nearbymassage/Photos/HealthyPathSpa/7.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/HealthyPathSpa/8.jpg"
     ],
+    "video_urls": [],
     "slug": "healthy-path-spa",
     "page": "healthy-path-spa.html"
   },
@@ -332,6 +353,7 @@
       "https://ik.imagekit.io/nearbymassage/Photos/Lin%20Spa/05.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Lin%20Spa/06.jpg"
     ],
+    "video_urls": [],
     "slug": "lin-spa",
     "page": "lin-spa.html"
   },
@@ -355,6 +377,7 @@
       "https://ik.imagekit.io/nearbymassage/Photos/AX%20Spa/06.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/AX%20Spa/07.jpg?updatedAt=1783759923333"
     ],
+    "video_urls": [],
     "slug": "ax-spa-havelock",
     "page": "ax-spa-havelock.html"
   },
@@ -378,6 +401,7 @@
       "https://ik.imagekit.io/nearbymassage/Photos/Ozio/07.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Ozio/08.jpg"
     ],
+    "video_urls": [],
     "slug": "ozio-spa",
     "page": "ozio-spa.html"
   },
@@ -401,6 +425,7 @@
       "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/07.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Cuppage/08.jpg"
     ],
+    "video_urls": [],
     "slug": "cuppage-wellness",
     "page": "cuppage-wellness.html"
   },
@@ -421,6 +446,7 @@
       "https://ik.imagekit.io/nearbymassage/Photos/Nice/04.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Nice/05.jpg"
     ],
+    "video_urls": [],
     "slug": "nice-wellness",
     "page": "nice-wellness.html"
   },
@@ -443,6 +469,7 @@
       "https://ik.imagekit.io/nearbymassage/Photos/Favorite/06.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Favorite/01.jpg"
     ],
+    "video_urls": [],
     "slug": "favorite-wellness",
     "page": "favorite-wellness.html"
   },
@@ -466,6 +493,10 @@
       "https://ik.imagekit.io/nearbymassage/Photos/Yi/07.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Yi/08.jpg"
     ],
+    "video_urls": [
+      "https://res.cloudinary.com/mp3jkki5/video/upload/v1792289643/YiSpa01.mp4",
+      "https://res.cloudinary.com/mp3jkki5/video/upload/v1792289634/YiSpa02.mp4"
+    ],
     "slug": "yi-spa",
     "page": "yi-spa.html"
   },
@@ -488,6 +519,7 @@
       "https://ik.imagekit.io/nearbymassage/Photos/TLB/06.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/TLB/07.jpg"
     ],
+    "video_urls": [],
     "slug": "tl-beauty-wellness",
     "page": "tl-beauty-wellness.html"
   },
@@ -502,12 +534,15 @@
     "featured": true,
     "description": "Step into the past with rich Chinese ambience and enjoy the treatment of traditional massage.",
     "photos": [
-      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/01.jpg?v=2",
-      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/02.jpg?v=2",
-      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/03.jpg?v=2",
-      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/04.jpg?v=2",
-      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/05.jpg?v=2",
-      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/06.jpg?v=2"
+      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/11.jpg?updatedAt=1792301819640",
+      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/12.jpg?updatedAt=1792301886759",
+      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/13.jpg?updatedAt=1792301922718",
+      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/14.jpg?updatedAt=1792301936164",
+      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/15.jpg?updatedAt=1792301979444",
+      "https://ik.imagekit.io/nearbymassage/Photos/YuanKangTCM/16.jpg?updatedAt=1792301992225"
+    ],
+    "video_urls": [
+      "https://res.cloudinary.com/mp3jkki5/video/upload/v1792302153/mmexport1791816692405.mp4"
     ],
     "slug": "qing-mu-428",
     "page": "qing-mu-428.html"
@@ -532,6 +567,7 @@
       "https://ik.imagekit.io/nearbymassage/Photos/SK/T7.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/SK/T8.jpg"
     ],
+    "video_urls": [],
     "slug": "sk-spa",
     "page": "sk-spa.html"
   },
@@ -552,6 +588,7 @@
       "https://ik.imagekit.io/nearbymassage/Photos/Moonlight/04.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Moonlight/05.jpg"
     ],
+    "video_urls": [],
     "slug": "moonlight-health-club",
     "page": "moonlight-health-club.html"
   },
@@ -572,6 +609,7 @@
       "https://ik.imagekit.io/nearbymassage/Photos/IMBeauty/04.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/IMBeauty/05.jpg"
     ],
+    "video_urls": [],
     "slug": "im-beauty",
     "page": "im-beauty.html"
   },
@@ -586,6 +624,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "wellness-yu-kang-ning",
     "page": "wellness-yu-kang-ning.html"
   },
@@ -600,6 +639,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "yi-he-tang-tcm",
     "page": "yi-he-tang-tcm.html"
   },
@@ -614,6 +654,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "oscar-foot-and-body-massage",
     "page": "oscar-foot-and-body-massage.html"
   },
@@ -628,6 +669,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "kang-zhi-yuan",
     "page": "kang-zhi-yuan.html"
   },
@@ -642,6 +684,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "tian-tian-wellness-spa",
     "page": "tian-tian-wellness-spa.html"
   },
@@ -665,6 +708,7 @@
       "https://ik.imagekit.io/nearbymassage/Photos/GemTCM/03.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/GemTCM/02.jpg"
     ],
+    "video_urls": [],
     "slug": "gem-tcm",
     "page": "gem-tcm.html"
   },
@@ -679,6 +723,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "jands-spa-traditional-massage",
     "page": "jands-spa-traditional-massage.html"
   },
@@ -693,6 +738,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "lush-massage",
     "page": "lush-massage.html"
   },
@@ -707,6 +753,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "tru-spa",
     "page": "tru-spa.html"
   },
@@ -721,6 +768,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "bentley-spa-ang-mo-kio-branch",
     "page": "bentley-spa-ang-mo-kio-branch.html"
   },
@@ -735,6 +783,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "capital-spa",
     "page": "capital-spa.html"
   },
@@ -749,6 +798,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "xpress-foot-wellness-amk-hub",
     "page": "xpress-foot-wellness-amk-hub.html"
   },
@@ -763,6 +813,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "wan-yang-health-product-and-foot-reflexology-centre",
     "page": "wan-yang-health-product-and-foot-reflexology-centre.html"
   },
@@ -777,6 +828,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "108-spa",
     "page": "108-spa.html"
   },
@@ -791,6 +843,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "ashi-foot-reflexology-amk-avenue-10",
     "page": "ashi-foot-reflexology-amk-avenue-10.html"
   },
@@ -805,6 +858,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "ashi-foot-reflexology-jubilee-square",
     "page": "ashi-foot-reflexology-jubilee-square.html"
   },
@@ -819,6 +873,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "golden-apple-massage",
     "page": "golden-apple-massage.html"
   },
@@ -833,6 +888,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "kangjia-the-best-acutherapy-centre",
     "page": "kangjia-the-best-acutherapy-centre.html"
   },
@@ -847,6 +903,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "sim-kim-poh-services",
     "page": "sim-kim-poh-services.html"
   },
@@ -861,6 +918,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "rising-sun-reflexology-therapy",
     "page": "rising-sun-reflexology-therapy.html"
   },
@@ -875,6 +933,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "zuyi-ang-mo-kio",
     "page": "zuyi-ang-mo-kio.html"
   },
@@ -889,6 +948,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "ibeauty-wellness-massage-ang-mo-kio",
     "page": "ibeauty-wellness-massage-ang-mo-kio.html"
   },
@@ -903,6 +963,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "rose-spa",
     "page": "rose-spa.html"
   },
@@ -917,6 +978,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "i-spa-wellness",
     "page": "i-spa-wellness.html"
   },
@@ -931,6 +993,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "jiang-shan-tcm-pte-ltd",
     "page": "jiang-shan-tcm-pte-ltd.html"
   },
@@ -945,6 +1008,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "aramsa-the-garden-spa",
     "page": "aramsa-the-garden-spa.html"
   },
@@ -959,6 +1023,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "pure-element",
     "page": "pure-element.html"
   },
@@ -973,6 +1038,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "face-of-man-ang-mo-kio",
     "page": "face-of-man-ang-mo-kio.html"
   },
@@ -987,6 +1053,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "healing-touch-spa-centrepoint",
     "page": "healing-touch-spa-centrepoint.html"
   },
@@ -1001,6 +1068,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "elements-wellness-centrepoint",
     "page": "elements-wellness-centrepoint.html"
   },
@@ -1015,6 +1083,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "chrysalis-spa-centrepoint",
     "page": "chrysalis-spa-centrepoint.html"
   },
@@ -1029,6 +1098,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "the-thai-spa-orchard-central",
     "page": "the-thai-spa-orchard-central.html"
   },
@@ -1043,6 +1113,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "i-spa",
     "page": "i-spa.html"
   },
@@ -1057,6 +1128,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "la-source-spa",
     "page": "la-source-spa.html"
   },
@@ -1071,6 +1143,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "nuffield-wellness",
     "page": "nuffield-wellness.html"
   },
@@ -1085,6 +1158,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "lanxiang-foot-massage",
     "page": "lanxiang-foot-massage.html"
   },
@@ -1099,6 +1173,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "serene-spa-thomson-massage",
     "page": "serene-spa-thomson-massage.html"
   },
@@ -1115,6 +1190,7 @@
     "photos": [
       "https://ik.imagekit.io/nearbymassage/Photos/Nature%20Healing/01.jpg"
     ],
+    "video_urls": [],
     "slug": "nature-healing",
     "page": "nature-healing.html"
   },
@@ -1129,6 +1205,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "oasis-spa",
     "page": "oasis-spa.html"
   },
@@ -1143,6 +1220,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "zuyue-javanese-spa-upper-thomson",
     "page": "zuyue-javanese-spa-upper-thomson.html"
   },
@@ -1157,6 +1235,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "freeways-wellness-foot-and-body-massage",
     "page": "freeways-wellness-foot-and-body-massage.html"
   },
@@ -1171,6 +1250,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "bao-zhi-tang-tcm-massage-upper-thomson",
     "page": "bao-zhi-tang-tcm-massage-upper-thomson.html"
   },
@@ -1185,6 +1265,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "house-of-traditional-javanese-massage-thomson-plaza",
     "page": "house-of-traditional-javanese-massage-thomson-plaza.html"
   },
@@ -1199,6 +1280,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "go-wellness-spa-upper-thomson-branch",
     "page": "go-wellness-spa-upper-thomson-branch.html"
   },
@@ -1213,6 +1295,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "h2hand-wellness",
     "page": "h2hand-wellness.html"
   },
@@ -1227,6 +1310,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "en-na-spa",
     "page": "en-na-spa.html"
   },
@@ -1241,6 +1325,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "yasumi-spa",
     "page": "yasumi-spa.html"
   },
@@ -1255,6 +1340,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "nic-s-day-wellness-and-beauty-ang-mo-kio",
     "page": "nic-s-day-wellness-and-beauty-ang-mo-kio.html"
   },
@@ -1269,6 +1355,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "spell-spa",
     "page": "spell-spa.html"
   },
@@ -1283,6 +1370,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "eternal-beauty-spa",
     "page": "eternal-beauty-spa.html"
   },
@@ -1303,6 +1391,7 @@
       "https://ik.imagekit.io/nearbymassage/Photos/Nearbytherapists/LGR_YoYo/01.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Nearbytherapists/LGR_Lucky/01.jpg"
     ],
+    "video_urls": [],
     "slug": "languiren-beauty-spa",
     "page": "languiren-beauty-spa.html"
   },
@@ -1325,6 +1414,7 @@
       "https://ik.imagekit.io/nearbymassage/Photos/Hexing/06.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Hexing/03.jpg"
     ],
+    "video_urls": [],
     "slug": "dew-beauty-wellness",
     "page": "dew-beauty-wellness.html"
   },
@@ -1348,6 +1438,7 @@
       "https://ik.imagekit.io/nearbymassage/Photos/YiShunYSG/15.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/YiShunYSG/13.jpg"
     ],
+    "video_urls": [],
     "slug": "yi-shun-yang-sheng-ge",
     "page": "yi-shun-yang-sheng-ge.html"
   },
@@ -1366,6 +1457,7 @@
       "https://ik.imagekit.io/nearbymassage/Photos/Jas%20Spa/2.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/Jas%20Spa/3.jpg"
     ],
+    "video_urls": [],
     "slug": "jas-spa",
     "page": "jas-spa.html"
   },
@@ -1380,6 +1472,7 @@
     "featured": false,
     "description": "",
     "photos": [],
+    "video_urls": [],
     "slug": "yangshengtang-tcm-wellness-center",
     "page": "yangshengtang-tcm-wellness-center.html"
   },
@@ -1398,6 +1491,7 @@
       "https://ik.imagekit.io/nearbymassage/Photos/JinShunLi/2.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/JinShunLi/3.jpg"
     ],
+    "video_urls": [],
     "slug": "jinshunli-spa",
     "page": "jinshunli-spa.html"
   },
@@ -1420,6 +1514,7 @@
       "https://ik.imagekit.io/nearbymassage/Photos/BWSpa/12.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/BWSpa/13.jpg"
     ],
+    "video_urls": [],
     "slug": "bw-spa",
     "page": "bw-spa.html"
   },
@@ -1441,6 +1536,7 @@
       "https://ik.imagekit.io/nearbymassage/Photos/QianXi/5.jpg",
       "https://ik.imagekit.io/nearbymassage/Photos/QianXi/2.jpg"
     ],
+    "video_urls": [],
     "slug": "qianxi-beauty-spa",
     "page": "qianxi-beauty-spa.html"
   }
