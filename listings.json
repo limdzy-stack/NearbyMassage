@@ -1541,5 +1541,28 @@
     "video_urls": [],
     "slug": "qianxi-beauty-spa",
     "page": "qianxi-beauty-spa.html"
+  },
+  {
+    "name": "Muse Beaute",
+    "area": "Aljunied",
+    "address": "118 Aljunied Ave 2, #01-134, Singapore 380118",
+    "phone": "81745068",
+    "whatsapp": "6581745068",
+    "latitude": 1.32003361515609,
+    "longitude": 103.887205146398,
+    "featured": true,
+    "description": "Discover a relaxing wellness experience at Muse Beaute TCM, conveniently located at 118 Aljunied Avenue 2, Singapore. Our welcoming environment offers a peaceful escape from the stresses of everyday life.\n\nEnjoy professional body massage, soothing relaxation therapies, and traditional wellness treatments designed to help you unwind, feel refreshed, and restore your sense of balance.",
+    "photos": [
+      "https://ik.imagekit.io/nearbymassage/Photos/MuseBeaute/01.png",
+      "https://ik.imagekit.io/nearbymassage/Photos/MuseBeaute/02.png",
+      "https://ik.imagekit.io/nearbymassage/Photos/MuseBeaute/03.png",
+      "https://ik.imagekit.io/nearbymassage/Photos/MuseBeaute/04.png",
+      "https://ik.imagekit.io/nearbymassage/Photos/MuseBeaute/05.png",
+      "https://ik.imagekit.io/nearbymassage/Photos/MuseBeaute/06.png",
+      "https://ik.imagekit.io/nearbymassage/Photos/MuseBeaute/07.png"
+    ],
+    "video_urls": [],
+    "slug": "muse-beaute",
+    "page": "muse-beaute.html"
   }
 ]
